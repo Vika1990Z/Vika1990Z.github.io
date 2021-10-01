@@ -12,16 +12,16 @@
     
     
     <item>
-      <title>Installation</title>
+      <title>Organizations</title>
       <link>http://example.org/getting-started/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/getting-started/installation/</guid>
-      <description>The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this great documentation for beginners.
-Create your project Hugo provides a new command to create a new website.
-hugo new site &amp;lt;new_project&amp;gt; Install the theme Install the Hugo-theme-learn theme by following this documentation
-This theme&amp;rsquo;s repository is: https://github.com/matcornic/hugo-theme-learn.git
-Alternatively, you can download the theme as .</description>
+      <description>Organizations and Administrators
+In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.
+Table of contents
+ Organizations page  Create an Organization   Administrators of the Organization  Add Administrator to the Organization Remove Administrator from the Organization    Organizations page
+If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:</description>
     </item>
     
   </channel>

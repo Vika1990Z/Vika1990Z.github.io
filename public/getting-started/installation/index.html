@@ -9,23 +9,25 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Installation :: My New Hugo Site</title>
+    <title>Organizations :: My New Hugo Site</title>
 
     
-    <link href="/css/nucleus.css?1633003253" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1633003253" rel="stylesheet">
-    <link href="/css/hybrid.css?1633003253" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1633003253" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1633003253" rel="stylesheet">
-    <link href="/css/auto-complete.css?1633003253" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1633003253" rel="stylesheet">
-    <link href="/css/theme.css?1633003253" rel="stylesheet">
-    <link href="/css/tabs.css?1633003253" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1633003253" rel="stylesheet">
+    <link href="/css/nucleus.css?1633096788" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1633096788" rel="stylesheet">
+    <link href="/css/hybrid.css?1633096788" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1633096788" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1633096788" rel="stylesheet">
+    <link href="/css/auto-complete.css?1633096788" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1633096788" rel="stylesheet">
+    <link href="/css/theme.css?1633096788" rel="stylesheet">
+    <link href="/css/tabs.css?1633096788" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1633096788" rel="stylesheet">
+    
+    <link href="/css/theme-blue.css?1633096788" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1633003253"></script>
+    <script src="/js/jquery-3.3.1.min.js?1633096788"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -70,14 +72,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1633003253"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1633003253"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1633096788"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1633096788"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/example.org\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1633003253"></script>
+<script type="text/javascript" src="/js/search.js?1633096788"></script>
 
     
   </div>
@@ -131,9 +133,9 @@
  
   
     
-      <li data-nav-id="/getting-started/installation/" title="Installation" class="dd-item active">
+      <li data-nav-id="/getting-started/installation/" title="Organizations" class="dd-item active">
         <a href="/getting-started/installation/">
-        Installation
+        Organizations
         
         </a>
     </li>
@@ -199,7 +201,7 @@
             
           
           
-            <a href='/'>Home Page</a> > <a href='/getting-started/'>Getting Started test ventus</a> > Installation
+            <a href='/'>Home Page</a> > <a href='/getting-started/'>Getting Started test ventus</a> > Organizations
           
         
           
@@ -212,17 +214,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#create-your-project">Create your project</a></li>
-    <li><a href="#install-the-theme">Install the theme</a></li>
-    <li><a href="#basic-configuration">Basic configuration</a></li>
-    <li><a href="#create-your-first-chapter-page">Create your first chapter page</a></li>
-    <li><a href="#create-your-first-content-pages">Create your first content pages</a></li>
-    <li><a href="#launching-the-website-locally">Launching the website locally</a></li>
-    <li><a href="#build-the-website">Build the website</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -238,65 +230,95 @@
           
             <h1>
               
-              Installation
+              Organizations
             </h1>
           
 
         
 
 
-<p>The following steps are here to help you initialize your new website. If you don&rsquo;t know Hugo at all, we strongly suggest you learn more about it by following this <a href="https://gohugo.io/overview/quickstart/">great documentation for beginners</a>.</p>
-<h2 id="create-your-project">Create your project</h2>
-<p>Hugo provides a <code>new</code> command to create a new website.</p>
-<pre><code>hugo new site &lt;new_project&gt;
-</code></pre><h2 id="install-the-theme">Install the theme</h2>
-<p>Install the <strong>Hugo-theme-learn</strong> theme by following <a href="https://gohugo.io/themes/installing/">this documentation</a></p>
-<p>This theme&rsquo;s repository is: <a href="https://github.com/matcornic/hugo-theme-learn.git">https://github.com/matcornic/hugo-theme-learn.git</a></p>
-<p>Alternatively, you can <a href="https://github.com/matcornic/hugo-theme-learn/archive/master.zip">download the theme as .zip</a> file and extract it in the <code>themes</code> directory</p>
-<h2 id="basic-configuration">Basic configuration</h2>
-<p>When building the website, you can set a theme by using <code>--theme</code> option. However, we suggest you modify the configuration file (<code>config.toml</code>) and set the theme as the default. You can also add the <code>[outputs]</code> section to enable the search functionality.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#75715e"># Change the default theme to be use when building the site with Hugo</span>
-<span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;hugo-theme-learn&#34;</span>
-
-<span style="color:#75715e"># For search functionality</span>
-[<span style="color:#a6e22e">outputs</span>]
-<span style="color:#a6e22e">home</span> = [ <span style="color:#e6db74">&#34;HTML&#34;</span>, <span style="color:#e6db74">&#34;RSS&#34;</span>, <span style="color:#e6db74">&#34;JSON&#34;</span>]
-</code></pre></div><h2 id="create-your-first-chapter-page">Create your first chapter page</h2>
-<p>Chapters are pages that contain other child pages. It has a special layout style and usually just contains a <em>chapter name</em>, the <em>title</em> and a <em>brief abstract</em> of the section.</p>
-<pre><code>### Chapter 1
-
-# Basics
-
-Discover what this Hugo theme is all about and the core concepts behind it.
-</code></pre><p>renders as</p>
-<p><img src="/en/basics/installation/images/chapter.png?classes=shadow&amp;width=60pc" alt="A Chapter"></p>
-<p><strong>Hugo-theme-learn</strong> provides archetypes to create skeletons for your website. Begin by creating your first chapter page with the following command</p>
-<pre><code>hugo new --kind chapter basics/_index.md
-</code></pre><p>By opening the given file, you should see the property <code>chapter=true</code> on top, meaning this page is a <em>chapter</em>.</p>
-<p>By default all chapters and pages are created as a draft. If you want to render these pages, remove the property <code>draft: true</code> from the metadata.</p>
-<h2 id="create-your-first-content-pages">Create your first content pages</h2>
-<p>Then, create content pages inside the previously created chapter. Here are two ways to create content in the chapter:</p>
-<pre><code>hugo new basics/first-content.md
-hugo new basics/second-content/_index.md
-</code></pre><p>Feel free to edit thoses files by adding some sample content and replacing the <code>title</code> value in the beginning of the files.</p>
-<h2 id="launching-the-website-locally">Launching the website locally</h2>
-<p>Launch by using the following command:</p>
-<pre><code>hugo serve
-</code></pre><p>Go to <code>http://localhost:1313</code></p>
-<p>You should notice three things:</p>
+<p><strong>Organizations and Administrators</strong></p>
+<p>In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.</p>
+<p><strong>Table of contents</strong></p>
 <ol>
-<li>You have a left-side <strong>Basics</strong> menu, containing two submenus with names equal to the <code>title</code> properties in the previously created files.</li>
-<li>The home page explains how to customize it by following the instructions.</li>
-<li>When you run <code>hugo serve</code>, when the contents of the files change, the page automatically refreshes with the changes. Neat!</li>
+<li><a href="https://kb.ventuscloud.eu/knowledge/organizations#org-page">Organizations page</a>
+<ol>
+<li><a href="https://kb.ventuscloud.eu/knowledge/organizations#create-org">Create an Organization</a></li>
 </ol>
-<h2 id="build-the-website">Build the website</h2>
-<p>When your site is ready to deploy, run the following command:</p>
-<pre><code>hugo
-</code></pre><p>A <code>public</code> folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.</p>
-
-<div class="notices note" ><p>This website can be automatically published and hosted with <a href="https://www.netlify.com/">Netlify</a> (Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/">Automated HUGO deployments with Netlify</a>). Alternatively, you can use <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Github pages</a></p>
-</div>
-
+</li>
+<li><a href="https://kb.ventuscloud.eu/knowledge/organizations#users">Administrators of the Organization</a>
+<ol>
+<li><a href="https://kb.ventuscloud.eu/knowledge/organizations#add-user">Add Administrator to the Organization</a></li>
+<li><a href="https://kb.ventuscloud.eu/knowledge/organizations#remove-user">Remove Administrator from the Organization</a></li>
+</ol>
+</li>
+</ol>
+<p><strong>Organizations page</strong></p>
+<p>If you are a new user and have just created new account you will be automatically redirected to the <em>Organizations page</em> where you can create your first Organization or find a list of Organizations to which Projects your User has access as a <em>Member</em>:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.001.png" alt="org0-1"></p>
+<p>If you aren&rsquo;t a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access you need on the <em>Homepage</em> to select the <strong>Organizations</strong> from the <em>side-bar menu:</em></p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.002.png" alt="org00"></p>
+<p>This action will redirect you to the <em>Organizations page</em> where you can find all created Organizations and Organizations to which Projects your User has access, your <em>User Role</em> in this Organizations (Administrator or Member), <em>Create button</em> and <em>Search bar</em>:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.003.png" alt="org02"></p>
+<p>So, in the Organizations User can have next Roles:</p>
+<ul>
+<li><strong>Owner</strong> - this role is assigned to a User, who created this Organization (this User will also be considered the <em>Administrator</em> of this Organization) and opens access to all resources of the Organization including the management of Groups, Projects and their all Users;</li>
+<li><strong>Administrator</strong> - this role can be assigned to a User by another Administrator of the Organization. Administrators have access to all resources of the Organization, including the management of Groups, Projects and their Users;</li>
+<li><strong>Member</strong> - this role is assigned to a User who is granted access to the Organization&rsquo;s Project and, accordingly, to all resources within this Project. Member can&rsquo;t add/remove other Users in the Project and even can&rsquo;t see information about them.</li>
+</ul>
+<p><strong>Create an Organization</strong></p>
+<p>To create a new Organization do the following:</p>
+<ul>
+<li>go to the <em>Organizations page</em> and click the <strong>CREATE ORGANIZATION</strong> icon in the upper left corner:  <img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.004.png" alt="org5"></li>
+<li>on the next opened <em>Create Organization window</em> specify the <strong>Name</strong> of the Organization (it must contain only Latin letters (a-z, A-Z), digits (0-9), hyphen (-), underscore (_) and must be at most 30 characters long) and click on the <strong>CREATE</strong> icon:</li>
+</ul>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.005.png" alt="org04"></p>
+<p>After these steps the newly created Organization will be added to the <em>Organizations page</em> and your User Role there will be <em>Administrator</em>:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.006.png" alt="org03"></p>
+<p><strong>Administrators of the Organization</strong></p>
+<p><strong>NOTE</strong>:</p>
+<p>To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an <em>Administrator</em> too. </p>
+<p>To see information about Administrators of the Organization and to manage them go to the <em>Organizations page</em> and  click on the <strong>Name</strong> of the Organization:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.007.png" alt="org0"></p>
+<p>It will open next additional sections on the <em>side-bar menu,</em> from which you need to select <em>Administrators</em>:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.008.png" alt="us1-1"></p>
+<p>This action will redirect you to the <em>Administrators page</em>, where you can find all Administrators related to this Organization with their <em>Headers, Add Administrator button, Search bar, and Actions icon</em> which opens a list of available management actions for the selected Administrator:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.009.png" alt="us2-1"></p>
+<p>Administrators <strong>headers</strong> include:</p>
+<ul>
+<li><strong>E-mail</strong>: shows the e-mail address of the Administrators;</li>
+<li><strong>ID</strong>: shows the Administrators ID;</li>
+<li><strong>Username</strong>: shows the Administrators Username (by default equal to the email address that was specified during registration);</li>
+</ul>
+<p><strong>Actions</strong> icon opens the next list of available management actions:</p>
+<ul>
+<li><strong>Remove</strong> - this option is using to delete the Administrator from the selected Organization.</li>
+</ul>
+<p>So, from this page you can:</p>
+<ul>
+<li><strong>review</strong> all Administrators related to the selected Organization;</li>
+<li><strong>add</strong> more Administrators to the selected Organization;</li>
+<li><strong>remove</strong> Administrators from the selected Organization.</li>
+</ul>
+<p><strong>Add Administrator to the Organization</strong></p>
+<p><strong>NOTE</strong>:</p>
+<p>You can add only those Users who have already passed the registration stage in the Cloud Console and aren&rsquo;t members of one of the Projects of this Organization</p>
+<p>To add new Administrator to the selected Organization do the following:</p>
+<ul>
+<li>go to the <em>Administrators page</em> and click the <strong>ADD ADMINISTRATOR</strong> icon in the upper left corner: <img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.010.png" alt="us3-1"></li>
+<li>on the next opened <em>Add Administrator window</em> specify the <strong>User ID</strong>, and click on the <strong>ADD</strong> icon:</li>
+</ul>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.011.png" alt="us04"></p>
+<p>After these steps the newly added Administrator will appear on the <em>Administrators page</em> of the selected Organization:</p>
+<p><img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.012.png" alt="us6-1"></p>
+<p><strong>Remove Administrator from the Organization</strong></p>
+<p>To remove Administrator from the selected Organization do the following:</p>
+<ul>
+<li>to identify this unnecessary Administrator on the <em>Administrators page</em>;</li>
+<li>click on the <strong>Actions</strong> icon  <img src="Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.013.png" alt="ssh9">  and select the <strong>Remove</strong> in the list of available options;</li>
+<li>on the next opened C<em>onfirmation window</em> the User deletion:</li>
+</ul>
+<p>After confirming this action, the selected User will be removed from the selected Organization.</p>
 
 
 <footer class="footline">
@@ -383,19 +405,19 @@ hugo new basics/second-content/_index.md
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1633003253"></script>
-    <script src="/js/perfect-scrollbar.min.js?1633003253"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1633003253"></script>
-    <script src="/js/jquery.sticky.js?1633003253"></script>
-    <script src="/js/featherlight.min.js?1633003253"></script>
-    <script src="/js/highlight.pack.js?1633003253"></script>
+    <script src="/js/clipboard.min.js?1633096788"></script>
+    <script src="/js/perfect-scrollbar.min.js?1633096788"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1633096788"></script>
+    <script src="/js/jquery.sticky.js?1633096788"></script>
+    <script src="/js/featherlight.min.js?1633096788"></script>
+    <script src="/js/highlight.pack.js?1633096788"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1633003253"></script>
-    <script src="/js/learn.js?1633003253"></script>
-    <script src="/js/hugo-learn.js?1633003253"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1633096788"></script>
+    <script src="/js/learn.js?1633096788"></script>
+    <script src="/js/hugo-learn.js?1633096788"></script>
     
         
-            <script src="/mermaid/mermaid.js?1633003253"></script>
+            <script src="/mermaid/mermaid.js?1633096788"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
