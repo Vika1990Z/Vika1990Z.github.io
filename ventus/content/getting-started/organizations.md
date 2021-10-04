@@ -50,7 +50,7 @@ As you see, in the Organizations User can have next Roles:
 
 To create a new Organization do the following:  
 
-- go to the *Organizations page* and click the **CREATE ORGANIZATION** icon in the upper left corner:  ![](../../assets/images/organizations/4-org.png?classes=shadow)  
+- go to the *Organizations page* and click the **CREATE ORGANIZATION** icon in the upper left corner: ![](../../assets/images/organizations/4-org.png)  
 - on the next opened *Create Organization window* specify the **Name** of the Organization and click on the **CREATE** icon:  
 
 ![](../../assets/images/organizations/5-org.png?classes=shadow)  
@@ -87,7 +87,7 @@ Administrators **headers** include:
 
 To add new Administrator to the selected Organization do the following:   
 
-- go to the *Administrators page* and click the **ADD ADMINISTRATOR** icon in the upper left corner: ![](../../assets/images/organizations/10-org.png?classes=shadow)        
+- go to the *Administrators page* and click the **ADD ADMINISTRATOR** icon in the upper left corner: ![](../../assets/images/organizations/10-org.png?classes=shadow)          
 - on the next opened *Add Administrator window* specify the **E-mail address**, and click on the **Send invitation** icon:      
 
 ![](../../assets/images/organizations/11-org.png?classes=shadow)    
@@ -115,7 +115,7 @@ To Transfer the Organization means to change its Owner.
 For this you need:  
 
 - to identify the Administrator to whom you want to Transfer the Organization on the *Administrators page*;    
-- click on the **Actions** icon  ![](../../assets/images/organizations/15-org.png?classes=shadow)   and select the **Transfer the Organization** in the list of available options;    
+- click on the **Actions** icon ![](../../assets/images/organizations/15-org.png?classes=shadow) and select the **Transfer the Organization** in the list of available options;    
 - on the next opened *Confirmation window* confirm your actions and click on the **Send** icon:      
 
 ![](../../assets/images/organizations/17-org.png?classes=shadow)     
@@ -129,7 +129,7 @@ After confirming this action, the selected User will recieve the following messa
 To remove Administrator from the selected Organization do the following:
 
 - to identify this unnecessary Administrator on the *Administrators page*;   
-- click on the **Actions** icon  ![](../../assets/images/organizations/15-org.png?classes=shadow)   and select the **Remove** in the list of available options;    
+- click on the **Actions** icon ![](../../assets/images/organizations/15-org.png?classes=shadow) and select the **Remove** in the list of available options;    
 - on the next opened *Confirmation window* confirm the User deletion:    
 
 ![](../../assets/images/organizations/16-org.png?classes=shadow)     
