@@ -1,0 +1,36 @@
+[
+{
+	"uri": "http://example.org/",
+	"title": "Home Page",
+	"tags": [],
+	"description": "",
+	"content": "Documentation Here you can find information on how to use all the services provided by the Cloud Console, such as Virtaul Machines, Kubernetes Clusters, and so on.\nDocumentation Summary  Getting Started test ventus  Chapter 1 Getting Started Here\u0026rsquo;s an explanation of how to pass through the first steps in the Cloud Console, such as registration and creating first organization or project.\n Organizations  Organizations and Administrators In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console. Table of contents Organizations page Create an Organization Administrators of the Organization Add Administrator to the Organization Remove Administrator from the Organization Organizations page If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:\n "
+},
+{
+	"uri": "http://example.org/getting-started/",
+	"title": "Getting Started test ventus",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 1 Getting Started Here\u0026rsquo;s an explanation of how to pass through the first steps in the Cloud Console, such as registration and creating first organization or project.\n"
+},
+{
+	"uri": "http://example.org/getting-started/organizations/",
+	"title": "Organizations",
+	"tags": [],
+	"description": "",
+	"content": "Organizations and Administrators\nIn this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.\nTable of contents\n Organizations page  Create an Organization   Administrators of the Organization  Add Administrator to the Organization Remove Administrator from the Organization    Organizations page\nIf you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:\nIf you aren\u0026rsquo;t a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access you need on the Homepage to select the Organizations from the side-bar menu:\nThis action will redirect you to the Organizations page where you can find all created Organizations and Organizations to which Projects your User has access, your User Role in this Organizations (Administrator or Member), Create button and Search bar:\nSo, in the Organizations User can have next Roles:\n Owner - this role is assigned to a User, who created this Organization (this User will also be considered the Administrator of this Organization) and opens access to all resources of the Organization including the management of Groups, Projects and their all Users; Administrator - this role can be assigned to a User by another Administrator of the Organization. Administrators have access to all resources of the Organization, including the management of Groups, Projects and their Users; Member - this role is assigned to a User who is granted access to the Organization\u0026rsquo;s Project and, accordingly, to all resources within this Project. Member can\u0026rsquo;t add/remove other Users in the Project and even can\u0026rsquo;t see information about them.  Create an Organization\nTo create a new Organization do the following:\n go to the Organizations page and click the CREATE ORGANIZATION icon in the upper left corner:  on the next opened Create Organization window specify the Name of the Organization (it must contain only Latin letters (a-z, A-Z), digits (0-9), hyphen (-), underscore (_) and must be at most 30 characters long) and click on the CREATE icon:  After these steps the newly created Organization will be added to the Organizations page and your User Role there will be Administrator:\nAdministrators of the Organization\nNOTE:\nTo see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator too.\nTo see information about Administrators of the Organization and to manage them go to the Organizations page and click on the Name of the Organization:\nIt will open next additional sections on the side-bar menu, from which you need to select Administrators:\nThis action will redirect you to the Administrators page, where you can find all Administrators related to this Organization with their Headers, Add Administrator button, Search bar, and Actions icon which opens a list of available management actions for the selected Administrator:\nAdministrators headers include:\n E-mail: shows the e-mail address of the Administrators; ID: shows the Administrators ID; Username: shows the Administrators Username (by default equal to the email address that was specified during registration);  Actions icon opens the next list of available management actions:\n Remove - this option is using to delete the Administrator from the selected Organization.  So, from this page you can:\n review all Administrators related to the selected Organization; add more Administrators to the selected Organization; remove Administrators from the selected Organization.  Add Administrator to the Organization\nNOTE:\nYou can add only those Users who have already passed the registration stage in the Cloud Console and aren\u0026rsquo;t members of one of the Projects of this Organization\nTo add new Administrator to the selected Organization do the following:\n go to the Administrators page and click the ADD ADMINISTRATOR icon in the upper left corner:  on the next opened Add Administrator window specify the User ID, and click on the ADD icon:  After these steps the newly added Administrator will appear on the Administrators page of the selected Organization:\nRemove Administrator from the Organization\nTo remove Administrator from the selected Organization do the following:\n to identify this unnecessary Administrator on the Administrators page; click on the Actions icon and select the Remove in the list of available options; on the next opened Confirmation window the User deletion:  After confirming this action, the selected User will be removed from the selected Organization.\n"
+},
+{
+	"uri": "http://example.org/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://example.org/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
