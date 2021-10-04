@@ -1,0 +1,12 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Ventus Docs"
+# Change the default theme
+theme = "hugo-theme-learn"
+#theme="kraiklyn"
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+[params]
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "blue"
