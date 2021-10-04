@@ -19,7 +19,7 @@ In this article, you can find an explanation of how to create a new Organization
 
 If you are a new user and have just created new account you will be automatically redirected to the *Organizations page* where you can create your first Organization or find a list of Organizations to which Projects your User has access as a *Member*:
 
-![org0-1](Aspose.Words.ffe6dae1-1a20-43bc-9497-9627af996b16.001.png)
+![](../../assets/images/organizations/1-org.png)
 
 If you aren't a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access you need on the *Homepage* to select the **Organizations** from the *side-bar menu:*
 
