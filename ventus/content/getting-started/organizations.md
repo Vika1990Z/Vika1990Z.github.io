@@ -1,21 +1,15 @@
 ---
-title: Organizations and Administrators
+title: Organizations
 weight: 15
 ---
 ___
-In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.
+In this article, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.
 
 ## Table of contents
-
 1. [Organizations page](#org-page)
-   1. [Create an Organization](#create-org)
-   2. [Edit an Organization](#edit-org)
-   3. [Delete an Organization](#delete-org)
-2. [Administrators page](#admin-page)
-   1. [Add Administrator to the Organization](#add-admin)
-   2. [Transfer the Organization](#transfer-org)
-   3. [Remove Administrator from the Organization](#remove-admin)
-
+2. [Create an Organization](#create-org)
+3. [Edit an Organization](#edit-org)
+4. [Delete an Organization](#delete-org)
 
 ## Organizations page <a id="org-page"></a>
 ___ 
@@ -28,11 +22,6 @@ If you aren't a new User, but want to see information about created Organization
 This action will redirect you to the *Organizations page* where you can find all created Organizations and Organizations to which Projects your User has access with their *Headers, Add Organization button, Search bar, and Actions icon* which opens a list of available management actions for the selected Organization:  
 ![](../../assets/images/organizations/3-org.png?classes=border,shadow)  
 
-Organizations **headers** include:  
-- **Name**: shows the name of the Organization;  
-- **ID**: shows the Organizations ID;  
-- **Role**: shows the User Role in the Organization;  
-
 **Actions** icon opens the next list of available management actions (are active only if User Role is an *Owner* or *Administartor* in the selected Organization):  
 - **Edit** - this option is using to change the name of the selected Organization.  
 - **Delete** - this option is using to delete the Organization.  
@@ -42,7 +31,8 @@ As you see, in the Organizations User can have next Roles:
 - **Administrator** - this role can be assigned to a User by another Administrator of the Organization. Administrators have access to all resources of the Organization, including the management of Groups, Projects and their Users;  
 - **Member** - this role is assigned to a User who is granted access to the Organization's Project and, accordingly, to all resources within this Project. Member can't add/remove other Users in the Project and even can't see information about them.  
 
-### Create an Organization <a id="create-org"></a>  
+## Create an Organization <a id="create-org"></a>  
+___
 To create a new Organization do the following:  
 - go to the *Organizations page* and click the **CREATE ORGANIZATION** icon in the upper left corner;  
 - on the next opened *Create Organization window* specify the **Name** of the Organization and click on the **CREATE** icon:  
@@ -51,7 +41,8 @@ To create a new Organization do the following:
 After these steps the newly created Organization will be added to the *Organizations page* and your User Role there will be *Owner*:  
 ![](../../assets/images/organizations/6-org.png?classes=border,shadow)  
 
-### Edit an Organization <a id="edit-org"></a>
+## Edit an Organization <a id="edit-org"></a>
+___
 >This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To edit Organization do the following:
@@ -59,10 +50,10 @@ To edit Organization do the following:
 - click on the **Actions** icon and select the **Edit** in the list of available options;    
 - on the next opened *Edit Organization window* update the name of the Organization and click on the **SAVE** icon:    
 ![](../../assets/images/organizations/20-org.png?classes=border,shadow)     
-
 After these steps. the selected Organization will be updated.
 
-### Delete an Organization <a id="delete-org"></a>
+## Delete an Organization <a id="delete-org"></a>
+___
 >This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To delete Organization do the following:
@@ -71,67 +62,4 @@ To delete Organization do the following:
 - on the next opened *Confirmation window* confirm the Organization deletion:    
 ![](../../assets/images/organizations/19-org.png?classes=border,shadow)     
 After confirming this action, the selected Organization will be deleted.
-
-## Administrators page <a id="admin-page"></a>
-___
->To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*.    
-
-To see information about Administrators of the Organization go to the *Organizations page* and  click on the **Name** of the Organization:  
-![](../../assets/images/organizations/7-org.png?classes=border,shadow)  
-
-It will open next additional sections on the *side-bar menu,* from which you need to select *Administrators*:  
-![](../../assets/images/organizations/8-org.png?classes=border,shadow)  
-
-This action will redirect you to the *Administrators page*, where you can find all Administrators related to this Organization with their *Headers, Add Administrator button and Search bar*:  
-![](../../assets/images/organizations/9-org.png?classes=border,shadow)  
-
-Administrators **headers** include:  
-- **Full name**: shows the Administrators full name;   
-- **E-mail**: shows the e-mail address of the Administrators;   
-- **Role**: shows the Administrators Role in the selected Organization;  
-
-### Add Administrator to the Organization <a id="add-admin"></a> 
->You can add only those Users who have already passed the registration stage in the Cloud Console and aren't members of one of the Projects of this Organization    
-
-To add new Administrator to the selected Organization do the following:   
-- go to the *Administrators page* and click the **ADD ADMINISTRATOR** icon in the upper left corner;           
-- on the next opened *Add Administrator window* specify the **E-mail address**, and click on the **Send invitation** icon:      
-![](../../assets/images/organizations/11-org.png?classes=border,shadow)    
-
-After these steps the newly added Administrator will appear on the *Administrators page* of the selected Organization, but with marked with the message **pendig invitation**:  
-![](../../assets/images/organizations/12-org.png?classes=border,shadow)  
-
-At the same moment, the User to whom you sent the invitation received the following message to the email you specified:    
-![](../../assets/images/organizations/13-org.png?classes=border,shadow)  
-
-When the invited User accepts your invitation by clicking on the link sent to him, he will be  added on the *Administrators page* as a **Administrator** and with active *Actions icon* which opens a list of available management actions for the selected Administrator:  
-![](../../assets/images/organizations/14-org.png?classes=border,shadow)  
-
-**Actions** icon opens the next list of available management actions:  
-- **Transfer an organization** - this option is using to change the Owner of the selected Organization.  
-- **Remove** - this option is using to delete the Administrator from the Organization.  
-
-### Transfer the Organization  <a id="transfer-org"></a>
->To Transfer the Organization means to change its Owner.
->This action available only if your User Role in this Organization is *Owner*. 
-
-To Transfer the Organization do the following:  
-- to identify the Administrator to whom you want to Transfer the Organization on the *Administrators page*;    
-- click on the **Actions** icon and select the **Transfer the Organization** in the list of available options;    
-- on the next opened *Confirmation window* confirm your actions and click on the **Send** icon:      
-![](../../assets/images/organizations/17-org.png?classes=border,shadow)     
-
-After confirming this action, the selected User will recieve the following message: an dif he accept it, his Role in the selected Organization will be changed from *Administrator* to *Owner*.    
-![](../../assets/images/organizations/18-org.png?classes=border,shadow)   
-
-### Remove Administrator from the Organization <a id="remove-admin"></a> 
->This action available only if your User Role in this Organization is *Owner or Administrator*.
-
-To remove Administrator from the selected Organization do the following:
-- to identify this unnecessary Administrator on the *Administrators page*;   
-- click on the **Actions** icon and select the **Remove** in the list of available options;    
-- on the next opened *Confirmation window* confirm the User deletion:    
-![](../../assets/images/organizations/16-org.png?classes=border,shadow)     
-After confirming this action, the selected User will be removed from the selected Organization.
-
 
