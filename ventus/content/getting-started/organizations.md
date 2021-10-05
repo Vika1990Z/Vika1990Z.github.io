@@ -5,7 +5,7 @@ weight: 15
 ___
 In this article, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.
 
-## Table of contents
+# Table of contents
 1. [Organizations page](#org-page)
 2. [Create an Organization](#create-org)
 3. [Edit an Organization](#edit-org)
