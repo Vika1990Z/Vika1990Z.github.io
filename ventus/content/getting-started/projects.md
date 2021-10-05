@@ -7,10 +7,10 @@ In this article, you can find an explanation of how to create a new Project, and
 
 # Table of contents
 1. [Projects page](#projects-page)
-2. [Create a Project](#create-project)
-3. [Edit a Project](#edite-project)
-4. [Delete a Project](#delete-project)
-5. [Add Users to the Project](#add-users-to-project) 
+2. [Create Project](#create-project)
+3. [Edit Project](#edite-project)
+4. [Delete Project](#delete-project)
+5. [Add Users to Project](#add-users-to-project) 
 
 ## Projects page
 ___
