@@ -33,7 +33,7 @@ Organizations **headers** include:
 - **ID**: shows the Organizations ID;  
 - **Role**: shows the User Role in the Organization;  
 
-**Actions** icon opens the next list of available management actions (are active only if User is an **Owner or Administartor** in the selected Organization):  
+**Actions** icon opens the next list of available management actions (are active only if User Role is an *Owner* or *Administartor* in the selected Organization):  
 - **Edit** - this option is using to change the name of the selected Organization.  
 - **Delete** - this option is using to delete the Organization.  
 
@@ -53,6 +53,7 @@ After these steps the newly created Organization will be added to the *Organizat
 
 ### Edit an Organization <a id="edit-org"></a>
 >This action available only if your User Role in this Organization is *Owner or Administrator*.
+
 To edit Organization do the following:
 - to identify this what Organization you want to edit on the *Organizations page*;   
 - click on the **Actions** icon and select the **Edit** in the list of available options;    
@@ -63,6 +64,7 @@ After these steps. the selected Organization will be updated.
 
 ### Delete an Organization <a id="delete-org"></a>
 >This action available only if your User Role in this Organization is *Owner or Administrator*.
+
 To delete Organization do the following:
 - to identify this unnecessary Organization on the *Organizations page*;   
 - click on the **Actions** icon and select the **Delete** in the list of available options;    
@@ -74,7 +76,7 @@ After confirming this action, the selected Organization will be deleted.
 ___
 >To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*.    
 
-To see information about Administrators of the Organization and to manage them go to the *Organizations page* and  click on the **Name** of the Organization:  
+To see information about Administrators of the Organization go to the *Organizations page* and  click on the **Name** of the Organization:  
 ![](../../assets/images/organizations/7-org.png?classes=border,shadow)  
 
 It will open next additional sections on the *side-bar menu,* from which you need to select *Administrators*:  
