@@ -4,8 +4,21 @@ weight: 20
 ---
 ___
 In this article, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.
+# Table of Contents
+  * [Chapter 1](#chapter-1)
+  * [Chapter 2](#chapter-2)
+  * [Chapter 3](#chapter-3)
 
-## Table of contents
+## Chapter 1 <a id="chapter-1"></a>
+Content for chapter one.
+
+## Chapter 2 <a id="chapter-2"></a>
+Content for chapter one.
+
+## Chapter 3 <a id="chapter-3"></a>
+Content for chapter one.  
+
+# Table of contents
 1. [Administrators page](#admin-page)
 2. [Add Administrator to the Organization](#add-admin)
     1. [Resend an Invitation](#resend-invitation)
@@ -45,7 +58,7 @@ And on the yours Administrators page you will see the added information about yo
 - **Delete invitation**
 
 When the invited User accepts your invitation, he will get an Administrator role in appropriate Organization and the access to all resources of it and on your *Administrators page* you will see this newly added Aministartor with active *Actions icon*:
-![](../../assets/images/organizations/12-org.png?classes=border,shadow)  
+![](../../assets/images/organizations/14-org.png?classes=border,shadow)  
 **Actions** icon after accepting invitation opens the next list of available management actions:  
 - **Transfer an organization** - this option is using to change the Owner of the selected Organization.  
 - **Remove** - this option is using to delete the Administrator from the Organization. 
