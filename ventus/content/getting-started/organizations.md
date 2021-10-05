@@ -34,7 +34,8 @@ As you see, in the Organizations User can have next Roles:
 ## Create an Organization <a id="create-org"></a>  
 ___
 To create a new Organization do the following:  
-- go to the *Organizations page* and click the **CREATE ORGANIZATION** icon in the upper left corner;  
+- go to the *Organizations page* and click the **CREATE ORGANIZATION** icon in the upper left corner; 
+![](../../assets/images/organizations/4-org.png?classes=border,shadow)   
 - on the next opened *Create Organization window* specify the **Name** of the Organization and click on the **CREATE** icon:  
 ![](../../assets/images/organizations/5-org.png?classes=border,shadow)  
 
@@ -43,22 +44,22 @@ After these steps the newly created Organization will be added to the *Organizat
 
 ## Edit an Organization <a id="edit-org"></a>
 ___
->This action available only if your User Role in this Organization is *Owner or Administrator*.
+>**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To edit Organization do the following:
-- to identify this what Organization you want to edit on the *Organizations page*;   
-- click on the **Actions** icon and select the **Edit** in the list of available options;    
+- identify what Organization you want to edit on the *Organizations page*;   
+- click on the **Actions** icon and select the **EDIT** in the list of available options;    
 - on the next opened *Edit Organization window* update the name of the Organization and click on the **SAVE** icon:    
 ![](../../assets/images/organizations/20-org.png?classes=border,shadow)     
 After these steps. the selected Organization will be updated.
 
 ## Delete an Organization <a id="delete-org"></a>
 ___
->This action available only if your User Role in this Organization is *Owner or Administrator*.
+>**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To delete Organization do the following:
-- to identify this unnecessary Organization on the *Organizations page*;   
-- click on the **Actions** icon and select the **Delete** in the list of available options;    
+- identify this unnecessary Organization on the *Organizations page*;   
+- click on the **Actions** icon and select the **DELETE** in the list of available options;    
 - on the next opened *Confirmation window* confirm the Organization deletion:    
 ![](../../assets/images/organizations/19-org.png?classes=border,shadow)     
 After confirming this action, the selected Organization will be deleted.
