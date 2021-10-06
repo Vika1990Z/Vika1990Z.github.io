@@ -1,6 +1,6 @@
 ---
 title: Administrators
-weight: 25
+weight: 20
 ---
 ___
 In this article, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.
