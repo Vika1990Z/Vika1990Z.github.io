@@ -1,6 +1,6 @@
 ---
 title: Projects
-weight: 20
+weight: 25
 ---
 ___
 In this article, you can find an explanation of how to create a new Project, and how to manage it in the Cloud Console.

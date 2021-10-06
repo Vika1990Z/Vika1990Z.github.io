@@ -7,4 +7,4 @@ pre = "<b>1. </b>"
 +++
 ### Chapter 1
 # Getting Started
-Here's an explanation how to pass through the first steps in the Cloud Console, such as registration and creating first organization or project.
+Here's an explanation how to pass through the first steps in the Ventus Cloud, such as registration and creating first organization or project.
