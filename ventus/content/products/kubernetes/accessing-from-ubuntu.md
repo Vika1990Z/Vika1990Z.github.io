@@ -1,5 +1,5 @@
 ---
-title: Accessing the Kubernetes Cluster from Ubuntu VM
+title: Accessing from Ubuntu VM
 weight: 20
 ---
 ___

@@ -1,5 +1,5 @@
 ---
-title: Accessing the Kubernetes Cluster through its Master-Node
+title: Accessing through Master-Node
 weight: 15
 ---
 ___

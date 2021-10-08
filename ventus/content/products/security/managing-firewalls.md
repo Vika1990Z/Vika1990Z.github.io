@@ -1,5 +1,5 @@
 ---
-title: Managing Firewalls related to a specific VM
+title: Managing  VM's Firewalls
 weight: 25
 ---
 ___

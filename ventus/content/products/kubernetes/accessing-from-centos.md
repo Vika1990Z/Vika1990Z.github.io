@@ -1,5 +1,5 @@
 ---
-title: Accessing the Kubernetes Cluster from Centos VM
+title: Accessing from Centos VM
 weight: 25
 ---
 ___

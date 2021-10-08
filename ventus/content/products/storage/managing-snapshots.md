@@ -1,5 +1,5 @@
 ---
-title: Managing Snapshots related to a specific VM
+title: Managing VM's Snapshots
 weight: 35
 ---
 ___
