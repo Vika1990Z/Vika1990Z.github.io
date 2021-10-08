@@ -1,5 +1,5 @@
 ---
-title: Kubernetes Cluster
+title: K8S Cluster
 weight: 10
 ---
 ___

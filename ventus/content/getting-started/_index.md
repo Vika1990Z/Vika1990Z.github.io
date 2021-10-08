@@ -9,4 +9,4 @@ pre = "<b>1. </b>"
 # Getting Started
 Here's an explanation how to pass through the first steps in the Ventus Cloud, such as registration and creating first organization or project.
 
-{{% children style="h4" depth="3" %}}
+{{% children style="h4" depth="2" %}}
