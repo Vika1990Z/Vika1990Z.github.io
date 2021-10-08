@@ -9,4 +9,4 @@ pre = "<b>2. </b>"
 # Products
 Here are guides for all Ventus Cloud products, services, and tools.
 
-{{% children style="h4" depth="1" description="true" %}}
+{{% children style="h4" depth="1" %}}
