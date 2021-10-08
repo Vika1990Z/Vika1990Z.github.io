@@ -7,3 +7,6 @@ pre = "<b>1. </b>"
 +++
 # Compute
 Here's guides for Linux and Windows virtual machines in the Cloud Console.
+
+
+
