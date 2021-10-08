@@ -7,6 +7,6 @@ pre = "<b>2. </b>"
 +++
 ### Chapter 2
 # Products
-Here's guides for all Ventus Cloud products, services, and tools.
+Here are guides for all Ventus Cloud products, services, and tools.
 
 {{% children style="h4" depth="1" description="true" %}}

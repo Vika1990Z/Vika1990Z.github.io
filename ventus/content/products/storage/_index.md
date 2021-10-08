@@ -6,4 +6,6 @@ chapter = true
 pre = "<b>* </b>"
 +++
 # Storage
-Here's guides for Object Storage, Volumes, Snapshots and Images in the Cloud Console.
+Here are guides for Object Storage, Volumes, Snapshots and Images in Cloud Console.
+
+{{% children style="h4" depth="1" %}}

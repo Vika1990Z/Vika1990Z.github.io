@@ -6,7 +6,9 @@ chapter = true
 pre = "<b>* </b>"
 +++
 # Compute
-Here's guides for Linux and Windows virtual machines in the Cloud Console.
+Here are guides for Linux and Windows virtual machines in Cloud Console.
+
+{{% children style="h4" depth="1" %}}
 
 
 

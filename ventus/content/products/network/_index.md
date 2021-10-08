@@ -6,4 +6,6 @@ chapter = true
 pre = "<b>* </b>"
 +++
 # Network
-Here's guides for Networks and Subnets in the Cloud Console.
+Here's guides for Networks and Subnets in Cloud Console.
+
+{{% children style="h4" depth="1" %}}

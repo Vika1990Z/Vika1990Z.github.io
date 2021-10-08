@@ -6,4 +6,6 @@ chapter = true
 pre = "<b>* </b>"
 +++
 # Kubernetes
-Here's guides for Kubernetes Cluster in the Cloud Console.
+Here are guides for Kubernetes Cluster in Cloud Console.
+
+{{% children style="h4" depth="1" %}}
