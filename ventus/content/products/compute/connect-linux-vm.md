@@ -1,5 +1,5 @@
 ---
-title: Connect to the Linux VM via SSH
+title: Connect to Linux VM
 weight: 15
 ---
 ___

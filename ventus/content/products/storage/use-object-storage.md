@@ -1,5 +1,5 @@
 ---
-title: Using the Object
+title: Use Object Storage
 weight: 15
 ---
 ___

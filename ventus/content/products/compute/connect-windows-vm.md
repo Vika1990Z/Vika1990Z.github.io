@@ -1,5 +1,5 @@
 ---
-title: Connect to the Windows VM via RDP
+title: Connect to Windows VM 
 weight: 20
 ---
 ___

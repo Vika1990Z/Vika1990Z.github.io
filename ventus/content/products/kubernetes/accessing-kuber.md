@@ -1,5 +1,5 @@
 ---
-title: Accessing the Kubernetes Cluster
+title: Access K8S Cluster
 weight: 15
 ---
 ___
