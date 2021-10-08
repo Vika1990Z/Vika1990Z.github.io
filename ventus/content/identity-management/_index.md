@@ -7,6 +7,6 @@ pre = "<b>2. </b>"
 +++
 ### Chapter 2
 # Identity management
-Here are guides for all Ventus Cloud products, services, and tools.
+Here are guides for managing members of organizations and projects.
 
 {{% children style="h4" depth="1" %}}
