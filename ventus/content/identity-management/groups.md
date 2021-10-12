@@ -36,7 +36,7 @@ To create a new Group do the following:
 After these steps the newly created Group will be added to the *Groups page*.
 The next step is to configure the created Group.
 
-## Сonfigure Group** 
+## Сonfigure Group
 
 To set up the Group membership and permissions you can from the *Group details page.*
 To get to the *Group details page* you need to click on the **Name** of the corresponding Group:
