@@ -34,7 +34,7 @@ As you see, in the Organizations User can have next Roles:
 
 To create a new Organization do the following:  
 - go to the *Organizations page* and click the CREATE ORGANIZATION icon in the upper left corner;    
-- specify the **Name** of the Organization on the opened *Create Organization window* and click on the CREATE icon:  
+- specify the **Name** of the Organization and click on the CREATE icon:  
 ![](../../assets/images/organizations/5-org.png?classes=border,shadow)  
 
 After these steps the newly created Organization will be added to the *Organizations page* and your User Role there will be *Owner*:  

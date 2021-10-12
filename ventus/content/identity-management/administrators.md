@@ -30,16 +30,16 @@ This action will redirect you to the *Administrators page*, where you can find a
 
 To add new Administrator to the selected Organization do the following:   
 - go to the *Administrators page* and click the ADD ADMINISTRATOR icon in the upper left corner;      
-- specify the **E-mail address** of the User that you want to add to your Organization on the next opened *Add Administrator window* and click on the SEND INVITATION icon:      
+- specify the **E-mail address** of the User that you want to add to your Organization and click on the SEND INVITATION icon:      
 ![](../../assets/images/organizations/11-org.png?classes=border,shadow)    
 
 After this, the User whose email address you entered in the invitation will receive an email with the *Accept invitation link*. By clicking on this link, the user will be redirected to the Cloud Console, where he need to click the *ACCEPT INVITATION* icon.      
 
-And on the yours Administrators page you will see the added information about your invitation with the active **Actions** icon:
+And on the yours *Administrators page* you will see the added information about your invitation with the active **Actions** icon:
 ![](../../assets/images/organizations/12-org.png?classes=border,shadow)  
 **Actions** icon in this step opens the next list of available management actions:  
 - *Resend invitation* - this option is using to send one more invitation with the *Accept invitation link*.
-- *Delete invitation* - this option is using to block the *Accept invitation link* in the invitation
+- *Delete invitation* - this option is using to block the *Accept invitation link* in the invitation.
 
 When the invited User accepts your invitation, he will get an Administrator role in appropriate Organization and the access to all resources of it and on your *Administrators page* you will see this newly added Aministartor with active *Actions icon*:
 ![](../../assets/images/organizations/14-org.png?classes=border,shadow)  
@@ -72,7 +72,7 @@ After confirming this action, the selected User will recieve the message with th
  
 
 ## Remove Administrator
-___
+
 >**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To remove Administrator from the selected Organization do the following:
