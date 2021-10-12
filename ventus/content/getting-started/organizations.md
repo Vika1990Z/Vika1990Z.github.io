@@ -3,7 +3,7 @@ title: Organizations
 weight: 15
 ---
 ___
-In this article, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.
+On this page, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.
 
 # Table of contents
 1. [Organizations page](#organizations-page)
@@ -34,7 +34,7 @@ As you see, in the Organizations User can have next Roles:
 
 To create a new Organization do the following:  
 - go to the *Organizations page* and click the CREATE ORGANIZATION icon in the upper left corner;    
-- on the opened *Create Organization window* specify the *Name* of the Organization and click on the CREATE icon:  
+- specify the **Name** of the Organization on the opened *Create Organization window* and click on the CREATE icon:  
 ![](../../assets/images/organizations/5-org.png?classes=border,shadow)  
 
 After these steps the newly created Organization will be added to the *Organizations page* and your User Role there will be *Owner*:  
@@ -47,7 +47,7 @@ After these steps the newly created Organization will be added to the *Organizat
 To edit Organization do the following:
 - identify what Organization you want to edit on the *Organizations page*;   
 - click on the **Actions** icon and select the EDIT in the list of available options;    
-- on the next opened *Edit Organization window* update the name of the Organization and click on the *SAVE* icon:       
+- on the next opened *Edit Organization window* update the name of the Organization and click on the *SAVE* icon.     
 After these steps, the selected Organization will be updated.
 
 ## Delete Organization
@@ -57,6 +57,6 @@ After these steps, the selected Organization will be updated.
 To delete Organization do the following:
 - identify this unnecessary Organization on the *Organizations page*;   
 - click on the **Actions** icon and select the DELETE in the list of available options;    
-- on the next opened *Confirmation window* confirm the Organization deletion:        
+- on the next opened *Confirmation window* confirm the Organization deletion.       
 After confirming this action, the selected Organization will be deleted.
 
