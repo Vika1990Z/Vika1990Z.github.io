@@ -3,7 +3,7 @@ title: Account
 weight: 10
 ---
 ___
-In this article, you can find an explanation of how to create and manage a new user account in Cloud Console.
+On this page, you can find an explanation of how to create and manage a new user account in Cloud Console.
 
 # Table of contents
 1. [Registration](#registration)
