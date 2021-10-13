@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>4. </b>"
 +++
 
-### **Chapter 4**
+### Chapter 4
 # **Advanced**
 ___
 Here's tutorials for advanced users.

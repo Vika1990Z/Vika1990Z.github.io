@@ -8,7 +8,7 @@ pre = "<b>      </b>"
 
 # **KUBERNETES**
 ___
-Here are guides for Kubernetes Cluster in Cloud Console.
+Here are you can find an explanation of how to create, manage and use Kubernetes Cluster in Cloud Console.
 ___
 
 {{% children style="h4" depth="1" %}}

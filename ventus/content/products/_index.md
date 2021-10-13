@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>3. </b>"
 +++
 
-### **Chapter 3**
+### Chapter 3
 # **Products**
 ___
 Here are guides for all Ventus Cloud products, services, and tools.
