@@ -44,11 +44,13 @@ To create a new Linux VM do the following:
   - **Flavor** - select the size for new VM;
   - **Key pair** - this field is neccessery only for Linux VMs, select here the SSH Key that was previously created on the *SSH Keys page* or create a new one, which you will use to connect to the Linux VM;
   - **Networks**: here you can choose one or more networks;
-  - **Firewalls**: in this field you can choose what collection of network access rules will control the traffic to this VM;
+  - **Firewalls**: in this field you can choose what collection of network access rules will control the traffic to this VM;  
+
     *to connect to the selected **Linux Virtual Machine** remotely via SSH you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this please see the article **[Connect to Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)**;*
     ![](../../assets/images/vms/4-vm.png?classes=border,shadow)
 
-    >*to connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this please see the article **[Connect to the Windows VM via RDP](https://kb.ventuscloud.eu/knowledge/connect-windows-vm)**;*
+    >**NOTE** 
+    *To connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this please see the article **[Connect to the Windows VM via RDP](https://kb.ventuscloud.eu/knowledge/connect-windows-vm)**;*
     ![](../../assets/images/vms/5-vm.png?classes=border,shadow)
     
   - **Volume size (GB)**: here you provide the preferred disk size for the VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size 10 GB; and also just below this field you can make a mark ***for auto-deleting volume*** when the VM is terminated;   
