@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Getting Started test ventus on Ventus Docs</title>
+    <title>Getting Started on Ventus Docs</title>
     <link>http://example.org/getting-started/</link>
-    <description>Recent content in Getting Started test ventus on Ventus Docs</description>
+    <description>Recent content in Getting Started on Ventus Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Sep 2019 01:53:09 +0330</lastBuildDate>
@@ -12,16 +12,34 @@
     
     
     <item>
+      <title>Account</title>
+      <link>http://example.org/getting-started/account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/account/</guid>
+      <description>On this page, you can find an explanation of how to create and manage a new user account in Cloud Console.
+Table of contents  Registration Manage Account   Edit Account Change password Set authenticator Find all sessions Login and Logout    Registration To start work in the Cloud Console, firstly, you need to register a new account, for this do the following:
+ follow the Authorization page of the Cloud Console - console.</description>
+    </item>
+    
+    <item>
       <title>Organizations</title>
       <link>http://example.org/getting-started/organizations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/getting-started/organizations/</guid>
-      <description>Organizations and Administrators
-In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.
-Table of contents
- Organizations page  Create an Organization   Administrators of the Organization  Add Administrator to the Organization Remove Administrator from the Organization    Organizations page
-If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:</description>
+      <description>On this page, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.
+Table of contents  Organizations page Create Organization Edit Organization Delete Organization  Organizations page If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://example.org/getting-started/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/getting-started/projects/</guid>
+      <description>On this page, you can find an explanation of how to create a new Project, and how to manage it in the Cloud Console.
+Table of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page  NOTE To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
     </item>
     
   </channel>

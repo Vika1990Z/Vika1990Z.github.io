@@ -13,7 +13,123 @@
   </url>
   
   <url>
+    <loc>http://example.org/products/compute/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/getting-started/account/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/kubernetes/kubernetes-cluster/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/object-storage/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/compute/virtual-machines/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/identity-management/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/kubernetes/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/kubernetes/accessing-kuber/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/compute/connect-linux-vm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/security/firewalls/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/network/networks/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/getting-started/organizations/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/security/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/identity-management/administrators/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/compute/connect-windows-vm/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/security/firewall-rules/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/network/subnets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/advanced/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/getting-started/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/volumes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/identity-management/groups/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/snapshots/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/security/ssh-keys/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/network/</loc>
+    <lastmod>2019-09-25T01:53:09+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/security/cli-users/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/custom-images/</loc>
   </url>
   
   <url>

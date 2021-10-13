@@ -4,21 +4,210 @@
 	"title": "Home Page",
 	"tags": [],
 	"description": "",
-	"content": "Documentation Here you can find information on how to use all the services provided by the Cloud Console, such as Virtaul Machines, Kubernetes Clusters, and so on.\nDocumentation Summary  Getting Started test ventus  Chapter 1 Getting Started Here\u0026rsquo;s an explanation of how to pass through the first steps in the Cloud Console, such as registration and creating first organization or project.\n Organizations  Organizations and Administrators In this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console. Table of contents Organizations page Create an Organization Administrators of the Organization Add Administrator to the Organization Remove Administrator from the Organization Organizations page If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:\n "
+	"content": "Documentation Here you can find information on how to use all the services provided by Cloud Console, such as Virtual Machines, Kubernetes Clusters, and so on.\nDocumentation Summary  Getting Started   Account   Organizations   Projects   Identity management   Administrators   Groups   Products   Compute   Kubernetes   Security   Storage   Network   Advanced   "
 },
 {
 	"uri": "http://example.org/getting-started/",
-	"title": "Getting Started test ventus",
+	"title": "Getting Started",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 1 Getting Started Here\u0026rsquo;s an explanation of how to pass through the first steps in the Cloud Console, such as registration and creating first organization or project.\n"
+	"content": "Chapter 1 Getting Started Here are guides for the first steps in Ventus Cloud, such as registration and creating first organization or project.\n Account   Organizations   Projects   "
+},
+{
+	"uri": "http://example.org/products/compute/",
+	"title": "Compute",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 3 Compute Here are guides for Linux and Windows virtual machines in Cloud Console.\n Virtual Machines   Connect to Linux VM   Connect to Windows VM   "
+},
+{
+	"uri": "http://example.org/getting-started/account/",
+	"title": "Account",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create and manage a new user account in Cloud Console.\nTable of contents  Registration Manage Account   Edit Account Change password Set authenticator Find all sessions Login and Logout    Registration To start work in the Cloud Console, firstly, you need to register a new account, for this do the following:\n follow the Authorization page of the Cloud Console - console.ventuscloud.eu, and click on the Register icon:  fill in the form on the next opened Register window and click on the Register icon; read and accept the Terms and Conditions and Privacy of the company:  verify your email address: you will receive a letter to the email that you specified in the registration form and if you successfully pass this verification you will get to the Organizations page:   Since you are a new User, you do not have any Organizations created yet, so the next step to take full advantage of all the services provided by the Cloud Console is to create an Organization and a Project. To find necessary information about this, see the next articles: Organizations and Administrators and Projects and Groups.\nManage account To find information and all the available management actions for your personal account you need: to open User menu - for this click on the icon near the Name you used during registration in the upper right corner: Here you can see the next drop-down menu: Option Settings gives you an access to the available actions to manage your personal account:\n Edit Account; Change Account password Set the authenticator for the Account; Find all Account sessions; Find all applications corresponding to the Account.  Option Logout is used to end the login session.\nEdit account To edit account do the following:\n open the User menu and select Settings option from the opened drop-down menu; select the Account TAB from the side-bar menu; on the opened the Edit Account page make the changes that you need with your personal information that you have provided before and click on the Save icon:   Change password To change password of your User Account do the following:\n open the User menu and select Settings option from the opened drop-down menu; select the Password TAB from the side-bar menu; on the opened the Change Password page make the changes that you need with the password that you have provided before and click on the Save icon:   Set authenticator If you want to make your account more secure, you can set the authenticator, for this do the following:\n open the User menu and select Settings option from the opened drop-down menu; select the Authenticator TAB from the side-bar menu; on the opened the Authenticator page follow the instruction how to get One-time code and click on the Save icon:   Find all sessions To find information about all sessions you need:\n open the User menu and select Settings option from the opened drop-down menu; select the Sessions TAB from the side-bar menu; on the opened Sessions page you can find all necessary information and log out all sessions by one click if you need:   Login and Logout To logout of the Account open the User menu and select Logout option from the opened drop-down menu. This will end the login session of your Account and redirect you to the Login page.\nTo login again you just need to specify the email and password, that you used during registration and click the Log in icon: "
+},
+{
+	"uri": "http://example.org/products/kubernetes/kubernetes-cluster/",
+	"title": "K8S Cluster",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage a Kubernetes Cluster in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/storage/object-storage/",
+	"title": "Object Storage",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of what is the Object Storage in the Cloud Console, how to create, delete and instructions for other steps to manage an Object Storage credentials in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/compute/virtual-machines/",
+	"title": "Virtual Machines",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage a Virtual Machines in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/identity-management/",
+	"title": "Identity management",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 2 Identity management Here are guides for managing members of organizations and projects.\n Administrators   Groups   "
+},
+{
+	"uri": "http://example.org/products/kubernetes/",
+	"title": "Kubernetes",
+	"tags": [],
+	"description": "",
+	"content": "Kubernetes Here are guides for Kubernetes Cluster in Cloud Console.\n K8S Cluster   Access K8S Cluster   "
+},
+{
+	"uri": "http://example.org/products/kubernetes/accessing-kuber/",
+	"title": "Access K8S Cluster",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in the Cloud Console\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/compute/connect-linux-vm/",
+	"title": "Connect to Linux VM",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to connect to the Linux Virual Machine created in the Cloud Console using SSH Protocol\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/security/firewalls/",
+	"title": "Firewalls",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/network/networks/",
+	"title": "Networks",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit and delete Networks in the Cloud Console.\nTable of contents "
 },
 {
 	"uri": "http://example.org/getting-started/organizations/",
 	"title": "Organizations",
 	"tags": [],
 	"description": "",
-	"content": "Organizations and Administrators\nIn this article, you can find an explanation of how to create a new Organization and how to manage it and its Administrators in the Cloud Console.\nTable of contents\n Organizations page  Create an Organization   Administrators of the Organization  Add Administrator to the Organization Remove Administrator from the Organization    Organizations page\nIf you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:\nIf you aren\u0026rsquo;t a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access you need on the Homepage to select the Organizations from the side-bar menu:\nThis action will redirect you to the Organizations page where you can find all created Organizations and Organizations to which Projects your User has access, your User Role in this Organizations (Administrator or Member), Create button and Search bar:\nSo, in the Organizations User can have next Roles:\n Owner - this role is assigned to a User, who created this Organization (this User will also be considered the Administrator of this Organization) and opens access to all resources of the Organization including the management of Groups, Projects and their all Users; Administrator - this role can be assigned to a User by another Administrator of the Organization. Administrators have access to all resources of the Organization, including the management of Groups, Projects and their Users; Member - this role is assigned to a User who is granted access to the Organization\u0026rsquo;s Project and, accordingly, to all resources within this Project. Member can\u0026rsquo;t add/remove other Users in the Project and even can\u0026rsquo;t see information about them.  Create an Organization\nTo create a new Organization do the following:\n go to the Organizations page and click the CREATE ORGANIZATION icon in the upper left corner:  on the next opened Create Organization window specify the Name of the Organization (it must contain only Latin letters (a-z, A-Z), digits (0-9), hyphen (-), underscore (_) and must be at most 30 characters long) and click on the CREATE icon:  After these steps the newly created Organization will be added to the Organizations page and your User Role there will be Administrator:\nAdministrators of the Organization\nNOTE:\nTo see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator too.\nTo see information about Administrators of the Organization and to manage them go to the Organizations page and click on the Name of the Organization:\nIt will open next additional sections on the side-bar menu, from which you need to select Administrators:\nThis action will redirect you to the Administrators page, where you can find all Administrators related to this Organization with their Headers, Add Administrator button, Search bar, and Actions icon which opens a list of available management actions for the selected Administrator:\nAdministrators headers include:\n E-mail: shows the e-mail address of the Administrators; ID: shows the Administrators ID; Username: shows the Administrators Username (by default equal to the email address that was specified during registration);  Actions icon opens the next list of available management actions:\n Remove - this option is using to delete the Administrator from the selected Organization.  So, from this page you can:\n review all Administrators related to the selected Organization; add more Administrators to the selected Organization; remove Administrators from the selected Organization.  Add Administrator to the Organization\nNOTE:\nYou can add only those Users who have already passed the registration stage in the Cloud Console and aren\u0026rsquo;t members of one of the Projects of this Organization\nTo add new Administrator to the selected Organization do the following:\n go to the Administrators page and click the ADD ADMINISTRATOR icon in the upper left corner:  on the next opened Add Administrator window specify the User ID, and click on the ADD icon:  After these steps the newly added Administrator will appear on the Administrators page of the selected Organization:\nRemove Administrator from the Organization\nTo remove Administrator from the selected Organization do the following:\n to identify this unnecessary Administrator on the Administrators page; click on the Actions icon and select the Remove in the list of available options; on the next opened Confirmation window the User deletion:  After confirming this action, the selected User will be removed from the selected Organization.\n"
+	"content": " On this page, you can find an explanation of how to create a new Organization and how to manage it in the Cloud Console.\nTable of contents  Organizations page Create Organization Edit Organization Delete Organization  Organizations page If you are a new user and have just created new account you will be automatically redirected to the Organizations page where you can create your first Organization or find a list of Organizations to which Projects your User has access as a Member:\nIf you aren\u0026rsquo;t a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access you need to select the Organizations from the side-bar menu:\nThis action will redirect you to the Organizations page where you can find all created Organizations and Organizations to which Projects your User has access with their Headers, Add Organization button, Search bar and Actions icon which opens a list of available management actions for the selected Organization:\nActions icon opens the next list of available management actions (are active only if User Role is an Owner or Administartor in the selected Organization):\n Edit - this option is using to change the name of the selected Organization. Delete - this option is using to delete the Organization.  As you see, in the Organizations User can have next Roles:\n Owner - this role is assigned to a User, who created this Organization (this User will also be considered the Administrator of this Organization) and opens access to all resources of the Organization including the management of Groups, Projects and their all Users; Administrator - this role can be assigned to a User by another Administrator of the Organization. Administrators have access to all resources of the Organization, including the management of Groups, Projects and their Users; Member - this role is assigned to a User who is granted access to the Organization\u0026rsquo;s Project and, accordingly, to all resources within this Project. Member can\u0026rsquo;t add/remove other Users in the Project and even can\u0026rsquo;t see information about them.  Create Organization To create a new Organization do the following:\n go to the Organizations page and click the CREATE ORGANIZATION icon in the upper left corner; specify the Name of the Organization and click on the CREATE icon:\n  After these steps the newly created Organization will be added to the Organizations page and your User Role there will be Owner:\nEdit Organization  NOTE: This action available only if your User Role in this Organization is Owner or Administrator.\n To edit Organization do the following:\n identify what Organization you want to edit on the Organizations page; click on the Actions icon and select the EDIT in the list of available options; on the next opened Edit Organization window update the name of the Organization and click on the SAVE icon. After these steps, the selected Organization will be updated.  Delete Organization  NOTE: This action available only if your User Role in this Organization is Owner or Administrator.\n To delete Organization do the following:\n identify this unnecessary Organization on the Organizations page; click on the Actions icon and select the DELETE in the list of available options; on the next opened Confirmation window confirm the Organization deletion. After confirming this action, the selected Organization will be deleted.  "
+},
+{
+	"uri": "http://example.org/products/",
+	"title": "Products",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 3 Products Here are guides for all Ventus Cloud products, services, and tools.\n Compute   Kubernetes   Security   Storage   Network   "
+},
+{
+	"uri": "http://example.org/products/security/",
+	"title": "Security",
+	"tags": [],
+	"description": "",
+	"content": "Security Here are guides for SSH Keys, Firewalls and CLI Users in Cloud Console.\n Firewalls   Firewall Rules   SSH Keys   CLI Users   "
+},
+{
+	"uri": "http://example.org/identity-management/administrators/",
+	"title": "Administrators",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.\nTable of contents  Administrators page Add Administrator to the Organization  Resend Invitation Delete Invitation   Transfer Organization Remove Administrator from the Organization  Administrators page   NOTE: To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.\n To see information about Administrators of the Organization go to the Organizations page and click on the Name of the Organization:\nIt will open next additional sections on the side-bar menu, from which you need to select Administrators.\nThis action will redirect you to the Administrators page, where you can find all Administrators related to this Organization with their Headers, Add Administrator button and Search bar:\nAdd Administrator  NOTE: You can add only those Users who have already passed the registration stage in the Cloud Console and aren\u0026rsquo;t members of one of the Projects of this Organization\n To add new Administrator to the selected Organization do the following:\n go to the Administrators page and click the ADD ADMINISTRATOR icon in the upper left corner; specify the E-mail address of the User that you want to add to your Organization and click on the SEND INVITATION icon:   After this, the User whose email address you entered in the invitation will receive an email with the Accept invitation link. By clicking on this link, the user will be redirected to the Cloud Console, where he need to click the ACCEPT INVITATION icon.\nAnd on the yours Administrators page you will see the added information about your invitation with the active Actions icon: Actions icon in this step opens the next list of available management actions:\n Resend invitation - this option is using to send one more invitation with the Accept invitation link. Delete invitation - this option is using to block the Accept invitation link in the invitation.  When the invited User accepts your invitation, he will get an Administrator role in appropriate Organization and the access to all resources of it and on your Administrators page you will see this newly added Aministartor with active Actions icon: Actions icon after accepting invitation opens the next list of available management actions:\n Transfer an organization - this option is using to change the Owner of the selected Organization. Remove - this option is using to delete the Administrator from the Organization.  Resend Invitation To resend an invitation do the next:\n click on the Actions icon and select the RESEND INVITATION option in the list of available; on the next opened Confirmation window confirm you actions by clicking on the RESEND icon. After these, the User whose email address you entered in the invitation will receive one more email with the Accept invitation link.  Delete Invitation To delete an invitation do the next:\n click on the Actions icon and select the DELETE INVITATION option in the list of available; on the next opened Confirmation window confirm your actions by clicking on the DELETE icon. After these, the Accept invitation link in the email, that was sent to the User whose email address you entered in the invitation, will be blocked.  Transfer Organization  Transfer an organization means changing the Owner of it. NOTE: This action available only if your User Role in this Organization is Owner.\n To Transfer Organization do the following:\n identify the Administrator to whom you want to Transfer the Organization on the Administrators page; click on the Actions icon and select the Transfer the Organization in the list of available options; on the next opened Confirmation window confirm your actions and click on the SEND icon. After confirming this action, the selected User will recieve the message with the invitation to become an owner of the specifying Organization and if he accept it, his Role in the selected Organization will be changed from Administrator to Owner.  Remove Administrator  NOTE: This action available only if your User Role in this Organization is Owner or Administrator.\n To remove Administrator from the selected Organization do the following:\n identify this unnecessary Administrator on the Administrators page; click on the Actions icon and select the REMOVE in the list of available options; on the next opened Confirmation window confirm the User deletion. After confirming this action, the selected User will be removed from the selected Organization.  "
+},
+{
+	"uri": "http://example.org/products/compute/connect-windows-vm/",
+	"title": "Connect to Windows VM",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to connect to the Windows Virtual Machine created in the Cloud Console using Remote Desktop Protocol\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/security/firewall-rules/",
+	"title": "Firewall Rules",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/network/subnets/",
+	"title": "Subnets",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit and delete Subnets in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/advanced/",
+	"title": "Advanced",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 4 Advanced Here\u0026rsquo;s tutorials for advanced users.\n "
+},
+{
+	"uri": "http://example.org/getting-started/projects/",
+	"title": "Projects",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create a new Project, and how to manage it in the Cloud Console.\nTable of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page  NOTE To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.\n To see information about created Projects in the Organization or create more Projects in it, you need on the Organizations page click on the Name of the appropriating Organization: This action will open additional sections on the side-bar menu and redirect you to the Projects page where you can find all created Projects related to the selected Organization with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Project: Actions icon opens the next list of available management actions:\n Edit - by selecting this option you can change the Project name; Delete - this option is for Project removing.  Create Project To create a new Project do the following:\n go to the Projects page and click on the CREATE PROJECT icon in the upper left corner; fill in the form on the next opened Create Project window and click on the CREATE icon:  Name: set a name for the Project; Region: specify which region this Project will belong to. All other cloud resources that will be created in this Project will belong to this region too.     After these steps the newly created Project will be added to the Projects page:  NOTE: All subsequent services provided by the Cloud Console within the one Project will be created in the corresponding Region in which this Project was created.\n Edit Project To edit a Project do the following:\n identify Project you want to edit on the Projects page; click on the Actions icon and select the EDIT in the list of available options; on the next opened Edit Project window, update the Project Name and click on the SAVE icon. After these steps, the selected Project will be updated.  Delete Project To delete a Project do the following:\n to identify this unnecessary Project on the Projects page; click on the Actions icon and select the DELETE in the list of available options; on the next opened Confirmation window confirm the Project deletion. After these steps, the selected Project will be deleted.  Add users to Project To add Users to the Project, you need to create a Group in which you can create a list of Projects and a corresponding list of Users who will be added to this Project as Members.\nFor more details, please, see - [Groups]\n NOTE: Added Members of the Group will have access to Projects from this Group and, accordingly, to all resources in this Project, but will not be able to see information about each other and manage the Groups and Administrators of the Organization that owns this Project.\n "
+},
+{
+	"uri": "http://example.org/products/storage/volumes/",
+	"title": "Volumes",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/storage/",
+	"title": "Storage",
+	"tags": [],
+	"description": "",
+	"content": "Storage Here are guides for Object Storage, Volumes, Snapshots and Images in Cloud Console.\n Object Storage   Volumes   Snapshots   Custom images   "
+},
+{
+	"uri": "http://example.org/identity-management/groups/",
+	"title": "Groups",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create and manage a new Group in the Cloud Console.\nTable of contents  Group page Create Group Сonfigure Group  Manage Users in Group Manage Projects in Group   Edit Group Delete Group  Groups page  NOTE: Using Groups in Cloud Console you can add additional Users to the Project.\n To get to the Group page you need to select the Groups from the side-bar menu. This action will redirect you to the Groups page, where you can find all created Groups related to the selected Organization with the Add Group button, Search bar, and Actions icon which opens a list of available management actions for the selected Group: Actions icon opens the next list of available management actions:\n Edit - this option is using to change the Group name; Delete - this option is using to remove the Group.  Create Group To create a new Group do the following:\n go to the Groups page and click on the CREATE GROUP icon in the upper left corner; specify the Name of the Group on the next opened Create Group window and click on the CREATE icon:   After these steps the newly created Group will be added to the Groups page. The next step is to configure the created Group.\nСonfigure Group To set up the Group membership and permissions you can from the Group details page. To get to the Group details page you need to click on the Name of the corresponding Group: On the Group details page you can see two blocks: the first top block is for Users, and the second one is for Projects that you want to share with Users from the top block: So, from this page you can:\n review which Users have access to which Projects; add more Users to the selected Projects; assign more Projects to the selected Users; remove Users from the selected Projects; remove Projects from access of selected Users;  Manage Users in Group  NOTE: You can add as many Users and Projects to the Group as you need.\n To add a new User to the selected Group do the next:\n go to the Group details page and click on the ADD USER icon; specify the E-mail address of the User that you want to add to the group and click on the ASEND INVITATION icon:   After this, the User whose email address you entered in the invitation will receive an email with the Accept invitation link. By clicking on this link, the user will be redirected to the Cloud Console, where he need to click the ACCEPT INVITATION icon.\nAnd on the yours Group details page you will see the added information about your invitation with the active Actions icon: Actions icon in this step opens the next list of available management actions:\n Resend invitation - this option is using to send one more invitation with the Accept invitation link. Delete invitation - this option is using to block the Accept invitation link in the invitation.  When the invited User accepts your invitation, he will get access to the projects that you provided in the appropriate Group and on your Group details page you will see this newly added User with active Actions icon: Actions icon after accepting invitation opens the next list of available management actions:\n Remove - this option is using to delete the User from the Group.  Manage Projects in Group To add the Project to the selected Group do the following:\n go to the Group details page and click on the ASSIGN TO THE PROJECT icon; select the Project to which you want to assign Users from the first block, and click on the ASSIGN icon:   After these steps, the newly added Project will appear in the second block of the Group details page with active Actions icon: Actions icon after accepting invitation opens the next list of available management actions:\n Remove - this option is using to delete the Project from the Group.  Users from the first block will have access to this Project and, accordingly, to all resources in this Project, but they will not be able to manage the Groups and Administrators of the Organization that owns this Project: Edit Group To Edit a Group do the following:\n to identify the Group you want to edit on the Groups page; click on the Actions icon and select the EDIT in the list of available options; on the next opened Edit Group window, update the Name of the selected Group and click on the SAVE icon. After these steps, the selected Group will be updeted.  Delete Group To Delete a Group do the following:\n to identify the unnecessary Group on the Groups page; click on the Actions icon and select the DELETE in the list of available options; on the next opened Confirmation window confirm the Group deletion. After these steps, the selected Group will be deleted.  "
+},
+{
+	"uri": "http://example.org/products/storage/snapshots/",
+	"title": "Snapshots",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit and delete Snapshots in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/security/ssh-keys/",
+	"title": "SSH Keys",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, delete SSH Keys and instructions for other steps to manage SSH Keys in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/network/",
+	"title": "Network",
+	"tags": [],
+	"description": "",
+	"content": "Network Here\u0026rsquo;s guides for Networks and Subnets in Cloud Console.\n Networks   Subnets   "
+},
+{
+	"uri": "http://example.org/products/security/cli-users/",
+	"title": "CLI Users",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in the Cloud Console.\nTable of contents "
+},
+{
+	"uri": "http://example.org/products/storage/custom-images/",
+	"title": "Custom images",
+	"tags": [],
+	"description": "",
+	"content": " On this page, you can find an explanation of how to create and delete custom images in the Cloud Console.\nTable of contents "
 },
 {
 	"uri": "http://example.org/categories/",

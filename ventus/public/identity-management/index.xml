@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Identity management on Ventus Docs</title>
+    <link>http://example.org/identity-management/</link>
+    <description>Recent content in Identity management on Ventus Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2019 01:53:09 +0330</lastBuildDate>
+    
+	<atom:link href="http://example.org/identity-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Administrators</title>
+      <link>http://example.org/identity-management/administrators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/identity-management/administrators/</guid>
+      <description>On this page, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.
+Table of contents  Administrators page Add Administrator to the Organization  Resend Invitation Delete Invitation   Transfer Organization Remove Administrator from the Organization  Administrators page   NOTE: To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
+    </item>
+    
+    <item>
+      <title>Groups</title>
+      <link>http://example.org/identity-management/groups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/identity-management/groups/</guid>
+      <description>On this page, you can find an explanation of how to create and manage a new Group in the Cloud Console.
+Table of contents  Group page Create Group Сonfigure Group  Manage Users in Group Manage Projects in Group   Edit Group Delete Group  Groups page  NOTE: Using Groups in Cloud Console you can add additional Users to the Project.
+ To get to the Group page you need to select the Groups from the side-bar menu.</description>
+    </item>
+    
+  </channel>
+</rss>

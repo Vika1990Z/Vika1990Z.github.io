@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Ventus Docs</title>
+    <link>http://example.org/products/storage/</link>
+    <description>Recent content in Storage on Ventus Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2019 01:53:09 +0330</lastBuildDate>
+    
+	<atom:link href="http://example.org/products/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Object Storage</title>
+      <link>http://example.org/products/storage/object-storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/object-storage/</guid>
+      <description> On this page, you can find an explanation of what is the Object Storage in the Cloud Console, how to create, delete and instructions for other steps to manage an Object Storage credentials in the Cloud Console.
+Table of contents </description>
+    </item>
+    
+    <item>
+      <title>Volumes</title>
+      <link>http://example.org/products/storage/volumes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/volumes/</guid>
+      <description> On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in the Cloud Console.
+Table of contents </description>
+    </item>
+    
+    <item>
+      <title>Snapshots</title>
+      <link>http://example.org/products/storage/snapshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/snapshots/</guid>
+      <description> On this page, you can find an explanation of how to create, edit and delete Snapshots in the Cloud Console.
+Table of contents </description>
+    </item>
+    
+    <item>
+      <title>Custom images</title>
+      <link>http://example.org/products/storage/custom-images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/custom-images/</guid>
+      <description> On this page, you can find an explanation of how to create and delete custom images in the Cloud Console.
+Table of contents </description>
+    </item>
+    
+  </channel>
+</rss>
