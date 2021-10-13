@@ -1,12 +1,13 @@
 +++
-title = "Compute"
+title = "**COMPUTE**"
 date = 2019-09-25T01:53:09+03:30
 weight = 10
 chapter = true
 pre = "<b>* </b>"
 +++
-### Chapter 3
-# Compute
+
+# **COMPUTE**
+____
 Here are guides for Linux and Windows virtual machines in Cloud Console.
 
 {{% children style="h4" depth="1" %}}
