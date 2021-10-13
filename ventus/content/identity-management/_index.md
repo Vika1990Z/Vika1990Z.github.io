@@ -5,8 +5,11 @@ weight = 15
 chapter = true
 pre = "<b>2. </b>"
 +++
-### Chapter 2
-# Identity management
+
+### **Chapter 2**
+# **Identity management**
+___
 Here are guides for managing members of organizations and projects.
+___
 
 {{% children style="h4" depth="1" %}}

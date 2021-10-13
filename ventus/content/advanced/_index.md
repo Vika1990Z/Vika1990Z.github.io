@@ -5,8 +5,11 @@ weight = 25
 chapter = true
 pre = "<b>4. </b>"
 +++
-### Chapter 4
-# Advanced
+
+### **Chapter 4**
+# **Advanced**
+___
 Here's tutorials for advanced users.
+___
 
 {{% children style="h4" depth="2" %}}
