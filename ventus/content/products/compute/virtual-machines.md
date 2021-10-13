@@ -20,7 +20,7 @@ To get to the *Virtual Machines page* you need to select the **Virtual Machi
 ![](../../assets/images/vms/1-vm.png?classes=border,shadow)  
 
 On this page you can find all created Virtual Machines in the current Project of the selected Organization with their *Headers, Create button, Search bar*, and *Actions icon* which opens a list of available management actions for the selected VM:
-![](../../assets/images/vms/2-vm.png?classes=border,shadow)  
+![](../../assets/images/vms/1-vm.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
 - *Start* - this option attempts to start the VM if it was stoppedd; 
