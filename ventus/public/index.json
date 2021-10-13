@@ -4,21 +4,21 @@
 	"title": "Home Page",
 	"tags": [],
 	"description": "",
-	"content": "Documentation Here you can find information on how to use all the services provided by Cloud Console, such as Virtual Machines, Kubernetes Clusters, and so on.\nDocumentation Summary  Getting Started   Account   Organizations   Projects   Identity management   Administrators   Groups   Products   Compute   Kubernetes   Security   Storage   Network   Advanced   "
+	"content": "Documentation Here you can find information of how to use all the services provided by Cloud Console, such as Virtual Machines, Kubernetes Clusters, and so on.\nDocumentation Summary  Getting Started   Account   Organizations   Projects   Identity management   Administrators   Groups   Products   COMPUTE   KUBERNETES   SECURITY   STORAGE   NETWORK   Advanced   "
 },
 {
 	"uri": "http://example.org/getting-started/",
 	"title": "Getting Started",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 1 Getting Started Here are guides for the first steps in Ventus Cloud, such as registration and creating first organization or project.\n Account   Organizations   Projects   "
+	"content": "Chapter 1 Getting Started  Here are guides for the first steps in Ventus Cloud, such as registration and creating first organization and project.\n  Account   Organizations   Projects   "
 },
 {
 	"uri": "http://example.org/products/compute/",
-	"title": "Compute",
+	"title": "COMPUTE",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 3 Compute Here are guides for Linux and Windows virtual machines in Cloud Console.\n Virtual Machines   Connect to Linux VM   Connect to Windows VM   "
+	"content": "COMPUTE  Here are guides for Linux and Windows virtual machines in Cloud Console.\n  Virtual Machines   Connect to Linux VM   Connect to Windows VM   "
 },
 {
 	"uri": "http://example.org/getting-started/account/",
@@ -46,21 +46,21 @@
 	"title": "Virtual Machines",
 	"tags": [],
 	"description": "",
-	"content": " On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage a Virtual Machines in the Cloud Console.\nTable of contents "
+	"content": " On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage Virtual Machines in the Cloud Console.\nTable of contents  Virtual Machines Page Create Linux Virtual Machine Create Windows Virtual Machine Download RDP File Edit a Virtual Machine Resize a Virtual Machine Delete a Virtual Machine Virtual Machine details page  Virtual Machines page To get to the Virtual Machines page you need to select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu. On this page you can find all created Virtual Machines in the current Project of the selected Organization with their Headers, Create button, Search bar, and Actions icon which opens a list of available management actions for the selected VM: Actions icon opens the next list of available management actions:\n Start - this option attempts to start the VM if it was stoppedd;  Stop - this option attempts to stop the VM; Soft reboot - this option attempts a graceful shut down and restart of the VM; Edit - this option attempts to to change VM\u0026rsquo;s name; Resize - this option attempts to change the Flavor for the VM; Delete - this option is for VM removing; Remote console - this option attempts to use remote console for VM.  Create Linux Virtual Machine To create a new Linux VM do the following:\n go to the Virtual Machines page and click on the CREATE VM icon in the upper left corner; fill in the form on the next opened Create Virtual Machine window and click on the CREATE icon:   Source - choose the source wich you want to use for VM creating: image, volume or snapshot;\n  OS Platform - choose the OS Platform wich you want to use for VM creating: Linux or Windows;\n  Image ID - set the ID of the previousluy selected Source for VM creating (Image ID, Volume ID or Snapshot ID);\n  Name - set a name for the VM;\n  Tags - this field is optional and use it if you need to set some tags for the VM;\n  Flavor - select the size for new VM;\n  Key pair - this field is neccessery only for Linux VMs, select here the SSH Key that was previously created on the SSH Keys page or create a new one, which you will use to connect to the Linux VM;\n  Networks: here you can choose one or more networks;\n  Firewalls: in this field you can choose what collection of network access rules will control the traffic to this VM;\nto connect to the selected Linux Virtual Machine remotely via SSH you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this please see the article Connect to Linux VM;  NOTE To connect to the selected Windows Virtual Machine remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this please see the article Connect to the Windows VM via RDP;    Volume size (GB): here you provide the preferred disk size for the VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size 10 GB; and also just below this field you can make a mark for auto-deleting volume when the VM is terminated;     After these steps the newly created VM will be added to the Virtual Machine page with the status ACTIVE: "
 },
 {
 	"uri": "http://example.org/identity-management/",
 	"title": "Identity management",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 2 Identity management Here are guides for managing members of organizations and projects.\n Administrators   Groups   "
+	"content": "Chapter 2 Identity management  Here are guides for managing members of organizations and projects.\n  Administrators   Groups   "
 },
 {
 	"uri": "http://example.org/products/kubernetes/",
-	"title": "Kubernetes",
+	"title": "KUBERNETES",
 	"tags": [],
 	"description": "",
-	"content": "Kubernetes Here are guides for Kubernetes Cluster in Cloud Console.\n K8S Cluster   Access K8S Cluster   "
+	"content": "KUBERNETES  Here are guides for Kubernetes Cluster in Cloud Console.\n  K8S Cluster   Access K8S Cluster   "
 },
 {
 	"uri": "http://example.org/products/kubernetes/accessing-kuber/",
@@ -102,14 +102,14 @@
 	"title": "Products",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 3 Products Here are guides for all Ventus Cloud products, services, and tools.\n Compute   Kubernetes   Security   Storage   Network   "
+	"content": "Chapter 3 Products  Here are guides for all Ventus Cloud products, services, and tools.\n  COMPUTE   KUBERNETES   SECURITY   STORAGE   NETWORK   "
 },
 {
 	"uri": "http://example.org/products/security/",
-	"title": "Security",
+	"title": "SECURITY",
 	"tags": [],
 	"description": "",
-	"content": "Security Here are guides for SSH Keys, Firewalls and CLI Users in Cloud Console.\n Firewalls   Firewall Rules   SSH Keys   CLI Users   "
+	"content": "SECURITY  Here are guides for SSH Keys, Firewalls and CLI Users in Cloud Console.\n  Firewalls   Firewall Rules   SSH Keys   CLI Users   "
 },
 {
 	"uri": "http://example.org/identity-management/administrators/",
@@ -144,7 +144,7 @@
 	"title": "Advanced",
 	"tags": [],
 	"description": "",
-	"content": "Chapter 4 Advanced Here\u0026rsquo;s tutorials for advanced users.\n "
+	"content": "Chapter 4 Advanced  Here\u0026rsquo;s tutorials for advanced users.\n  "
 },
 {
 	"uri": "http://example.org/getting-started/projects/",
@@ -162,10 +162,10 @@
 },
 {
 	"uri": "http://example.org/products/storage/",
-	"title": "Storage",
+	"title": "STORAGE",
 	"tags": [],
 	"description": "",
-	"content": "Storage Here are guides for Object Storage, Volumes, Snapshots and Images in Cloud Console.\n Object Storage   Volumes   Snapshots   Custom images   "
+	"content": "STORAGE  Here are guides for Object Storage, Volumes, Snapshots and Images in Cloud Console.\n  Object Storage   Volumes   Snapshots   Custom images   "
 },
 {
 	"uri": "http://example.org/identity-management/groups/",
@@ -190,10 +190,10 @@
 },
 {
 	"uri": "http://example.org/products/network/",
-	"title": "Network",
+	"title": "NETWORK",
 	"tags": [],
 	"description": "",
-	"content": "Network Here\u0026rsquo;s guides for Networks and Subnets in Cloud Console.\n Networks   Subnets   "
+	"content": "NETWORK  Here\u0026rsquo;s guides for Networks and Subnets in Cloud Console.\n  Networks   Subnets   "
 },
 {
 	"uri": "http://example.org/products/security/cli-users/",
