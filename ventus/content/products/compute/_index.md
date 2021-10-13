@@ -8,7 +8,7 @@ pre = "<b>      </b>"
 
 # **COMPUTE**
 ____
-Here are you can find an explanation of how to create, manage and use Linux and Windows virtual machines in Cloud Console.
+Here you can find an explanation of how to create, manage and use Linux and Windows virtual machines in Cloud Console.
 ____
 
 {{% children style="h4" depth="1" %}}

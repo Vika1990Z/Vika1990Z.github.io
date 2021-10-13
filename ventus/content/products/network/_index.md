@@ -8,7 +8,7 @@ pre = "<b>      </b>"
 
 # **NETWORK**
 ___
-Here are you can find an explanation of how to create, manage and use Networks and Subnets in Cloud Console.
+Here you can find an explanation of how to create, manage and use Networks and Subnets in Cloud Console.
 ___
 
 {{% children style="h4" depth="1" %}}

@@ -8,7 +8,7 @@ pre = "<b>      </b>"
 
 # **STORAGE**
 ___
-Here are you can find an explanation of how to create, manage and use Object Storage, Volumes, Snapshots and Images in Cloud Console.
+Here you can find an explanation of how to create, manage and use Object Storage, Volumes, Snapshots and Images in Cloud Console.
 ___
 
 {{% children style="h4" depth="1" %}}
