@@ -5,7 +5,7 @@ weight = 10
 chapter = true
 pre = "<b>* </b>"
 +++
-#### Chapter 1
+### Chapter 3
 # Compute
 Here are guides for Linux and Windows virtual machines in Cloud Console.
 
