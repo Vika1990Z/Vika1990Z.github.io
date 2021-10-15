@@ -152,3 +152,5 @@ This action will redirect you to the *Virtual Machine details page*, where you
   - LOG TAB - opens the *Log page* where you can find VM's logs.
   ![](../../../assets/images/vms/17.png?classes=border,shadow)
 
+
+
