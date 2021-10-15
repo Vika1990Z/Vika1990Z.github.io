@@ -10,8 +10,7 @@ On this page, you can find an explanation of how to connect to the Linux Virual 
 1. [Configuring Firewalls](#configuring-firewalls)
 1. [Connect using SSH](#connect-using-ssh)
 
-##Prerequisites##
-
+## Prerequisites
 In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
 - **SSH Key,** that was created with the next parameters:
   - *Name*: mykey;
@@ -27,11 +26,10 @@ In this article, we will assume that we have already created the following resou
   - *Volume size*: 10.
 
 For more information on creating and configuring these resources, see the following articles:
-- [SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)
-- [Linux and Windows Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)
+[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)
+[Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)
 
 ## Configuring Firewalls
-
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
 
 >**NOTE**: *Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too. 
@@ -52,7 +50,9 @@ To resolve this, we need to add an additional Firewall with a rule that will all
 - open the *Firewall Rules page* - for this click on the **Name** of the corresponding Firewall:
 ![](../../../assets/images/conn-lin/4.png?classes=border,shadow)
 
-- on the *Firewall Rules page* click on the CREATE FIREWALL RULE icon in the upper left corner;
+- on the *Firewall Rules page* you can see that rules that allow all outbound traffic have been already created by defaul and to add additional rule here click on the CREATE FIREWALL RULE icon in the upper left corner:
+![](../../../assets/images/conn-lin/16.png?classes=border,shadow)
+
 - fill in the form on the next opened *Create Firewall Rule window* as shown below  and click on the CREATE icon:
 ![](../../../assets/images/conn-lin/5.png?classes=border,shadow)
 
@@ -94,12 +94,12 @@ And that's all, this newly created Firewall Rule will be automatically applied t
 Since we have the public key deployed on our Linux VM, the private key on our local system (for example ~/.ssh/id_rsa) and a Firewall configured to allow incoming traffic on port 22, we can connect to this Virtual Machine remotely from our local server via SSH, just use the next command: 
 `ssh -i ~/.ssh/id_rsa username@*10.111.22.333*`
 
->**NOTE**: Username for VMs created with *Ubuntu image* will be **ubuntu**;
+>**NOTE**: Username for VMs created with *Ubuntu image* will be **ubuntu**;   
 with *Centos image* - **centos.**
 
 Replace *username* and *10.11.22.333* in the command with your data and specify the appropriate path to your private key. In our example, the command will look like this:
 `sudo ssh -i ~/.ssh/id_rsa ubuntu@185.226.41.42`
 ![](../../../assets/images/conn-lin/13.png?classes=border,shadow)
 
-After successfully connecting, you can check your internet access and try pinging [ventuscloud.com](http://ventuscloud.com/):
+After successfully connecting, you can check your internet access and try pinging [google.com](http://google.com/):
 ![](../../../assets/images/conn-lin/14.png?classes=border,shadow)
