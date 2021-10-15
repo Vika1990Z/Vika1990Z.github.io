@@ -1,14 +1,14 @@
 ---
-title: Connect to Linux VM
+title: Connect Linux VM
 weight: 15
 ---
 ___
-On this page, you can find an explanation of how to connect to the Linux Virual Machine created in the Cloud Console using SSH Protocol
+On this page, you can find an explanation of how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
-1. [Configuring Firewalls](#configuring-firewalls)
-1. [Connect using SSH](#connect-using-ssh)
+2. [Configuring Firewalls](#configuring-firewalls)
+3. [Connect using SSH](#connect-using-ssh)
 
 ## Prerequisites
 In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
@@ -26,7 +26,7 @@ In this article, we will assume that we have already created the following resou
   - *Volume size*: 10.
 
 For more information on creating and configuring these resources, see the following articles:  
-[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys);      
+[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)        
 [Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)   
 
 ## Configuring Firewalls
@@ -34,7 +34,7 @@ By default, all created Virtual Machines belong to the *default* Firewall, whi
 
 >**NOTE**: *Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too. 
 
-To resolve this, we need to add an additional Firewall with a rule that will allow incoming traffic to port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
+To resolve this, we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
 
 **To create new Firewall do the following:**
 - open the *Firewalls page -* for this select the **Security** from the VIRTUAL DATACENTER block and click on the FIREWALL TAB:
