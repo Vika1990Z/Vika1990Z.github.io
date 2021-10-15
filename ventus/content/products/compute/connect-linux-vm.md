@@ -25,9 +25,9 @@ In this article, we will assume that we have already created the following resou
   - *Firewalls*: default;
   - *Volume size*: 10.
 
-For more information on creating and configuring these resources, see the following articles:
-[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)
-[Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)
+For more information on creating and configuring these resources, see the following articles:  
+[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys);      
+[Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)   
 
 ## Configuring Firewalls
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
