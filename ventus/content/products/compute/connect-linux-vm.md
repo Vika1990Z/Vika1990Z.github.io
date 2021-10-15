@@ -56,7 +56,7 @@ To resolve this, we need to add an additional Firewall with a rule that will all
 - fill in the form on the next opened *Create Firewall Rule window* as shown below  and click on the CREATE icon:
 ![](../../../assets/images/conn-lin/5.png?classes=border,shadow)
 
-This newly added rule will allow access to the TCP port 22 on the all VMs in the default Firewall over the public Internet, but if you want to allow access only on the one selected VM you need to specify *IP of this VM / 32* in the field named *Remote IP prefix* - example is shown below:
+This newly added rule will allow access to the TCP port 22 on the all VMs in the created Firewall over the public Internet, but if you want to allow access only on the one selected VM you need to specify *IP of this VM / 32* in the field named *Remote IP prefix* - example is shown below:
 ![](../../../assets/images/conn-lin/6.png?classes=border,shadow)
 
 **To add this newly created Firewall to our Virtual Machine, do the following:**
@@ -72,7 +72,7 @@ This newly added rule will allow access to the TCP port 22 on the all VMs in the
 - select our newly created firewall on the following *Add firewall window* and click on the ADD icon:
 ![](../../../assets/images/conn-lin/10.png?classes=border,shadow)
 
-This is the first option, how we can configure the Firewall for SSH access - by creating a new one with the required rule. But we can just add this rule to the default Firewall that is already assigned to our VM, and these changes will automatically be applied to the VMs. 
+*This is the first option, how we can configure the Firewall for SSH access - by creating a new one with the required rule. But we can just add this rule to the default Firewall that is already assigned to our VM, and these changes will automatically be applied to the VMs.* 
 
 >**NOTE**: You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
 

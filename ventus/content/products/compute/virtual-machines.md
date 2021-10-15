@@ -16,7 +16,7 @@ On this page, you can find an explanation of how to create, resize, delete Linux
 1. [Virtual Machine details page](#virtual-machine-details-page)
 
 ## Virtual Machines page
-To get to the *Virtual Machines page* you need to select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*.
+To get to the *Virtual Machines page* select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/vms/1-vm.png?classes=border,shadow)  
 
 On this page you can find all created Virtual Machines in the current Project of the selected Organization with their *Headers, Create button, Search bar* and *Actions icon* which opens a list of available management actions for the selected VM:
@@ -116,7 +116,7 @@ To delete Virtual Machine you need:
 After these steps, the selected Virtual Machine will be deleted.
 
 ## Virtual Machine details page
-To open the *Virtual Machine details page* you need to click on the **Name** of the corresponding Virtual Machine:
+To open the *Virtual Machine details page* click on the **Name** of the corresponding Virtual Machine:
 ![](../../../assets/images/vms/10-vm.png?classes=border,shadow)
 
 This action will redirect you to the *Virtual Machine details page*, where you can find:
