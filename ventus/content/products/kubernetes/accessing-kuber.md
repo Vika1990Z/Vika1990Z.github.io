@@ -155,8 +155,7 @@ On CentOS, the extras repository provides the RPM that enables the OpenStack rep
 
 - Place RC File of the created CLI User to your Virtual Machine but first install the nano text editor, if not yet installed:    
 `sudo yum install -y nano`  
-`nano openrc`  
-
+`nano openrc`
 Сheck that there were indicated the correct OS_USERNAME and  OS_PROJECT_ID and press *Ctrl+S*, then *Ctrl+X* to save the changes:  
 ```
 #!/usr/bin/env bash
