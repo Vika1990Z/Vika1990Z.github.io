@@ -33,7 +33,7 @@ In this article, we will assume that we have already created the following resou
   - *Networks*: public;
   - *Firewalls*: default, for ssh
   - *Volume size*: 10.  
-- **Centos Virtual Machine (185.226.42.237)**, from which we will get access to the Kubernetes Cluster API; it was created with the next parameters and with additional Firewall named *for-ssh*, configured to allow incoming traffic on port 22,  so we can connect to this Virtual Machine remotely from our local server via SSH:
+- **Centos Virtual Machine (185.226.43.21)**, from which we will get access to the Kubernetes Cluster API; it was created with the next parameters and with additional Firewall named *for-ssh*, configured to allow incoming traffic on port 22,  so we can connect to this Virtual Machine remotely from our local server via SSH:
   - *Name*: test-3;
   - *Flavor*: VC-2;
   - *Image*: centos-8.2-2004;
@@ -110,13 +110,19 @@ for this we use SSH protocol - to find additional information about, it see the 
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
 In our case the output will be next:
-![](../../../assets/images/clusters/13.png?classes=border,shadow)
+```
+ubuntu@test-2:~$ openstack coe cluster list
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+| uuid                                 | name      | keypair | node_count | master_count | status          | health_status |
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+| 63fe23ab-eaab-46af-9173-131db353c993 | test-cl-1 | mykey   |          3 |            1 | UPDATE_COMPLETE | HEALTHY       |
+| 315c90c5-d74c-429d-b53f-fe0f68025a6e | test-cl-2 | mykey   |          1 |            1 | CREATE_COMPLETE | HEALTHY       |
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+```
 
 - Run the following command to get the *kubeconfig file* for the Cluster named *test-cl-2,* that you will be accessing:  
 `mkdir ~/test-cl-2`  
 `openstack coe cluster config --dir ~/test-cl-2 test-cl-2`  
-The output will be next:
-![](../../../assets/images/clusters/14.png?classes=border,shadow)
  
 - Export path to created config for as KUBECONFIG env variable:  
 `export KUBECONFIG=/home/ubuntu/test-cl-2/config`  
@@ -128,17 +134,38 @@ The output will be next:
 `kubectl get nodes`  
 `kubectl get pods --all-namespaces`  
 If everything is fine, the output should be close to the following:
-![](../../../assets/images/clusters/15.png?classes=border,shadow)
-
+```
+ubuntu@test-2:~$ kubectl get nodes
+NAME                              STATUS   ROLES    AGE   VERSION
+test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
+test-cl-2-ad3t5fyciosn-node-0     Ready    <none>   3d    v1.21.1
+ubuntu@test-2:~$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                                            READY   STATUS    RESTARTS   AGE
+kube-system   coredns-d58bdb66c-77tpn                         1/1     Running   0          3d
+kube-system   coredns-d58bdb66c-gxlcq                         1/1     Running   0          3d
+kube-system   dashboard-metrics-scraper-5594697f48-2fdzj      1/1     Running   0          3d
+kube-system   draino-784c9b8-ztm86                            1/1     Running   0          3d
+kube-system   k8s-keystone-auth-kcrv2                         1/1     Running   0          3d
+kube-system   kube-dns-autoscaler-f57cd985f-lxp2g             1/1     Running   0          3d
+kube-system   kube-flannel-ds-9rhgc                           1/1     Running   0          3d
+kube-system   kube-flannel-ds-gwvs8                           1/1     Running   0          3d
+kube-system   kubernetes-dashboard-545f6f795d-k9ngg           1/1     Running   0          3d
+kube-system   magnum-metrics-server-5694f476c-lzjmw           1/1     Running   0          3d
+kube-system   npd-pd5jq                                       1/1     Running   0          3d
+kube-system   openstack-autoscaler-manager-65dd4f65c5-plvr2   1/1     Running   0          3d
+kube-system   openstack-cinder-csi-controllerplugin-0         5/5     Running   0          3d
+kube-system   openstack-cinder-csi-nodeplugin-px2bj           2/2     Running   0          3d
+kube-system   openstack-cloud-controller-manager-mfswf        1/1     Running   1          3d
+```
 
 ## Get access from CentOS VM to K8S Cluster using CLI User
 To get the access from the CentOS Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:  
 - Loggin to your CentOS Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
 for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
-`ssh -i ~/.ssh/id_rsa centos@185.226.42.237`
+`ssh -i ~/.ssh/id_rsa centos@185.226.43.21`
 
-- Enable the OpenStack repository  
-On CentOS, the extras repository provides the RPM that enables the OpenStack repository. CentOS includes the extras repository by default, so you can simply install the package to enable the OpenStack repository. For CentOS 8, you will also need to enable the PowerTools repository:  
+- Enable the OpenStack repository;  
+on CentOS, the extras repository provides the RPM that enables the OpenStack repository. CentOS includes the extras repository by default, so you can simply install the package to enable the OpenStack repository. For CentOS 8, you will also need to enable the PowerTools repository:  
 `sudo yum install centos-release-openstack-ussuri`   
 `sudo yum config-manager --set-enabled PowerTools`  
 
@@ -181,19 +208,25 @@ On CentOS, the extras repository provides the RPM that enables the OpenStack rep
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
 In our case the output will be next:
-![](../../../assets/images/clusters/17.png?classes=border,shadow)
+```
+[centos@test-3 ~]$ openstack coe cluster list
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+| uuid                                 | name      | keypair | node_count | master_count | status          | health_status |
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+| 63fe23ab-eaab-46af-9173-131db353c993 | test-cl-1 | mykey   |          3 |            1 | UPDATE_COMPLETE | HEALTHY       |
+| 315c90c5-d74c-429d-b53f-fe0f68025a6e | test-cl-2 | mykey   |          1 |            1 | CREATE_COMPLETE | HEALTHY       |
++--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
+```
 
 - Run the following command to get the *kubeconfig file* for the Cluster named *test-cl-2,* that you will be accessing:  
 `mkdir ~/test-cl-2`  
 `openstack coe cluster config --dir ~/test-cl-2 test-cl-2`  
-The output will be next:
-![](../../../assets/images/clusters/18.png?classes=border,shadow)
  
 - Export path to created config for as KUBECONFIG env variable:  
 `export KUBECONFIG=/home/centos/test-cl-2/config`  
 
 - Install the latest release of  *kubectl*, make the kubectl binary executable and move the binary into your PATH by running the next commands:   
-`curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl`   
+`curl -LO https://storage.googleapis.com/kubernetes-release/release/'curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt'/bin/linux/amd64/kubectl`   
 `chmod +x ./kubectl`  
 `sudo mv ./kubectl /usr/local/bin/kubectl`  
 
@@ -201,7 +234,6 @@ The output will be next:
 `kubectl get nodes`  
 `kubectl get pods -A`  
 If everything is fine, the output should be close to the following:
-![](../../../assets/images/clusters/19.png?classes=border,shadow)
 ```
 [centos@test-3 ~]$ kubectl get nodes
 NAME                              STATUS   ROLES    AGE   VERSION
@@ -236,15 +268,35 @@ Replace *username* and *10.11.22.333* in the command with your data and spec
 `ssh -i ~/.ssh/id_rsa core@185.226.41.220`
 
 After successfully connecting, you can test that you have access to the selected Cluster and all pods are running, just run the following commands:  
-```
-kubectl get nodes
-kubectl get pods --all-namespaces
+`kubectl get nodes`  
+`kubectl get pods --all-namespaces`  
 ```
 
 If everything is fine, the output should be close to the following:
+```
+[core@test-cl-2-ad3t5fyciosn-master-0 ~]$ kubectl get nodes
+NAME                              STATUS   ROLES    AGE   VERSION
+test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
+test-cl-2-ad3t5fyciosn-node-0     Ready    <none>   3d    v1.21.1
+[core@test-cl-2-ad3t5fyciosn-master-0 ~]$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                                            READY   STATUS    RESTARTS   AGE
+kube-system   coredns-d58bdb66c-77tpn                         1/1     Running   0          3d
+kube-system   coredns-d58bdb66c-gxlcq                         1/1     Running   0          3d
+kube-system   dashboard-metrics-scraper-5594697f48-2fdzj      1/1     Running   0          3d
+kube-system   draino-784c9b8-ztm86                            1/1     Running   0          3d
+kube-system   k8s-keystone-auth-kcrv2                         1/1     Running   0          3d
+kube-system   kube-dns-autoscaler-f57cd985f-lxp2g             1/1     Running   0          3d
+kube-system   kube-flannel-ds-9rhgc                           1/1     Running   0          3d
+kube-system   kube-flannel-ds-gwvs8                           1/1     Running   0          3d
+kube-system   kubernetes-dashboard-545f6f795d-k9ngg           1/1     Running   0          3d
+kube-system   magnum-metrics-server-5694f476c-lzjmw           1/1     Running   0          3d
+kube-system   npd-pd5jq                                       1/1     Running   0          3d
+kube-system   openstack-autoscaler-manager-65dd4f65c5-plvr2   1/1     Running   0          3d
+kube-system   openstack-cinder-csi-controllerplugin-0         5/5     Running   0          3d
+kube-system   openstack-cinder-csi-nodeplugin-px2bj           2/2     Running   0          3d
+kube-system   openstack-cloud-controller-manager-mfswf        1/1     Running   1          3d
+```
 
-!![](../../../assets/images/clusters/16
-.png?classes=border,shadow)
 
 
 
