@@ -1,5 +1,5 @@
 ---
-title: Manage VM's Networks and Interfaces
+title: VM's Networks & Interfaces
 weight: 25
 ---
 ___
