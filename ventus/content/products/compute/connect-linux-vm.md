@@ -66,7 +66,7 @@ This newly added rule will allow access to the TCP port 22 on the all VMs in the
 - open the *Virtual Machine details page* - click on the **Name** of the corresponding Virtual Machine:
 ![](../../../assets/images/conn-lin/8.png?classes=border,shadow)
 
-- click on the NETWORKS & SECURITY TAB and click on the ADD FIREWALL icon in the upper left corner of the opened page:
+- open the NETWORKS & SECURITY TAB and click on the ADD FIREWALL icon in the upper left corner of the opened page:
 ![](../../../assets/images/conn-lin/9.png?classes=border,shadow)
 
 - select our newly created firewall on the following *Add firewall window* and click on the ADD icon:
