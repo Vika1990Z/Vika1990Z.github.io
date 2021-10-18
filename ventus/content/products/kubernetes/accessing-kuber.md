@@ -65,8 +65,8 @@ For more information on creating and configuring these resources, see the follow
 
 ## Get access from Ubuntu VM to K8S Cluster using CLI User
 To get the access from the Ubuntu Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:
-- Loggin to your Ubuntu Virtual Machine from which you want to get access to the Kubernetes Cluster API;
-  for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM via SSH:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
+- Loggin to your Ubuntu Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
+for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM via SSH:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
 `ssh -i ~/.ssh/id_rsa ubuntu@185.226.42.187`
 
 - Update Ubuntu package sources by running the following command:   
@@ -81,7 +81,6 @@ To get the access from the Ubuntu Virtual Machine to the created Kubernetes clus
 
 - Place RC File of the created CLI User to your Virtual Machine:  
 `vi openrc`  
-
 Сheck that there were indicated the correct OS_USERNAME and  OS_PROJECT_ID and press *Esc:wq*, then *Enter* to save the changes:  
 ```
 #!/usr/bin/env bash
@@ -110,14 +109,12 @@ To get the access from the Ubuntu Virtual Machine to the created Kubernetes clus
 - Provide the password of the created CLI User and hit *Enter* - this password will be used to authenticate you in the Cloud Console.  
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
-
 In our case the output will be next:
 ![](../../../assets/images/clusters/13.png?classes=border,shadow)
 
 - Run the following command to get the *kubeconfig file* for the Cluster named *test-cl-2,* that you will be accessing:  
 `mkdir ~/test-cl-2`  
 `openstack coe cluster config --dir ~/test-cl-2 test-cl-2`  
-
 The output will be next:
 ![](../../../assets/images/clusters/14.png?classes=border,shadow)
  
@@ -130,15 +127,14 @@ The output will be next:
 - Run the next commands to test that you have access to the selected Cluster and all pods are running:  
 `kubectl get nodes`  
 `kubectl get pods --all-namespaces`  
-
 If everything is fine, the output should be close to the following:
 ![](../../../assets/images/clusters/15.png?classes=border,shadow)
 
 
 ## Get access from CentOS VM to K8S Cluster using CLI User
-To get the access from the CentOS Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:
-- Loggin to your CentOS Virtual Machine from which you want to get access to the Kubernetes Cluster API;
-  for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
+To get the access from the CentOS Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:  
+- Loggin to your CentOS Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
+for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
 `ssh -i ~/.ssh/id_rsa centos@185.226.42.237`
 
 - Enable the OpenStack repository  
@@ -184,14 +180,12 @@ On CentOS, the extras repository provides the RPM that enables the OpenStack rep
 - Provide the password of the created CLI User and hit *Enter* - this password will be used to authenticate you in the Cloud Console.  
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
-
 In our case the output will be next:
 ![](../../../assets/images/clusters/17.png?classes=border,shadow)
 
 - Run the following command to get the *kubeconfig file* for the Cluster named *test-cl-2,* that you will be accessing:  
 `mkdir ~/test-cl-2`  
 `openstack coe cluster config --dir ~/test-cl-2 test-cl-2`  
-
 The output will be next:
 ![](../../../assets/images/clusters/18.png?classes=border,shadow)
  
@@ -199,18 +193,38 @@ The output will be next:
 `export KUBECONFIG=/home/centos/test-cl-2/config`  
 
 - Install the latest release of  *kubectl*, make the kubectl binary executable and move the binary into your PATH by running the next commands:   
-```
-curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl   
-chmod +x ./kubectl   
-sudo mv ./kubectl /usr/local/bin/kubectl   
-```
+`curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl`   
+`chmod +x ./kubectl`  
+`sudo mv ./kubectl /usr/local/bin/kubectl`  
 
 - Run the next commands to test that you have access to the selected Cluster and all pods are running:  
 `kubectl get nodes`  
 `kubectl get pods -A`  
-
 If everything is fine, the output should be close to the following:
 ![](../../../assets/images/clusters/19.png?classes=border,shadow)
+```
+[centos@test-3 ~]$ kubectl get nodes
+NAME                              STATUS   ROLES    AGE   VERSION
+test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
+test-cl-2-ad3t5fyciosn-node-0     Ready    <none>   3d    v1.21.1
+[centos@test-3 ~]$ kubectl get pods -A
+NAMESPACE     NAME                                            READY   STATUS    RESTARTS   AGE
+kube-system   coredns-d58bdb66c-77tpn                         1/1     Running   0          3d
+kube-system   coredns-d58bdb66c-gxlcq                         1/1     Running   0          3d
+kube-system   dashboard-metrics-scraper-5594697f48-2fdzj      1/1     Running   0          3d
+kube-system   draino-784c9b8-ztm86                            1/1     Running   0          3d
+kube-system   k8s-keystone-auth-kcrv2                         1/1     Running   0          3d
+kube-system   kube-dns-autoscaler-f57cd985f-lxp2g             1/1     Running   0          3d
+kube-system   kube-flannel-ds-9rhgc                           1/1     Running   0          3d
+kube-system   kube-flannel-ds-gwvs8                           1/1     Running   0          3d
+kube-system   kubernetes-dashboard-545f6f795d-k9ngg           1/1     Running   0          3d
+kube-system   magnum-metrics-server-5694f476c-lzjmw           1/1     Running   0          3d
+kube-system   npd-pd5jq                                       1/1     Running   0          3d
+kube-system   openstack-autoscaler-manager-65dd4f65c5-plvr2   1/1     Running   0          3d
+kube-system   openstack-cinder-csi-controllerplugin-0         5/5     Running   0          3d
+kube-system   openstack-cinder-csi-nodeplugin-px2bj           2/2     Running   0          3d
+kube-system   openstack-cloud-controller-manager-mfswf        1/1     Running   1          3d
+```
 
 ## Connect to Cluster Master-Node via SSH
 Since we created an SSH Keypair (see Prerequsutus of this article), the public key of which is deployed on our Cluster nodes, and the private key on our local system (for example, ~ / .ssh / id_rsa), we can connect to this Kubernetes Cluster remotely from our local server - via SSH to the Master Node of the selected Cluster, which IP is 185.226.41.220. For this, just use the following command:  
