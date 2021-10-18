@@ -110,7 +110,7 @@ for this we use SSH protocol - to find additional information about, it see the 
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
 In our case the output will be next:
-```
+```output
 ubuntu@test-2:~$ openstack coe cluster list
 +--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
 | uuid                                 | name      | keypair | node_count | master_count | status          | health_status |
@@ -134,7 +134,7 @@ ubuntu@test-2:~$ openstack coe cluster list
 `kubectl get nodes`  
 `kubectl get pods --all-namespaces`  
 If everything is fine, the output should be close to the following:
-```
+```output
 ubuntu@test-2:~$ kubectl get nodes
 NAME                              STATUS   ROLES    AGE   VERSION
 test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
@@ -208,7 +208,7 @@ on CentOS, the extras repository provides the RPM that enables the OpenStack rep
 - Run the next command to get a list of all clusters created in the corresponding Project and to which your User has access:  
 `openstack coe cluster list`  
 In our case the output will be next:
-```
+```output
 [centos@test-3 ~]$ openstack coe cluster list
 +--------------------------------------+-----------+---------+------------+--------------+-----------------+---------------+
 | uuid                                 | name      | keypair | node_count | master_count | status          | health_status |
@@ -234,7 +234,7 @@ In our case the output will be next:
 `kubectl get nodes`  
 `kubectl get pods -A`  
 If everything is fine, the output should be close to the following:
-```
+```output
 [centos@test-3 ~]$ kubectl get nodes
 NAME                              STATUS   ROLES    AGE   VERSION
 test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
