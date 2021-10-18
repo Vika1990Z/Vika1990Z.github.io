@@ -3,7 +3,7 @@ title: Virtual Machines
 weight: 10
 ---
 ___
-On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage Virtual Machines in the Cloud Console.
+On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage Virtual Machines in Cloud Console.
 
 # Table of contents
 1. [Virtual Machines Page](#virtual-machines-page)

@@ -15,7 +15,7 @@ In this article, we will assume that we have already created the following resou
 - **SSH Key,** that was created with the next parameters:
   - *Name*: mykey;
   - *Public key* is placed on the Linux VM during its creation;
-  - *Private Key* was copied to the clipboard and saved on the local system in the next text file (for example: ~/.ssh/id\_rsa).
+  - *Private Key* was copied to the clipboard and saved on the local system in the next text file (for example: ~/.ssh/id_rsa).
 - **Linux Virtual Machine** - that was created with the next parameters and has IP: 185.226.41.42:
   - *Name*: test-1;
   - *Flavor*: VC-2;

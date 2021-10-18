@@ -74,6 +74,9 @@ To open the *Cluster details page* click on the **Name** of the corresponding
 ![](../../../assets/images/clusters/7.png?classes=border,shadow)
 
 This action will redirect you to the *Cluster  details page*, where you can find four tabs with additional information about selected Cluster and panel with available **quick actions**:
+- panel with available **quick actions** include all available managment actions with this cluster such as: edit (resize), delete and download kubeconfig file:
+![](../../../assets/images/clusters/12.png?classes=border,shadow)
+
 - INFO Tab with actual information about this Cluster: ID, Current Status, Errors, Creation Date, Date of the last update and Cluster template:
 ![](../../../assets/images/clusters/8.png?classes=border,shadow)
 
@@ -86,5 +89,3 @@ This action will redirect you to the *Cluster  details page*, where you can f
 - LABELS Tab with some additional information abiut this clster:
 ![](../../../assets/images/clusters/11.png?classes=border,shadow)
 
-- panel with available **quick actions** include all available managment actions with this cluster such as: edit (resize), delete and download kubeconfig file:
-![](../../../assets/images/clusters/12.png?classes=border,shadow)
