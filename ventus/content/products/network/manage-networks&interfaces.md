@@ -1,5 +1,5 @@
 ---
-title: VM's Networks & Interfaces
+title: VM's Networks and Interfaces
 weight: 25
 ---
 ___
