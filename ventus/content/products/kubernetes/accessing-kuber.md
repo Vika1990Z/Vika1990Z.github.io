@@ -270,10 +270,9 @@ Replace *username* and *10.11.22.333* in the command with your data and spec
 After successfully connecting, you can test that you have access to the selected Cluster and all pods are running, just run the following commands:  
 `kubectl get nodes`  
 `kubectl get pods --all-namespaces`  
-```
 
 If everything is fine, the output should be close to the following:
-```
+```output
 [core@test-cl-2-ad3t5fyciosn-master-0 ~]$ kubectl get nodes
 NAME                              STATUS   ROLES    AGE   VERSION
 test-cl-2-ad3t5fyciosn-master-0   Ready    master   3d    v1.21.1
