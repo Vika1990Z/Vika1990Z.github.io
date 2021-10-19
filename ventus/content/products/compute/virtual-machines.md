@@ -7,13 +7,14 @@ On this page, you can find an explanation of how to create, resize, delete Linux
 
 # Table of contents
 1. [Virtual Machines Page](#virtual-machines-page)
-1. [Create Linux Virtual Machine](#create-linux-virtual-machine)
-1. [Create Windows Virtual Machine](#create-windows-virtual-machine)
-1. [Download RDP File](#download-rdp-file)
-1. [Edit Virtual Machine](#edit-virtual-machine)
-1. [Resize Virtual Machine](#resize-virtual-machine)
-1. [Delete Virtual Machine](#delete-virtual-machine)
-1. [Virtual Machine details page](#virtual-machine-details-page)
+2. [Create Linux Virtual Machine](#create-linux-virtual-machine)
+3. [Create Windows Virtual Machine](#create-windows-virtual-machine)
+4. [Virtual Machine details page](#virtual-machine-details-page)
+5. [Download RDP File](#download-rdp-file)
+6. [Edit Virtual Machine](#edit-virtual-machine)
+7. [Resize Virtual Machine](#resize-virtual-machine)
+8. [Delete Virtual Machine](#delete-virtual-machine)
+
 
 ## Virtual Machines page
 To get to the *Virtual Machines page* select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
@@ -78,43 +79,6 @@ To create a new Windows VM do the following:
 After these steps, the newly created Windows VM will be added to the *Virtual Machine page* with the status ACTIVE:
 ![](../../../assets/images/vms/6-vm.png?classes=border,shadow)
 
-## Download RDP File
->**NOTE:** This option is available only for Windows VMs and attempts to download RDP file for the remote connection to the Windows VMs.
-
-To download RDP for the remote connection to the Windows Virtual Machine do the following:
-- identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;
-- click on the **Actions** icon and select the **Download RDP file** in the list of available options.
-
-After these steps, the RDP File of the selected Windows Virtual Machine will be downloaded.
-
-## Edit Virtual Machine
-To edit a Virtual Machine do the following:
-- identify Virtual Machine that you want to edit on the *Virtual Machines page*;
-- click on the **Actions** icon  and select the **Edit** in the list of available options;
-- update the Virtual Machine Name on the opened *Edit Virtual Machines window*  and click on the SAVE icon.
-
-After these steps, the selected Virtual Machine will be updated.
-
-## Resize Virtual Machine
-To resize a Virtual Machine do the following:
-- identify Virtual Machine you want to resize on the *Virtual Machines page*;
-- click on the **Actions** icon and select the **Resize** in the list of available options;
-- choose new flavor for the Virtual Machine on the next opened *Resize Virtual Machines window* and click on the SAVE icon;
-- verify resize by clicking again on the **Actions** icon and select additional option - **Confirm resize**
-
-When the VM's status changes from RESIZE to VERIFY_RESIZE you can confirm or revert your action, just click again on the **Actions** icon and select one of the additional options - **Confirm resize** or **Revert resize**:
-![](../../../assets/images/vms/9-vm.png?classes=border,shadow)
-
-If you confirm resizing, the selected virtual machine will be resized after a few minutes and its status will be ACTIVE.
-
-## Delete Virtual Machine
-To delete Virtual Machine do the following:
-- identify this unnecessary Virtual Machine on the *Virtual Machines page*;
-- click on the **Actions** icon  and select the **Delete** in the list of available options;
-- confirm the Virtual Machine deletion on the next opened *Confirmation window*.
-
-After these steps, the selected Virtual Machine will be deleted.
-
 ## Virtual Machine details page
 To open the *Virtual Machine details page* click on the **Name** of the corresponding Virtual Machine:
 ![](../../../assets/images/vms/10-vm.png?classes=border,shadow)
@@ -151,6 +115,49 @@ This action will redirect you to the *Virtual Machine details page*, where you
 
   - LOG TAB - opens the *Log page* where you can find VM's logs.
   ![](../../../assets/images/vms/17.png?classes=border,shadow)
+
+## Download RDP File
+>**NOTE:** This option is available only for Windows VMs and attempts to download RDP file for the remote connection to the Windows VMs.
+
+To download RDP for the remote connection to the Windows Virtual Machine do the following:
+- identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;
+- click on the **Actions** icon and select the **Download RDP file** in the list of available options.
+
+After these steps, the RDP File of the selected Windows Virtual Machine will be downloaded.
+Also, you can download RDP file from this *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon.
+
+## Edit Virtual Machine
+To edit a Virtual Machine do the following:
+- identify Virtual Machine that you want to edit on the *Virtual Machines page*;
+- click on the **Actions** icon  and select the **Edit** in the list of available options;
+- update the Virtual Machine Name on the opened *Edit Virtual Machines window*  and click on the SAVE icon.
+
+After these steps, the selected Virtual Machine will be updated.
+Also, you can edit Virtual Machine from this *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon.
+
+## Resize Virtual Machine
+To resize a Virtual Machine do the following:
+- identify Virtual Machine you want to resize on the *Virtual Machines page*;
+- click on the **Actions** icon and select the **Resize** in the list of available options;
+- choose new flavor for the Virtual Machine on the next opened *Resize Virtual Machines window* and click on the SAVE icon;
+- verify resize by clicking again on the **Actions** icon and select additional option - **Confirm resize**
+
+When the VM's status changes from RESIZE to VERIFY_RESIZE you can confirm or revert your action, just click again on the **Actions** icon and select one of the additional options - **Confirm resize** or **Revert resize**:
+![](../../../assets/images/vms/9-vm.png?classes=border,shadow)
+
+If you confirm resizing, the selected virtual machine will be resized after a few minutes and its status will be ACTIVE.
+Also, you can resize Virtual Machine from this *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon.
+
+## Delete Virtual Machine
+To delete Virtual Machine do the following:
+- identify this unnecessary Virtual Machine on the *Virtual Machines page*;
+- click on the **Actions** icon  and select the **Delete** in the list of available options;
+- confirm the Virtual Machine deletion on the next opened *Confirmation window*.
+
+After these steps, the selected Virtual Machine will be deleted.
+Also, you can delete Virtual Machine from this *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon.
+
+
 
 
 
