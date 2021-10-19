@@ -12,7 +12,6 @@ On this page, you can find an explanation of how to create, edit and delete Netw
 4. [Delete Network](#delete-network)
 
 ## Networks page
-
 To get to the *Networks page* select the **Networks**  from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/networks/1.png?classes=border,shadow) 
 
@@ -30,24 +29,31 @@ To create a new Network do the following:
 ![](../../../assets/images/networks/3.png?classes=border,shadow)  
   - *Name* - set a name for the Network; 
   - *Description* - set a description for the Network;
-  - make a mark if the Network need the *administrative* state to be up;
+  - make a mark if the Network need the *administrative* state to be up.
 
-After these steps the newly created Network will be added to the *Networks page* with the status ACTIVE:
+After these steps, the newly created Network will be added to the *Networks page* with the status ACTIVE.
+Now you can open the *Subnets page* related to this Network - for this click on the **Name** of the corresponding Network:
 ![](../../../assets/images/networks/4.png?classes=border,shadow) 
 
+On this page you can find all Subnets related to the selected Network with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet and panel with available **quick actions**:
+![](../../../assets/images/networks/12.png?classes=border,shadow) 
+For more information about Subnets, please, see the next article - [Subnets]()
+
 ## Edit Network
-To edit a Network you need:
-- to identify the Network that you want to edit on the *Networks page*;
-- to click on the **Actions** icon  and select the **Edit** in the list of available options;
-- update the Name or/and Description of the selected Network, change its administrative state on the next opened *Edit Network window* and click on the SAVE icon;
+To edit a Network do the following:
+- identify the Network that you want to edit on the *Networks page*;
+- click on the **Actions** icon  and select the **Edit** in the list of available options;
+- update the Name or/and Description of the selected Network, change its administrative state on the next opened *Edit Network window* and click on the SAVE icon.
 
 After these steps, the selected Network will be updated.
+Also, you can edit the Network from its *Subnets page*, by clicking on the appropriative **quick actions** icon.
 
 ## Delete Network
-To delete a Network you need:
-- to identify this unnecessary Network on the *Networks page*;
-- to click on the **Actions** icon  and select the **Delete** in the list of available options;
-- to confirm the Network deletion on the next opened C*onfirmation window*;
+To delete a Network do the following:
+- identify this unnecessary Network on the *Networks page*;
+- click on the **Actions** icon  and select the **Delete** in the list of available options;
+- confirm the Network deletion on the next opened *Confirmation window*.
 
 After these steps, the selected Network will be deleted.
+Also, you can delete the Network from its *Subnets page*, by clicking on the appropriative **quick actions** icon.
 

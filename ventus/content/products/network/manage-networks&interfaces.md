@@ -30,22 +30,21 @@ So, in this article, we are interested in the first upper block of the opened p
 In the first upper block you can find all Networks related to the corresponding VM with their *Headers*, *Add Interface button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Network;
 
 ## Add Interface
-To add additional Interface to the selected VM you need:
-
-- to click on the ADD INTERFACE icon;
-- to select one of the available Networks, specify *Fixed IPs* on the next opened *Add interface window* and click on the ADD icon:
+To add additional Interface to the selected VM do the following:
+- click on the ADD INTERFACE icon;
+- select one of the available Networks, specify *Fixed IPs* on the next opened *Add interface window* and click on the ADD icon:
 ![](../../../assets/images/networks/10.png?classes=border,shadow)
 
 >**NOTE:** You can select only Networks that have associated Subnets.  
 The Fixed IPs should be selected from the Allocation pools of the corresponding Subnet.
 
-After these steps the newly added Interface will appear in the first top block of the NETWORKS & SECURITY TAB of the *selected VM detailed page* with the status ACTIVE:
+After these steps, the newly added Interface will appear in the first top block of the NETWORKS & SECURITY TAB of the *selected VM detailed page* with the status ACTIVE:
 ![](../../../assets/images/networks/11.png?classes=border,shadow)
 
 ## Remove Interface
-To remove the Interface from the corresponding VM you need:
-- to identify unnecessery Interface that you want to remove on the NETWORKS & SECURITY TAB of the *selected VM detailed page*;
-- to click on the **Actions** icon  and select the **Remove** in the list of available options;
-- to confirm the Interface deletion on the next opened C*onfirmation window*.
+To remove the Interface from the corresponding VM do the following:
+- identify unnecessery Interface that you want to remove on the NETWORKS & SECURITY TAB of the *selected VM detailed page*;
+- click on the **Actions** icon  and select the **Remove** in the list of available options;
+- confirm the Interface deletion on the next opened C*onfirmation window*.
 
 After these steps, the selected Interface will be deleted.

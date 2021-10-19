@@ -42,7 +42,7 @@ To create a new Cluster do the following:
   - *Enable auto-scaling* - if you choose to enable this option, please set the  limits of node count; the max count is 10 nodes; 
   - *Accessible on private network only*.
 
-After these steps the newly created Cluster will be added to the *Clusters page* with the status CREATE_COMPLETE (Estimate creation time about 5 minutes).
+After these steps, the newly created Cluster will be added to the *Clusters page* with the status CREATE_COMPLETE (Estimate creation time about 5 minutes).
 
 ## Download kubeconfig file
 >**NOTE:** The kubeconfig file is required to configure access to a cluster and switch between multiple clusters, multiple users, and with different authentication mechanisms such as passwords or tokens.

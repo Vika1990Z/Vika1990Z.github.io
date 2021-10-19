@@ -44,7 +44,7 @@ To resolve this, we need to add an additional Firewall with a rule that will all
 - open the *Firewall Rules page* - for this click on the **Name** of the corresponding Firewall:
 ![](../../../assets/images/conn-lin/18.png?classes=border,shadow)
 
-- on the *Firewall Rules page* you can see that rules that allow all outbound traffic have been already created by defaul and to add additional rule here click on the CREATE FIREWALL RULE icon in the upper left corner:
+- on the *Firewall Rules page* you can see that rules, that allow all outbound traffic, have been already created by default, and to add additional rule here click on the CREATE FIREWALL RULE icon in the upper left corner:
 ![](../../../assets/images/conn-lin/19.png?classes=border,shadow)
 
 - fill in the form on the next opened *Create Firewall Rule window* as shown below  and click on the CREATE icon:

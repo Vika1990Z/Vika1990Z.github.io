@@ -36,7 +36,7 @@ To create a new Subnet do the following:
   - *Disable Gateway* - enable or disable using Gateway IP for Subnet;
   - *Host Routes* - specify additional routes announced to the hosts; each entry is: destination_cidr,next-hop; one entry per line.
 
-After these steps the newly created Subnet will be added to the *Subnets page*:
+After these steps, the newly created Subnet will be added to the *Subnets page*:
 
 ## Edit Subnet
 To edit a Subnet do the following:
