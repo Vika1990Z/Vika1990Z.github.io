@@ -43,7 +43,7 @@ Now you can open its *Subnets page* by clicking on the **Name** of the corresp
 
 On this page you can find all Subnets related to the selected Network with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet:
 ![](../../../assets/images/networks/12.png?classes=border,shadow) 
-   
+  
 For more information about Networks and their Subnets, please, see the next articles:  
 [Networks]()  
 [Subnets]()

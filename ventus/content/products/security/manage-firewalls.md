@@ -35,12 +35,14 @@ To add additional Firewall to the selected VM do the following:
 - select one of the available priviously added Firewalls and click on the ADD icon:
 ![](../../../assets/images/fw/10.png?classes=border,shadow)
 
-After these steps, the newly added Firewall will be added to the selected.    
+After these steps, the newly added Firewall will be added to the selected.  
 Now you can open this *Firewall Rules page* by clicking on the **Name** of the corresponding Firewall:
 ![](../../../assets/images/fw/11.png?classes=border,shadow)  
 
 On this page you can find all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
 ![](../../../assets/images/fw/12.png?classes=border,shadow) 
+
+>**NOTE**: You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
    
 For more information about Firewalls and their Rules, please, see the next articles:  
 [Firewalls]()  

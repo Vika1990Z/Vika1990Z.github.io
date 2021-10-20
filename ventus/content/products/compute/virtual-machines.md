@@ -20,7 +20,7 @@ On this page, you can find an explanation of how to create, resize, delete Linux
 To get to the *Virtual Machines page* select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/vms/1-vm.png?classes=border,shadow)  
 
-On this page you can find all created Virtual Machines in the current Project of the selected Organization with their *Headers, Create button, Search bar* and *Actions icon* which opens a list of available management actions for the selected VM:
+On this page you can find all created Virtual Machines in the current Project of the selected Organization with their *Headers, Create button, Search bar* and *Actions icon*, which opens a list of available management actions for the selected VM:
 ![](../../../assets/images/vms/2-vm.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
@@ -34,7 +34,7 @@ On this page you can find all created Virtual Machines in the current Project of
 - *Download RDP file* - this option is available only for Windows VMs and attempts to download RDP file for the remote connection to the Windows VMs;
 
 ## Create Linux Virtual Machine
-To create a new Linux VM do the following:
+To create new Linux VM do the following:
 - go to the *Virtual Machines page* and click on the CREATE VM icon in the upper left corner;
 - fill in the form on the next opened *Create Virtual Machine window* and click on the CREATE icon:
 ![](../../../assets/images/vms/3-vm.png?classes=border,shadow)
@@ -47,7 +47,7 @@ To create a new Linux VM do the following:
   - *Key pair* - this field is necessary only for Linux VMs; select here the SSH Key that was previously created on the *SSH Keys page* or create a new one, which you will use to connect to the Linux VM;
   - *Networks* - choose one or more networks;
   - *Firewalls*- choose what collection of network access rules will control the traffic to this VM;  
-    >**NOTE:** To connect to the selected **Linux Virtual Machine** remotely via SSH you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this please see the article **[Connect to Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)**;
+    >**NOTE:** To connect to the selected **Linux Virtual Machine** remotely via SSH you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this, please see the article **[Connect to Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)**;
     ![](../../../assets/images/vms/4-vm.png?classes=border,shadow)
 
   - *Volume size (GB)* - provide the preferred disk size for the VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size for Linux VMs - 10 GB; and also just below this field you can make a mark ***for auto-deleting volume*** when the VM is terminated;   
@@ -57,7 +57,7 @@ After these steps, the newly created Linux VM will be added to the *Virtual Mac
 
 
 ## Create Windows Virtual Machine
-To create a new Windows VM do the following:
+To create new Windows VM do the following:
 - go to the *Virtual Machines page* and click on the CREATE VM icon in the upper left corner;
 - fill in the form on the next opened *Create Virtual Machine window* and click on the CREATE icon:
 ![](../../../assets/images/vms/7-vm.png?classes=border,shadow)
@@ -71,7 +71,7 @@ To create a new Windows VM do the following:
   - *Confirm password;*
   - *Networks* - choose one or more networks;
   - *Firewalls*- choose what collection of network access rules will control the traffic to this VM; 
-    >**NOTE:** To connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this please see the article **[Connect to the Windows VM via RDP](https://kb.ventuscloud.eu/knowledge/connect-windows-vm)**;
+    >**NOTE:** To connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this, please see the article **[Connect to the Windows VM via RDP](https://kb.ventuscloud.eu/knowledge/connect-windows-vm)**;
     ![](../../../assets/images/vms/5-vm.png?classes=border,shadow)
 
   - *Volume size (GB)* - provide the preferred disk size for this VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size for Windows VMs - 40 GB; and also just below this field you can make a mark ***for auto-deleting volume*** when the VM is terminated;   

@@ -27,7 +27,7 @@ On this page you can find all created Kubernetes Clusters in the current Project
 - *Delete* - this option is for Cluster removing.
 
 ## Create Cluster
-To create a new Cluster do the following:
+To create new Cluster do the following:
 - go to the *Clusters page* and click on the CREATE CLUSTER icon in the upper left corner;
 - fill in the form on the next opened *Create Cluster window* and click on the CREATE icon:
 ![](../../../assets/images/clusters/3.png?classes=border,shadow) 

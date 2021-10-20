@@ -18,10 +18,13 @@ On this page, you can find an explanation of how to create, delete Firewall Rule
 To get to the *Firewall Rules page* click on the **Name** of the corresponding Firewall on the *Firewalls page*:
 ![](../../../assets/images/fw/5.png?classes=border,shadow) 
 
-On this page you can find all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
+On this page you can find:
+- panel with available **quick actions** for the selected Firewall: 
+![](../../../assets/images/networks/13.png?classes=border,shadow) 
+- all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
 ![](../../../assets/images/fw/4.png?classes=border,shadow)  
 
-**Actions** icon opens the next list of available management actions:
+**Actions** icon opens the next list of available management actions for the selected Rule:
 - *Delete* - this option is for Firewall Rule deletion.
 
 After creating a new Firewall, two rules have been automatically added to the *Firewall Rules page* - the default rules that allow all outgoing traffic. 
@@ -38,7 +41,7 @@ Firewall Rules have the following characteristics:
 - You can assign multiple Firewalls to the VMs. The rules from each Firewall are effectively aggregated to create one set of rules, but we recommend that you condense your rules as much as possible.
 
 ## Create Firewall Rule
-To create a new Firewall Rule do the following:
+To create new Firewall Rule do the following:
 - go to the *Firewall Rules page* and click on the CREATE FIREWALL RULE icon in the upper left corner;
 - fill in the form on the next opened *Create Firewall Rule window*:
 ![](../../../assets/images/conn-lin/20.png?classes=border,shadow)

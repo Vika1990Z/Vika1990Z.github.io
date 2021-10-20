@@ -15,7 +15,7 @@ On this page, you can find an explanation of how to create, edit and delete Netw
 To get to the *Networks page* select the **Networks**  from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/networks/1.png?classes=border,shadow) 
 
-On this page you can find the default *public* Network, all your own Networks created, and the Networks created during Cluster creation, with their *Headers*, *Create button*, *Search* *bar* and *Actions icon* which opens a list of available management actions for the selected Network:
+On this page you can find the default *public* Network, all your own Networks created in the current Project, and the Networks created during Cluster creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Network:
 ![](../../../assets/images/networks/2.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions but isn't active for default public Network:
@@ -23,7 +23,7 @@ On this page you can find the default *public* Network, all your own Networks 
 - *Delete* - this option is for Network removing.
 
 ## Create Network
-To create a new Network do the following:
+To create new Network do the following:
 - go to the *Networks page* and click on the CREATE NETWORK icon in the upper left corner;  
 - fill in the form on the next opened *Create Network window* and click on the CREATE icon:
 ![](../../../assets/images/networks/3.png?classes=border,shadow)  
@@ -36,8 +36,12 @@ After these steps, the newly created Network will be added to the *Networks pag
 Now you can open the *Subnets page* related to this Network - for this click on the **Name** of the corresponding Network:
 ![](../../../assets/images/networks/4.png?classes=border,shadow) 
 
-On this page you can find all Subnets related to the selected Network with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet and panel with available **quick actions**:
-![](../../../assets/images/networks/12.png?classes=border,shadow)   
+On the *Subnets page* you can find:
+- panel with available **quick actions** for the selected Network: 
+![](../../../assets/images/networks/13.png?classes=border,shadow) 
+- all created Subnets related to the selected Network with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet:
+![](../../../assets/images/networks/7.png?classes=border,shadow) 
+
 For more information about Subnets, please, see the next article - [Subnets]()
 
 ## Edit Network

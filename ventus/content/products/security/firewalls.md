@@ -16,7 +16,7 @@ To get to the *Firewalls page* select the **Security** from the VIRTUAL DAT
 ![](../../../assets/images/cli/1.png?classes=border,shadow) 
 ![](../../../assets/images/fw/1.png?classes=border,shadow) 
 
-On this page you can find *default* Firewall, all your own Firewalls created, and the Firewalls created during Cluster creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Firewall:
+On this page you can find *default* Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Firewall:
 ![](../../../assets/images/fw/2.png?classes=border,shadow)
 
 >**NOTE**: All VMs have a default Firewall which is applied to any VM.  
@@ -28,7 +28,7 @@ Default Firewall allows access to the Internet from the VMs, but denies almost a
 - *Delete* - this option is for Firewall deletion.
 
 ## Create Firewall
-To create a new Firewall do the following:
+To create new Firewall do the following:
 - open the *Firewalls page* and click on the CREATE FIREWALL icon in the upper left corner;
 - fill in the form on the next opened *Create Firewall window*:
 ![](../../../assets/images/fw/3.png?classes=border,shadow)
@@ -40,10 +40,14 @@ After these steps, the newly created Firewall will be added to the *Firewalls p
 Now you can open this *Firewall Rules page* - for this click on the **Name** of the corresponding Firewall:
 ![](../../../assets/images/fw/5.png?classes=border,shadow)  
 
-On this page you can find all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule and panel with available **quick actions**:
+On this page you can find:
+- panel with available **quick actions** for the selected Firewall: 
+![](../../../assets/images/networks/13.png?classes=border,shadow) 
+- all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
 ![](../../../assets/images/fw/4.png?classes=border,shadow)  
 
 As you can see, the rules, that allow all outbound traffic, have been already created by default, but you can delete them by using **Actions** icon or add additional rule here by using CREATE FIREWALL RULE button.   
+
 For more information about Firewall Rules, please, see the next article - [Firewall Rules]()
 
 ## Edit Firewall
