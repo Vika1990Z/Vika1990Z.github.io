@@ -69,19 +69,20 @@ To delete a Firewall Rule do the following:
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Firewall Rule deletion on the next opened *Confirmation window*.
 
-After these steps, the selected Firewall Rule will be deleted.
-Also, you can delete the rule from the *this Rule details page*, by clicking on the appropriative **quick actions** icon.
+After these steps, the selected Firewall Rule will be deleted.  
+Also, you can delete the rule from *Firewall Rule details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Firewall Rule for SSH Protocol
-By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.
-Thus, to open connection to the selected Linux Virtual Machine remotely via SSH we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
+By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.  
+Thus, to open connection to the selected Linux Virtual Machine remotely via SSH we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
+
 Example of such rule you can see below:
-![](../../../assets/images/conn-lin/5.png?classes=border,shadow)
+![](../../../assets/images/conn-lin/5.png?classes=border,shadow)  
 To find more information about how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol, please use the article - [Connect Linux VM]()
 
 ## Firewall Rule for RDP
-By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.
-Thus, to open connection to the selected Windows Virtual Machine remotely via RDP we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
+By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.  
+Thus, to open connection to the selected Windows Virtual Machine remotely via RDP we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine.   
 Example of such rule you can see below:
-![](../../../assets/images/conn-lin/20.png?classes=border,shadow)
+![](../../../assets/images/conn-lin/20.png?classes=border,shadow)  
 To find more information about how to connect to the Windows Virtual Machine created in Cloud Console using Remote Desktop Protocol, please, use the article - [Connect Windows VM ]()

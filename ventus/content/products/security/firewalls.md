@@ -35,14 +35,15 @@ To create a new Firewall do the following:
   - *Name* - set a name for the Firewall; 
   - *Description* - set a description for the Firewall.
 
-After these steps, the newly created Firewall will be added to the *Firewalls page*.
+After these steps, the newly created Firewall will be added to the *Firewalls page*.  
+
 Now you can open this *Firewall Rules page* - for this click on the **Name** of the corresponding Firewall:
 ![](../../../assets/images/fw/5.png?classes=border,shadow)  
 
 On this page you can find all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule and panel with available **quick actions**:
 ![](../../../assets/images/fw/4.png?classes=border,shadow)  
 
-As you can see, the rules, that allow all outbound traffic, have been already created by default, but you can delete them by using **Actions** icon or add additional rule here by using CREATE FIREWALL RULE button. 
+As you can see, the rules, that allow all outbound traffic, have been already created by default, but you can delete them by using **Actions** icon or add additional rule here by using CREATE FIREWALL RULE button.   
 For more information about Firewall Rules, please, see the next article - [Firewall Rules]()
 
 ## Edit Firewall
@@ -51,8 +52,8 @@ To edit a Firewall do the following:
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the Firewall Name or/and Description on the next opened *Edit Firewall window*, and click on the SAVE icon.
 
-After these steps, the selected Firewall will be updated.
-Also, you can edit the Firewall from this *Firewall Rules page*, by clicking on the appropriative **quick actions** icon.
+After these steps, the selected Firewall will be updated.  
+Also, you can edit the Firewall from *Firewall Rules page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Delete Firewall
 To delete a Firewall do the following:
@@ -60,5 +61,5 @@ To delete a Firewall do the following:
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Firewall deletion on the next opened *Confirmation window*.
 
-After these steps, the selected Firewall will be deleted.
-Also, you can delete the Firewall from this *Firewall Rules page*, by clicking on the appropriative **quick actions** icon.
+After these steps, the selected Firewall will be deleted.  
+Also, you can delete the Firewall from *Firewall Rules page*, by clicking on the appropriative **quick actions** icon there.

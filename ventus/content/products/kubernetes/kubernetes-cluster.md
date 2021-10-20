@@ -70,9 +70,10 @@ This action will redirect you to the *Cluster  details page*, where you can f
 
 To download the kubeconfig file that pertains to Cluster do the following:
 - identify this desired Cluster on the *Clusters page*;
-- click on the **Actions** icon and select the **Download kubeconfig file** in the list of available options;
-After these steps, the *kubeconfig file* will be downloaded.
-Also, you can download the kubeconfig file from this *Cluster details page*, by clicking on the appropriative **quick actions** icon.
+- click on the **Actions** icon and select the **Download kubeconfig file** in the list of available options.  
+
+After these steps, the *kubeconfig file* will be downloaded.  
+Also, you can download the kubeconfig file from *Cluster details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Resize Cluster
 To resize the Cluster do the following:
@@ -82,15 +83,17 @@ To resize the Cluster do the following:
 ![](../../../assets/images/clusters/5.png?classes=border,shadow)
 
 After these steps, the selected Cluster will be resized after a few minutes with the status UPDATE_COMPLETE:
-![](../../../assets/images/clusters/6.png?classes=border,shadow)
-Also, you can resize the Cluster from this *Cluster details page*, by clicking on the appropriative **quick actions** icon.
+![](../../../assets/images/clusters/6.png?classes=border,shadow)  
+
+Also, you can resize the Cluster from *Cluster details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Delete a Cluster
 To delete the Cluster do the following:
 - identify this unnecessary Cluster on the *Clusters page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
-- confirm the Cluster deletion on the next opened *Confirmation window*.
-After these steps, the selected Cluster will be deleted after a few minutes.
-Also, you can delete the Cluster from this *Cluster details page*, by clicking on the appropriative **quick actions** icon.
+- confirm the Cluster deletion on the next opened *Confirmation window*. 
+
+After these steps, the selected Cluster will be deleted after a few minutes.  
+Also, you can delete the Cluster from *Cluster details page*, by clicking on the appropriative **quick actions** icon there.
 
 
