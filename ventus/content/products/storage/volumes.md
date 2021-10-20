@@ -29,13 +29,11 @@ On this page you can find all your own Volumes created in the current Project, a
 - *Extend* - this option attempts to change the Volume size; volume extension will restart the VM it is attached to;
 - *Delete* - this option is for Volume deletion.
 
-There are two ways to attach, detach, edit and extend a Volume:
+There are two ways to *attach*, *detach*, *edit* and *extend* Volumes:
 1. from the *Volumes page*;
 2. from the *VOLUMES TAB* on the *Virtual Machine details page*.
 
 In this article, we will explain the first way - to manage Volumes from the *Volumes page*. Information about the second one you can find in the next article - [VM's Volumes]().  
-
->**NOTE**: You can't delete the Volume with the state *in-use,* firstly, you need to detach it.
 
 ## Create Volume
 To create new Volume do the following:

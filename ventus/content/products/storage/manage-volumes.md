@@ -23,7 +23,7 @@ To find all Volumes related to the selected Virtual Machine you need:
 - open the *VOLUMES page of this VM* - for this click on the VOLUMES TAB:
 ![](../../../assets/images/vol/12.png?classes=border,shadow) 
 
-On this page you can find all Volumes attached to the corresponding VM with their *Headers*, *Add Interface button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Volume: 
+On this page you can find all Volumes attached to the corresponding VM with their *Headers*, *Attach button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Volume: 
 ![](../../../assets/images/vol/13.png?classes=border,shadow)    
 
 **Actions** icon opens the next list of available management actions:
@@ -32,7 +32,7 @@ On this page you can find all Volumes attached to the corresponding VM with thei
 - *Edit* - this option attempts to change the Volume name;
 - *Extend* - this option attempts to change the Volume size; volume extension will restart the VM it is attached to.
 
-There are two ways to attach, detach, edit and extend a Volume:
+There are two ways to *attach*, *detach*, *edit* and *extend* Volumes:
 1. from the *Volumes page*;
 2. from the *VOLUMES TAB* on the *Virtual Machine details page*.
 
