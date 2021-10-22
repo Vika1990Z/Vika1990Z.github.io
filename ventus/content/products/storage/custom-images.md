@@ -137,31 +137,31 @@ To create/upload a custom Image follow the next steps:
   `wget https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img`
 
 - Upload your own unique Image, which is already located locally - for this, use the following command:
-```output
-openstack image create \ 
-          --disk-format=qcow2 \ 
-          --container-format=bare \ 
-          --file=focal-server-cloudimg-amd64.img \ 
-          --property os\_distro='ubuntu' \ 
-          --property os\_platform='linux' \
-          ubuntu-server-Ventus
-``` 
-  - *–disk-format* - The supported options are: ami, ari, aki, vhd, vmdk, raw, qcow2, vhdx, vdi, iso, and ploop. The default format is: *raw*.
-  - *–container-format* - The supported options are: ami, ari, aki, bare, docker, ova, ovf. The default format is: *bare*.
-  - *–file* - Upload image from a local file.
-  - *–property* - Set a property on this image (repeat for multiple values).
-  - *ubuntu-server-Ventus-Test* - New image name.  
-  Also here you can use some other required arguments, for example:
-  - *–location* - Download image from an existing URL.
-  - *–copy-from* - Copy image from the data store (similar to \*--location\*).
-  - *–volume* - Create an image from a volume.
+  ```output
+  openstack image create \ 
+            --disk-format=qcow2 \ 
+            --container-format=bare \ 
+            --file=focal-server-cloudimg-amd64.img \ 
+            --property os\_distro='ubuntu' \ 
+            --property os\_platform='linux' \
+            ubuntu-server-Ventus
+  ``` 
+    - *–disk-format* - The supported options are: ami, ari, aki, vhd, vmdk, raw, qcow2, vhdx, vdi, iso, and ploop. The default format is: *raw*.
+    - *–container-format* - The supported options are: ami, ari, aki, bare, docker, ova, ovf. The default format is: *bare*.
+    - *–file* - Upload image from a local file.
+    - *–property* - Set a property on this image (repeat for multiple values).
+    - *ubuntu-server-Ventus-Test* - New image name.  
+    Also here you can use some other required arguments, for example:
+    - *–location* - Download image from an existing URL.
+    - *–copy-from* - Copy image from the data store (similar to \*--location\*).
+    - *–volume* - Create an image from a volume.
    
-  **To find more required arguments** use the next command: 
-  `openstack image create --help`  
+    **To find more required arguments** use the next command: 
+    `openstack image create --help`  
 
-  >**Note:** Make sure you correctly specified **os_platform** property.  
-  Supported values: linux or windows.  
-  Without it, you won't see your Image in the Web Console interface. 
+    >**Note:** Make sure you correctly specified **os_platform** property.  
+    Supported values: linux or windows.  
+    Without it, you won't see your Image in the Web Console interface. 
 
 - Next, make sure that our new Image appeared among the available  - for this, use again the `openstack image list` command;  
 In our case the output should be the next:  
