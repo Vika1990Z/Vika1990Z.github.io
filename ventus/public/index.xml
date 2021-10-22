@@ -23,13 +23,24 @@ Table of contents  Registration Manage Account   Edit Account Change password S
     </item>
     
     <item>
+      <title>Installation OpenStack CLI</title>
+      <link>http://example.org/advanced/installation-openstack-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/installation-openstack-cli/</guid>
+      <description>On this page, you can find an explanation of how install OpenStack CLI on Linux VM in Cloud Console.
+Table of contents  Prerequisites Install OpenStack CLI on Ubuntu VM  Install OpenStack CLI on Centos VM  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
+ API User, created with the following parameters and its RC file has already been loaded:  Name: testCLIuser; Password: P@sword.</description>
+    </item>
+    
+    <item>
       <title>K8S Cluster</title>
       <link>http://example.org/products/kubernetes/kubernetes-cluster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/kubernetes/kubernetes-cluster/</guid>
-      <description> On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage a Kubernetes Cluster in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage Kubernetes Cluster in Cloud Console.
+Table of contents  Clusters Page Create Cluster Cluster details page Download kubeconfig file Resize Cluster Delete Cluster  Clusters page To get to the Clusters page select the Clusters from the VIRTUAL DATACENTER block in the side-bar menu: On this page you can find all created Kubernetes Clusters in the current Project of the selected Organization with their Headers, Create button, Search bar and Actions icon which opens a list of available management actions for the selected Cluster: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -38,8 +49,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/storage/object-storage/</guid>
-      <description> On this page, you can find an explanation of what is the Object Storage in the Cloud Console, how to create, delete and instructions for other steps to manage an Object Storage credentials in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of what is Object Storage in Cloud Console, how to create, delete buckets and instructions for other steps to manage an Object Storage in Cloud Console.
+Table of contents  Introduction Use Object Storage with Python API  Creating connection Listing owned buckets Creating bucket Creating object Listing bucket&amp;rsquo;s content Changing object&amp;rsquo;s ACL Generating object&amp;rsquo;s download-URL Deleting object Deleting a bucket   Use Object Storage with S3 Browser  Introduction The Cloud Console Object Storage makes it possible to store data simply and cost-effectively.</description>
     </item>
     
     <item>
@@ -48,8 +59,18 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/compute/virtual-machines/</guid>
-      <description>On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage Virtual Machines in the Cloud Console.
-Table of contents  Virtual Machines Page Create Linux Virtual Machine Create Windows Virtual Machine Download RDP File Edit a Virtual Machine Resize a Virtual Machine Delete a Virtual Machine Virtual Machine details page  Virtual Machines page To get to the Virtual Machines page you need to select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu.</description>
+      <description>On this page, you can find an explanation of how to create, resize, delete Linux and Windows Virtual Machine, and instructions for other steps to manage Virtual Machines in Cloud Console.
+Table of contents  Virtual Machines Page Create Linux Virtual Machine Create Windows Virtual Machine Virtual Machine details page Download RDP File Edit Virtual Machine Resize Virtual Machine Delete Virtual Machine  Virtual Machines page To get to the Virtual Machines page select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu: On this page you can find all created Virtual Machines in the current Project of the selected Organization with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected VM: Actions icon opens the next list of available management actions:</description>
+    </item>
+    
+    <item>
+      <title>Object Storage Credentials</title>
+      <link>http://example.org/products/storage/object-storage-credentials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/object-storage-credentials/</guid>
+      <description>On this page, you can find an explanation of how to create, delete and instructions for other steps to manage an Object Storage Credentials in Cloud Console.
+Table of contents  Object Storage page Create Object Storage credentials Show secret key Re-generate secret key Delete Object Storage credentials  Object Storage page To get to the Object Storage page select the Storage from the VIRTUAL DATACENTER block in the side-bar menu and click the Object Storage TAB: TOn this page you can find all created Object Storage credentials in the current Project with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Object Storage credentials: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -58,18 +79,19 @@ Table of contents  Virtual Machines Page Create Linux Virtual Machine Create Win
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/kubernetes/accessing-kuber/</guid>
-      <description> On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in the Cloud Console
-Table of contents </description>
+      <description>On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in Cloud Console
+Table of contents  Prerequisites Get access from Ubuntu VM to K8S Cluster using CLI User Get access from Centos VM to K8S Cluster using CLI User Connect to Cluster Master-Node via SSH  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:</description>
     </item>
     
     <item>
-      <title>Connect to Linux VM</title>
+      <title>Connect Linux VM</title>
       <link>http://example.org/products/compute/connect-linux-vm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/compute/connect-linux-vm/</guid>
-      <description> On this page, you can find an explanation of how to connect to the Linux Virual Machine created in the Cloud Console using SSH Protocol
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol
+Table of contents  Prerequisites Configuring Firewalls Connect using SSH  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
+ SSH Key, that was created with the next parameters:  Name: mykey; Public key is placed on the Linux VM during its creation; Private Key was copied to the clipboard and saved on the local system in the next text file (for example: ~/.</description>
     </item>
     
     <item>
@@ -78,8 +100,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/firewalls/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
+Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall:  NOTE: All VMs have a default Firewall which is applied to any VM.</description>
     </item>
     
     <item>
@@ -88,8 +110,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/network/networks/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Networks in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Networks in Cloud Console.
+Table of contents  Networks page Create Network Edit Network Delete Network  Networks page To get to the Networks page select the Networks from the VIRTUAL DATACENTER block in the side-bar menu: On this page you can find the default public Network, all your own Networks created in the current Project, and the Networks created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Network: Actions icon opens the next list of available management actions but isn&amp;rsquo;t active for default public Network:</description>
     </item>
     
     <item>
@@ -108,18 +130,19 @@ Table of contents  Organizations page Create Organization Edit Organization Dele
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/identity-management/administrators/</guid>
-      <description>On this page, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.
+      <description>On this page, you can find an explanation of how to add a new Administrator to the Organization, how to transfer the Organization to another User and how to remove Administrator from the Organization in Cloud Console.
 Table of contents  Administrators page Add Administrator to the Organization  Resend Invitation Delete Invitation   Transfer Organization Remove Administrator from the Organization  Administrators page   NOTE: To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
     </item>
     
     <item>
-      <title>Connect to Windows VM</title>
+      <title>Connect Windows VM</title>
       <link>http://example.org/products/compute/connect-windows-vm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/compute/connect-windows-vm/</guid>
-      <description> On this page, you can find an explanation of how to connect to the Windows Virtual Machine created in the Cloud Console using Remote Desktop Protocol
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to connect to the Windows Virtual Machine created in Cloud Console using Remote Desktop Protocol
+Table of contents  Prerequisites Configuring Firewalls Connect using RDP  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
+ Windows Virtual Machine - that was created with the next parameters and has IP: 185.</description>
     </item>
     
     <item>
@@ -128,8 +151,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/firewall-rules/</guid>
-      <description> On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in Cloud Console.
+Table of contents  Firewall Rules page Characteristics of Firewall Rules Create Firewall Rule Firewall Rule details page Delete Firewall Rule Firewall Rule for SSH Protocol Firewall Rule for SSH Protocol  Firewall Rules page To get to the Firewall Rules page click on the Name of the corresponding Firewall on the Firewalls page: On this page you can find:</description>
     </item>
     
     <item>
@@ -138,8 +161,20 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/network/subnets/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Subnets in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Subnets in Cloud Console.
+Table of contents  Subnets page Create Subnet Edit Subnet Delete Subnet  Subnets page To open the Subnets page go to Networks page and click on the Name of the corresponding Network: On this page you can find:
+ panel with available quick actions for the selected Network:  all created Subnets related to the selected Network with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Subnet:   Actions icon opens the next list of available management actions for the selected Subnet:</description>
+    </item>
+    
+    <item>
+      <title>VM&#39;s Firewalls</title>
+      <link>http://example.org/products/security/manage-firewalls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/security/manage-firewalls/</guid>
+      <description>On this page, you can find an explanation of how to manage Firewalls related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB Add Firewall Remove Firewall  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB To find all Firsewall related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the NETWORKS &amp;amp; SECURITY page of this VM - for this click on the NETWORKS &amp;amp; SECURITY TAB:</description>
     </item>
     
     <item>
@@ -153,13 +188,35 @@ Table of contents  Projects page Create Project Edit Project Delete Project Add 
     </item>
     
     <item>
+      <title>VM&#39;s Networks and Interfaces</title>
+      <link>http://example.org/products/network/manage-networksinterfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/network/manage-networksinterfaces/</guid>
+      <description>On this page, you can find an explanation of how to manage Networks and Interfaces related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB Add Interface Remove Interface  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB To find all Networks and Interfaces related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the NETWORKS &amp;amp; SECURITY page of this VM - for this click on the NETWORKS &amp;amp; SECURITY TAB:</description>
+    </item>
+    
+    <item>
       <title>Volumes</title>
       <link>http://example.org/products/storage/volumes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/storage/volumes/</guid>
-      <description> On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in Cloud Console.
+Table of contents  Volumes page Create Volume Attach Volume Detach Volume Edit Volume Extend Volume Delete Volume  Volumes page To get to the Volumes page select the Storage from the VIRTUAL DATACENTER block in the side-bar menu and click the Volumes TAB: On this page you can find all your own Volumes created in the current Project, and the Volumes created during Cluster and VM creation, with their Headers, Create button, Search bar and Actions icon which opens a list of available management actions for the selected Volume: Actions icon opens the next list of available management actions:</description>
+    </item>
+    
+    <item>
+      <title>VM&#39;s Volumes</title>
+      <link>http://example.org/products/storage/manage-volumes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/manage-volumes/</guid>
+      <description>On this page, you can find an explanation of how to manage Volumes related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s VOLUMES TAB Attach Volume Detach Volume Edit Volume Extend Volume  VM&amp;rsquo;s VOLUMES TAB To find all Volumes related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the VOLUMES page of this VM - for this click on the VOLUMES TAB:   On this page you can find all Volumes attached to the corresponding VM with their Headers, Attach button, Search bar and Actions icon, which opens a list of available management actions for the selected Volume: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -170,7 +227,7 @@ Table of contents </description>
       <guid>http://example.org/identity-management/groups/</guid>
       <description>On this page, you can find an explanation of how to create and manage a new Group in the Cloud Console.
 Table of contents  Group page Create Group Сonfigure Group  Manage Users in Group Manage Projects in Group   Edit Group Delete Group  Groups page  NOTE: Using Groups in Cloud Console you can add additional Users to the Project.
- To get to the Group page you need to select the Groups from the side-bar menu.</description>
+ To get to the Group page select the Groups from the side-bar menu.</description>
     </item>
     
     <item>
@@ -179,8 +236,8 @@ Table of contents  Group page Create Group Сonfigure Group  Manage Users in Gro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/storage/snapshots/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Snapshots in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit, delete Snapshots and how to create Volumes from the Snapshots in Cloud Console.
+Table of contents  Snapshots page Create Snapshot Create Volume from Snapshot Edit Snapshot Delete Snapshot  Snapshots page To get to the Snapshots page select Storage from the VIRTUAL DATACENTER block in the side-bar menu and click the Snapshots TAB: On this page you can find all created Snapshots with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Snapshot: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -189,8 +246,19 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/ssh-keys/</guid>
-      <description> On this page, you can find an explanation of how to create, delete SSH Keys and instructions for other steps to manage SSH Keys in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, delete SSH Keys and instructions for other steps to manage SSH Keys in Cloud Console.
+Table of contents  SSH Keys page Create SSH Key Pair Add Public Key Copy Public Key Delete SSH Key Pair  SSH Keys page To get to the SSH Keys page Security from the VIRTUAL DATACENTER block in the side-bar menu and click the SSH Keys TAB: On this page you can find all created SSH Keys with their Headers, Create and Add buttons, Search bar and Actions icon, which opens a list of available management actions for the selected Keypair: Actions icon opens the next list of available management actions with the selected Keypair:</description>
+    </item>
+    
+    <item>
+      <title>VM&#39;s Snapshots</title>
+      <link>http://example.org/products/storage/manage-snapshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/storage/manage-snapshots/</guid>
+      <description>On this page, you can find an explanation of how to manage Snapshots related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s SNAPSHOTS TAB Create Snapshot Edit Snapshot Delete Snapshot  VM&amp;rsquo;s SNAPSHOTS TAB To find all Snapshots related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the SNAPSHOTS page of this VM - for this click on the SNAPSHOTS TAB:   On this page you can find all Snapshots related to the corresponding VM with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Snapshot: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -199,18 +267,18 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/cli-users/</guid>
-      <description> On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in Cloud Console.
+Table of contents  CLI Users page Create CLI User Download RC File Edit CLI User  Change the password Delete CLI User   CLI Users page To get to the CLI Users page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the CLI Users TAB: On this page you can find all created CLI Users, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected CLI User: Actions icon opens the next list of available management actions with the selected CLI User:</description>
     </item>
     
     <item>
-      <title>Custom images</title>
+      <title>Images</title>
       <link>http://example.org/products/storage/custom-images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/storage/custom-images/</guid>
-      <description> On this page, you can find an explanation of how to create and delete custom images in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to find list of default Images in the Cloud Console and how to create and delete custom Images.
+Table of contents  Images page Custom Images  Prerequisites Get Images list Create custom Image Delete custom Image    Images page To get to the Images page select the Storage from the VIRTUAL DATACENTER block in the side-bar menu and click the Images TAB: On this page you can find all default and custom Images, with their Headers and Search bar: Custom Images The Cloud Console functionality allows to upload custom Images to the system, which will be available for all resources in the current Project.</description>
     </item>
     
   </channel>

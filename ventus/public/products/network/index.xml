@@ -17,8 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/network/networks/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Networks in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Networks in Cloud Console.
+Table of contents  Networks page Create Network Edit Network Delete Network  Networks page To get to the Networks page select the Networks from the VIRTUAL DATACENTER block in the side-bar menu: On this page you can find the default public Network, all your own Networks created in the current Project, and the Networks created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Network: Actions icon opens the next list of available management actions but isn&amp;rsquo;t active for default public Network:</description>
     </item>
     
     <item>
@@ -27,8 +27,20 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/network/subnets/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Subnets in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Subnets in Cloud Console.
+Table of contents  Subnets page Create Subnet Edit Subnet Delete Subnet  Subnets page To open the Subnets page go to Networks page and click on the Name of the corresponding Network: On this page you can find:
+ panel with available quick actions for the selected Network:  all created Subnets related to the selected Network with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Subnet:   Actions icon opens the next list of available management actions for the selected Subnet:</description>
+    </item>
+    
+    <item>
+      <title>VM&#39;s Networks and Interfaces</title>
+      <link>http://example.org/products/network/manage-networksinterfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/network/manage-networksinterfaces/</guid>
+      <description>On this page, you can find an explanation of how to manage Networks and Interfaces related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB Add Interface Remove Interface  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB To find all Networks and Interfaces related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the NETWORKS &amp;amp; SECURITY page of this VM - for this click on the NETWORKS &amp;amp; SECURITY TAB:</description>
     </item>
     
   </channel>

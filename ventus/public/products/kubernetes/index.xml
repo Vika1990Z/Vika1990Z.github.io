@@ -17,8 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/kubernetes/kubernetes-cluster/</guid>
-      <description> On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage a Kubernetes Cluster in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage Kubernetes Cluster in Cloud Console.
+Table of contents  Clusters Page Create Cluster Cluster details page Download kubeconfig file Resize Cluster Delete Cluster  Clusters page To get to the Clusters page select the Clusters from the VIRTUAL DATACENTER block in the side-bar menu: On this page you can find all created Kubernetes Clusters in the current Project of the selected Organization with their Headers, Create button, Search bar and Actions icon which opens a list of available management actions for the selected Cluster: Actions icon opens the next list of available management actions:</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/kubernetes/accessing-kuber/</guid>
-      <description> On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in the Cloud Console
-Table of contents </description>
+      <description>On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in Cloud Console
+Table of contents  Prerequisites Get access from Ubuntu VM to K8S Cluster using CLI User Get access from Centos VM to K8S Cluster using CLI User Connect to Cluster Master-Node via SSH  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:</description>
     </item>
     
   </channel>
