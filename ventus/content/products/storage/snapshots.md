@@ -21,8 +21,8 @@ On this page you can find all created Snapshots with their *Headers*, *Create 
 ![](../../../assets/images/snap/2.png?classes=border,shadow)
 
 **Actions** icon opens the next list of available management actions:
-- *Create volume* - this option attempts to create a Volume from the selected Snapshot;
-- *Edit* - this option attempts to change Name and/or Description of the selected Snapshot;
+- *Create volume* - this option is used to create a Volume from the selected Snapshot;
+- *Edit* - this option is used to change Name and/or Description of the selected Snapshot;
 - *Delete* - this option is for the Snapshot removing.
 
 There are two ways to *create*, *edit* and *delete* Snapshots:

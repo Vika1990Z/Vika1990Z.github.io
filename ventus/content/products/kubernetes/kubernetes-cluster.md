@@ -22,8 +22,8 @@ On this page you can find all created Kubernetes Clusters in the current Project
 ![](../../../assets/images/clusters/2.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
-- *Download kubeconfig file -* this option attempts to get the kubeconfig file that pertains to the selected Cluster;
-- *Edit* - this option attempts to change the count of Worker-nodes in the selected Cluster;
+- *Download kubeconfig file -* this option is used to get the kubeconfig file that pertains to the selected Cluster;
+- *Edit* - this option is used to change the count of Worker-nodes in the selected Cluster;
 - *Delete* - this option is for Cluster removing.
 
 ## Create Cluster

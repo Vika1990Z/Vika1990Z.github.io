@@ -23,9 +23,9 @@ On this page you can find all created CLI Users, *Create button*, *Search bar*
 ![](../../../assets/images/cli/3.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions with the selected CLI User:
-- *Download RC File* - this option attempts to get the RC file of the selected CLI User;
-- *Edit* - this option attempts to change the Name of the selected CLI User;
-- *Change password* - this option attempts to change the password of the selected CLI User;
+- *Download RC File* - this option is used to get the RC file of the selected CLI User;
+- *Edit* - this option is used to change the Name of the selected CLI User;
+- *Change password* - this option is used to change the password of the selected CLI User;
 - *Delete* - this option is for the CLI User deletion.
 
 ## Create CLI User

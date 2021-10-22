@@ -27,10 +27,10 @@ On this page you can find all Volumes attached to the corresponding VM with thei
 ![](../../../assets/images/vol/13.png?classes=border,shadow)    
 
 **Actions** icon opens the next list of available management actions:
-- *Attach* - this option attempts to attach the Volume to the VM; you can attach only Volumes with state *available*;  
-- *Detach* -  this option attempts to detach the Volume to the VM; you can detach only Volumes with state *in-use*;  
-- *Edit* - this option attempts to change the Volume name;
-- *Extend* - this option attempts to change the Volume size; volume extension will restart the VM it is attached to.
+- *Attach* - this option is used to attach the Volume to the VM; you can attach only Volumes with state *available*;  
+- *Detach* -  this option is used to detach the Volume to the VM; you can detach only Volumes with state *in-use*;  
+- *Edit* - this option is used to change the Volume name;
+- *Extend* - this option is used to change the Volume size; volume extension will restart the VM it is attached to.
 
 There are two ways to *attach*, *detach*, *edit* and *extend* Volumes:
 1. from the *Volumes page*;

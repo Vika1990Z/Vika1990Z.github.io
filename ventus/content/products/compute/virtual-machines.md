@@ -24,14 +24,14 @@ On this page you can find all created Virtual Machines in the current Project of
 ![](../../../assets/images/vms/2-vm.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
-- *Start* - this option attempts to start the VM if it was stoppedd; 
-- *Stop* - this option attempts to stop the VM;
-- *Soft reboot* - this option attempts a graceful shut down and restart of the VM;
-- *Edit* - this option attempts to to change VM's name;
-- *Resize* - this option attempts to change the Flavor for the VM;
+- *Start* - this option is used to start the VM if it was stoppedd; 
+- *Stop* - this option is used to stop the VM;
+- *Soft reboot* - this option is used a graceful shut down and restart of the VM;
+- *Edit* - this option is used to to change VM's name;
+- *Resize* - this option is used to change the Flavor for the VM;
 - *Delete* - this option is for VM removing;
-- *Remote console* - this option attempts to use remote console for VM;
-- *Download RDP file* - this option is available only for Windows VMs and attempts to download RDP file for the remote connection to the Windows VMs;
+- *Remote console* - this option is used to use remote console for VM;
+- *Download RDP file* - this option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs;
 
 ## Create Linux Virtual Machine
 To create new Linux VM do the following:
@@ -89,14 +89,14 @@ This action will redirect you to the *Virtual Machine details page*, where you
 
 - panel with available **quick actions**:
 ![](../../../assets/images/vms/11-vm.png?classes=border,shadow)
-  - *Start* - this option attempts to start the VM if it was stoppedd; 
-  - *Reboot* - this option attempts to reboot power cycles the VM;
-  - *Stop* - this option attempts to stop the VM;
-  - *Edit* - this option attempts to to change VM's name;
-  - *Remote console* - this option attempts to use remote console for VM;
+  - *Start* - this option is used to start the VM if it was stoppedd; 
+  - *Reboot* - this option is used to reboot power cycles the VM;
+  - *Stop* - this option is used to stop the VM;
+  - *Edit* - this option is used to to change VM's name;
+  - *Remote console* - this option is used to use remote console for VM;
   - **Additional Actions:**
-    - *Resize* - this option attempts to change the VM flavor;
-    - *Download RDP File* - this option attempts to download RDP file for the Windows VM;
+    - *Resize* - this option is used to change the VM flavor;
+    - *Download RDP File* - this option is used to download RDP file for the Windows VM;
     - *Delete* - this option is for VM removing;
 
 - transition to the NETWORKS & SECURITY, VOLUMES, SNAPSHOTS and LOG pages related to this VM:
@@ -117,7 +117,7 @@ This action will redirect you to the *Virtual Machine details page*, where you
   ![](../../../assets/images/vms/17.png?classes=border,shadow)
 
 ## Download RDP File
->**NOTE:** This option is available only for Windows VMs and attempts to download RDP file for the remote connection to the Windows VMs.
+>**NOTE:** This option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs.
 
 To download RDP for the remote connection to the Windows Virtual Machine do the following:
 - identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;

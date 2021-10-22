@@ -22,7 +22,7 @@ On this page you can find:
 ![](../../../assets/images/networks/7.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions for the selected Subnet:
-- *Edit* - this option attempts to update selected Subnet (change Name, Allocation pools, DNS nameservers, Gateway IP, Host routs, state of DHCP and gateway); 
+- *Edit* - this option is used to update selected Subnet (change Name, Allocation pools, DNS nameservers, Gateway IP, Host routs, state of DHCP and gateway); 
 - *Delete* - this option is for Subnet removing.
 
 ## Create Subnet

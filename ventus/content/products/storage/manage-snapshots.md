@@ -26,7 +26,7 @@ On this page you can find all Snapshots related to the corresponding VM with the
 ![](../../../assets/images/snap/10.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
-- *Edit* - this option attempts to change Name and/or Description of the selected Snapshot;
+- *Edit* - this option is used to change Name and/or Description of the selected Snapshot;
 - *Delete* - this option is for the Snapshot removing.
 
 There are two ways to *create*, *edit* and *delete* Snapshots:

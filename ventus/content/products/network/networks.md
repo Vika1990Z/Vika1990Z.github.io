@@ -19,7 +19,7 @@ On this page you can find the default *public* Network, all your own Networks 
 ![](../../../assets/images/networks/2.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions but isn't active for default public Network:
-- *Edit* - this option attempts to change the name, description of the selected Network and its administrative state;
+- *Edit* - this option is used to change the name, description of the selected Network and its administrative state;
 - *Delete* - this option is for Network removing.
 
 ## Create Network

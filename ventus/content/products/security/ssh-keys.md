@@ -22,7 +22,7 @@ On this page you can find all created SSH Keys with their *Headers*, *Create a
 ![](../../../assets/images/ssh/2.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions with the selected Keypair:
-- *Copy public key to clipboard* - this option attempts to copy public key;
+- *Copy public key to clipboard* - this option is used to copy public key;
 - *Delete* - this option is for SSH Key deletion.
 
 ## Create SSH Key Pair
