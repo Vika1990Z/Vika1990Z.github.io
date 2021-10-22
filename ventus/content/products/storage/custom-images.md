@@ -146,26 +146,25 @@ openstack image create \
           --property os\_platform='linux' \
           ubuntu-server-Ventus
 ```
-Let’s take a closer look to the command, that was used for image creating:
-- *–disk-format* - The supported options are: ami, ari, aki, vhd, vmdk, raw, qcow2, vhdx, vdi, iso, and ploop. The default format is: *raw*.
-- *–container-format* - The supported options are: ami, ari, aki, bare, docker, ova, ovf. The default format is: *bare*.
-- *–file* - Upload image from a local file.
-- *–property* - Set a property on this image (repeat for multiple values).
-- *ubuntu-server-Ventus-Test* - New image name.
+    Let’s take a closer look to the command, that was used for image creating:
+    - *–disk-format* - The supported options are: ami, ari, aki, vhd, vmdk, raw, qcow2, vhdx, vdi, iso, and ploop. The default format is: *raw*.
+    - *–container-format* - The supported options are: ami, ari, aki, bare, docker, ova, ovf. The default format is: *bare*.
+    - *–file* - Upload image from a local file.
+    - *–property* - Set a property on this image (repeat for multiple values).
+    - *ubuntu-server-Ventus-Test* - New image name.  
+    Also here you can use some other required arguments, for example:
+    - *–location* - Download image from an existing URL.
+    - *–copy-from* - Copy image from the data store (similar to \*--location\*).
+    - *–volume* - Create an image from a volume.
+    
+    **To find more required arguments** use the next command: 
+    `openstack image create --help`  
 
-Also here you can use some other required arguments, for example:
-- *–location* - Download image from an existing URL.
-- *–copy-from* - Copy image from the data store (similar to \*--location\*).
-- *–volume* - Create an image from a volume.
+    >**Note:** Make sure you correctly specified **os_platform** property.  
+    Supported values: linux or windows.  
+    Without it, you won't see your Image in the Web Console interface. 
 
-**To find more required arguments** use the next command:  
-`openstack image create --help`  
-
->**Note:** Make sure you correctly specified **os_platform** property.  
-Supported values: linux or windows.  
-Without it, you won't see your Image in the Web Console interface. 
-
-- Make sure that our new Image appeared among the available  - for this, use again the `openstack image list` command;  
+- Next, make sure that our new Image appeared among the available  - for this, use again the `openstack image list` command;  
 In our case the output should be the next:  
 ```output
 ubuntu@test-2:~$ openstack image list
