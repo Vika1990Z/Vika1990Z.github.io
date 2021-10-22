@@ -156,10 +156,11 @@ To create/upload a custom Image follow the next steps:
     - *–copy-from* - Copy image from the data store (similar to \*--location\*).
     - *–volume* - Create an image from a volume.
    
-    **To find more required arguments** use the next command: 
+    **To find more required arguments** use the next command:   
     `openstack image create --help`  
 
-    >**Note:** Make sure you correctly specified **os_platform** property.  
+    >**Note:** 
+    Make sure you correctly specified **os_platform** property.  
     Supported values: linux or windows.  
     Without it, you won't see your Image in the Web Console interface. 
 
