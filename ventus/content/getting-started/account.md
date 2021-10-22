@@ -30,7 +30,6 @@ Since you are a new User, you do not have any Organizations created yet, so the 
 To find necessary information about this, see the next articles:  [Organizations and Administrators](https://kb.ventuscloud.eu/knowledge/organizations) and [Projects and Groups.](https://kb.ventuscloud.eu/knowledge/projects)
 
 ## Manage account
-
 To find information and all the available management actions for your personal account you need: to open *User menu* - for this click on the icon near the *Name* you used during registration in the upper right corner:
 ![](../../assets/images/account/4-acc.png?classes=border,shadow) 
 
@@ -47,7 +46,6 @@ Option **Settings** gives you an access to the available actions to manage you
 Option **Logout** is used to end the login session.
 
 ### Edit account
-
 To edit account do the following:
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Account** TAB from the *side-bar menu*;
@@ -55,7 +53,6 @@ To edit account do the following:
 ![](../../assets/images/account/6-acc.png?classes=border,shadow) 
 
 ### Change password
-
 To change password of your User Account do the following:
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Password** TAB from the *side-bar menu*;
@@ -63,7 +60,6 @@ To change password of your User Account do the following:
 ![](../../assets/images/account/7-acc.png?classes=border,shadow) 
 
 ### Set authenticator
-
 If you want to make your account more secure, you can set the *authenticator*, for this do the following:
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Authenticator** TAB from the *side-bar menu*;
@@ -71,16 +67,13 @@ If you want to make your account more secure, you can set the *authenticator*, 
 ![](../../assets/images/account/8-acc.png?classes=border,shadow) 
 
 ### Find all sessions
-
 To find information about all sessions you need:
-
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Sessions** TAB from the *side-bar menu*;
 - on the opened *Sessions page* you can find all necessary information and **log out all sessions** by one click if you need:
 ![](../../assets/images/account/9-acc.png?classes=border,shadow) 
 
 ### Login and Logout
-
 To logout of the Account open the *User menu* and select **Logout** option from the opened *drop-down menu.*
 This will end the login session of your Account and redirect you to the *Login page.*
 

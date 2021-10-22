@@ -3,7 +3,7 @@ title: Administrators
 weight: 20
 ---
 ___
-On this page, you can find an explanation of how to add a new Administrator to the Organization, how to Transfer the Organization to another User and how to Remove Administrator from the Organization in the Cloud Console.
+On this page, you can find an explanation of how to add a new Administrator to the Organization, how to transfer the Organization to another User and how to remove Administrator from the Organization in Cloud Console.
 
 # Table of contents
 1. [Administrators page](#administrators-page)
@@ -17,7 +17,7 @@ On this page, you can find an explanation of how to add a new Administrator to t
 ___
 >**NOTE:** To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*.    
 
-To see information about Administrators of the Organization go to the *Organizations page* and  click on the **Name** of the Organization:  
+To see information about Administrators of the Organization go to the *Organizations page* and click on the **Name** of the Organization:  
 ![](../../assets/images/organizations/7-org.png?classes=border,shadow)  
 
 It will open next additional sections on the *side-bar menu,* from which you need to select **Administrators**.  
@@ -51,34 +51,37 @@ When the invited User accepts your invitation, he will get an Administrator role
 To resend an invitation do the next:
 - click on the **Actions** icon and select the RESEND INVITATION option in the list of available;
 - on the next opened *Confirmation window* confirm you actions by clicking on the RESEND  icon.
+
 After these, the User whose email address you entered in the invitation will receive one more email with the Accept invitation link.
 
 ### Delete Invitation 
 To delete an invitation do the next:
 - click on the **Actions** icon  and select the DELETE INVITATION option in the list of available;
 - on the next opened *Confirmation window* confirm your actions by clicking on the DELETE icon.
+
 After these, the *Accept invitation link* in the email, that was sent to the User whose email address you entered in the invitation, will be blocked.
 
 ## Transfer Organization
+Transfer an organization means changing the Owner of it.  
 
->Transfer an organization means changing the Owner of it.
 >**NOTE:** This action available only if your User Role in this Organization is *Owner*. 
 
 To Transfer Organization do the following:  
 - identify the Administrator to whom you want to Transfer the Organization on the *Administrators page*;    
-- click on the **Actions** icon and select the *Transfer the Organization* in the list of available options;    
-- on the next opened *Confirmation window* confirm your actions and click on the SEND icon.        
+- click on the **Actions** icon and select the **Transfer the Organization** in the list of available options;    
+- on the next opened *Confirmation window* confirm your actions and click on the SEND icon. 
+
 After confirming this action, the selected User will recieve the message with the invitation to become an owner of the specifying Organization and if he accept it, his Role in the selected Organization will be changed from *Administrator* to *Owner*.    
  
 
 ## Remove Administrator
-
 >**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
 
 To remove Administrator from the selected Organization do the following:
 - identify this unnecessary Administrator on the *Administrators page*;   
-- click on the **Actions** icon and select the REMOVE in the list of available options;    
-- on the next opened *Confirmation window* confirm the User deletion.      
+- click on the **Actions** icon and select the **Remove** in the list of available options;    
+- on the next opened *Confirmation window* confirm the User deletion. 
+     
 After confirming this action, the selected User will be removed from the selected Organization.
 
 

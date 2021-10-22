@@ -31,7 +31,6 @@ As you see, in the Organizations User can have next Roles:
 - **Member** - this role is assigned to a User who is granted access to the Organization's Project and, accordingly, to all resources within this Project. Member can't add/remove other Users in the Project and even can't see information about them.  
 
 ## Create Organization 
-
 To create a new Organization do the following:  
 - go to the *Organizations page* and click the CREATE ORGANIZATION icon in the upper left corner;    
 - specify the **Name** of the Organization and click on the CREATE icon:  
@@ -47,7 +46,8 @@ After these steps the newly created Organization will be added to the *Organizat
 To edit Organization do the following:
 - identify what Organization you want to edit on the *Organizations page*;   
 - click on the **Actions** icon and select the EDIT in the list of available options;    
-- on the next opened *Edit Organization window* update the name of the Organization and click on the *SAVE* icon.     
+- on the next opened *Edit Organization window* update the name of the Organization and click on the SAVE icon.     
+
 After these steps, the selected Organization will be updated.
 
 ## Delete Organization
@@ -57,6 +57,7 @@ After these steps, the selected Organization will be updated.
 To delete Organization do the following:
 - identify this unnecessary Organization on the *Organizations page*;   
 - click on the **Actions** icon and select the DELETE in the list of available options;    
-- on the next opened *Confirmation window* confirm the Organization deletion.       
+- confirm the Organization deletion on the next opened *Confirmation window*. 
+      
 After confirming this action, the selected Organization will be deleted.
 

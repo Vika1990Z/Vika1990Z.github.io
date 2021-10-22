@@ -15,11 +15,11 @@ On this page, you can find an explanation of how to create and manage a new Grou
 5. [Delete Group](#delete-group)
 
 ## Groups page
-
 >**NOTE:** Using Groups in Cloud Console you can add additional Users to the Project. 
 
-To get to the *Group page* you need to select the **Groups** from the *side-bar menu*.
-This action will redirect you to the *Groups page*, where you can find all created Groups related to the selected Organization with the *Add Group button, Search bar*, and *Actions icon* which opens a list of available management actions for the selected Group:
+To get to the *Group page* select the **Groups** from the *side-bar menu*.
+
+On this page you can find all created Groups related to the selected Organization with the *Add Group button, Search bar*, and *Actions icon*, which opens a list of available management actions for the selected Group:
 ![](../../assets/images/groups/1-gr.png?classes=border,shadow)  
 
 **Actions** icon opens the next list of available management actions:
@@ -27,18 +27,16 @@ This action will redirect you to the *Groups page*, where you can find all crea
 - *Delete* - this option is using to remove the Group.
 
 ## Create Group
-
 To create a new Group do the following:
 - go to the *Groups page* and click on the CREATE GROUP icon in the upper left corner;
 - specify the **Name** of the Group on the next opened *Create Group window* and click on the CREATE icon:
 ![](../../assets/images/groups/2-gr.png?classes=border,shadow) 
 
-After these steps the newly created Group will be added to the *Groups page*.
+After these steps the newly created Group will be added to the *Groups page*.  
 The next step is to configure the created Group.
 
 ## Сonfigure Group
-
-To set up the Group membership and permissions you can from the *Group details page.*
+To set up the Group membership and permissions you can from the *Group details page.*  
 To get to the *Group details page* you need to click on the **Name** of the corresponding Group:
 ![](../../assets/images/groups/3-gr.png?classes=border,shadow) 
 
@@ -53,7 +51,6 @@ So, from this page you can:
 - **remove Projects** from access of selected Users;
 
 ### Manage Users in Group
-
 >**NOTE:** You can add as many Users and Projects to the Group as you need.
 
 To add a new User to the selected Group do the next:
@@ -89,19 +86,19 @@ Users from the first block will have access to this Project and, accordingly, to
 ![](../../assets/images/groups/10-gr.png?classes=border,shadow)
 
 ## Edit Group
-
 To Edit a Group do the following:
 - to identify the Group you want to edit on the *Groups page*;
-- click on the **Actions** icon and select the EDIT in the list of available options;
+- click on the **Actions** icon and select the **Edit** in the list of available options;
 - on the next opened *Edit Group window*, update the Name of the selected Group and click on the SAVE icon.
+
 After these steps, the selected Group will be updeted.
 
 ## Delete Group
-
 To Delete a Group do the following:
 - to identify the unnecessary Group on the *Groups page*;
-- click on the **Actions** icon and select the DELETE in the list of available options;
-- on the next opened *Confirmation window* confirm the Group deletion.
+- click on the **Actions** icon and select the **Delete** in the list of available options;
+- confirm the Group deletion on the next opened *Confirmation window*.
+
 After these steps, the selected Group will be deleted.
 
 

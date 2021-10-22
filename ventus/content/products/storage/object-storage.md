@@ -137,9 +137,9 @@ private_url = private_key.generate_url(3600, query_auth=True, force_http=False)
 print (private_url)
 ```
 
->**NOTE:**  When a client application accesses buckets, it always operates with the credentials of a particular user. As every user belongs to a particular project, therefore, for using this links you should *add your project ID before your bucket name*, and the working links in both examples will look like this:  
-*for publicly readable objects* - "https://upper-austria.ventuscloud.eu:8080/**Your_Project_ID:**new-bucket-using-python/hello.txt";
-*for private objects* - "https://upper-austria.ventuscloud.eu:8080/**Your_Project_ID:**new-bucket-using-python/private_info.txt?Signature=XXX&Expires=1316027075&AWSAccessKeyId=XXX"  
+Please, notice here, when a client application accesses buckets, it always operates with the credentials of a particular user. As every user belongs to a particular project, therefore, for using this links you should *add your project ID before your bucket name*, and the working links in both examples will look like this:    
+**for publicly readable objects** - "https://upper-austria.ventuscloud.eu:8080/**Your_Project_ID:**new-bucket-using-python/hello.txt";   
+**for private objects** - "https://upper-austria.ventuscloud.eu:8080/**Your_Project_ID:**new-bucket-using-python/private_info.txt?Signature=XXX&Expires=1316027075&AWSAccessKeyId=XXX"     
 
 Find your Project ID you can:
 * on the *Projects page* in Cloud Console:

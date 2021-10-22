@@ -16,7 +16,7 @@ On this page, you can find an explanation of how to create, resize, delete Linux
 8. [Delete Virtual Machine](#delete-virtual-machine)
 
 
-## Virtual Machines page
+## Virtual Machines page 
 To get to the *Virtual Machines page* select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/vms/1-vm.png?classes=border,shadow)  
 
