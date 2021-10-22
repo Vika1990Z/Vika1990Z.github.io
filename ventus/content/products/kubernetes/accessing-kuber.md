@@ -50,7 +50,7 @@ In this article, we will assume that we have already created the following resou
   - *Docker image size (GB):* 50 GB;
   - *Master Count*: 1;
   - *Node Count*: 1.
-- **API User**, created with the following parameters and its RC file has already been loaded:
+- **CLI User**, created with the following parameters and its RC file has already been loaded:
   - *Name*: test-conn;
   - *Password*: P@ssword.
 
