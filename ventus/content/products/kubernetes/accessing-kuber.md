@@ -66,7 +66,7 @@ For more information on creating and configuring these resources, see the follow
 ## Get access from Ubuntu VM to K8S Cluster using CLI User
 To get the access from the Ubuntu Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:
 - Loggin to your Ubuntu Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
-for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM via SSH:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
+for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
 `ssh -i ~/.ssh/id_rsa ubuntu@185.226.42.187`
 
 - Update Ubuntu package sources by running the following command:   

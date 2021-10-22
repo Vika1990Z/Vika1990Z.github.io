@@ -159,9 +159,8 @@ To create/upload a custom Image follow the next steps:
     **To find more required arguments** use the next command:   
     `openstack image create --help`  
 
-    >**Note:**   
-    Make sure you correctly specified **os_platform** property.  
-    Supported values: linux or windows.  
+    >**Note:** Make sure you correctly specified *os_platform* property.  
+    Supported values: *linux* or *windows*.  
     Without it, you won't see your Image in the Web Console interface. 
 
 - Next, make sure that our new Image appeared among the available  - for this, use again the `openstack image list` command;  
