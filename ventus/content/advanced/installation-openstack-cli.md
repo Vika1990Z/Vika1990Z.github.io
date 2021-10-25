@@ -3,12 +3,12 @@ title: Installation OpenStack CLI
 weight: 10
 ---
 ___
-On this page, you can find an explanation of how install OpenStack CLI on Linux VM in Cloud Console.
+On this page, you can find an explanation of how to install OpenStack CLI on Linux VM in Cloud Console.
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
 1. [Install OpenStack CLI on Ubuntu VM ](#install-openstack-clion-ubuntu-vm)
-1. [Install OpenStack CLI on Centos VM](install-openstack-clion-centos-vm)
+1. [Install OpenStack CLI on Centos VM](#install-openstack-clion-centos-vm)
 
 ## Prerequisites
 In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
