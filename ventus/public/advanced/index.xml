@@ -11,5 +11,16 @@
 	<atom:link href="http://example.org/advanced/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Installation OpenStack CLI</title>
+      <link>http://example.org/advanced/installation-openstack-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/installation-openstack-cli/</guid>
+      <description>On this page, you can find an explanation of how install OpenStack CLI on Linux VM in Cloud Console.
+Table of contents  Prerequisites Install OpenStack CLI on Ubuntu VM  Install OpenStack CLI on Centos VM  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
+ API User, created with the following parameters and its RC file has already been loaded:  Name: testCLIuser; Password: P@sword.</description>
+    </item>
+    
   </channel>
 </rss>

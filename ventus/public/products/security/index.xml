@@ -17,8 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/firewalls/</guid>
-      <description> On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
+Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall:  NOTE: All VMs have a default Firewall which is applied to any VM.</description>
     </item>
     
     <item>
@@ -27,8 +27,19 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/firewall-rules/</guid>
-      <description> On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in Cloud Console.
+Table of contents  Firewall Rules page Characteristics of Firewall Rules Create Firewall Rule Firewall Rule details page Delete Firewall Rule Firewall Rule for SSH Protocol Firewall Rule for SSH Protocol  Firewall Rules page To get to the Firewall Rules page click on the Name of the corresponding Firewall on the Firewalls page: On this page you can find:</description>
+    </item>
+    
+    <item>
+      <title>VM&#39;s Firewalls</title>
+      <link>http://example.org/products/security/manage-firewalls/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/products/security/manage-firewalls/</guid>
+      <description>On this page, you can find an explanation of how to manage Firewalls related to the selected Virtual Machine in Cloud Console.
+Table of contents  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB Add Firewall Remove Firewall  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB To find all Firsewall related to the selected Virtual Machine you need:
+  open the Virtual Machines page - for this select the Virtual Machines from the VIRTUAL DATACENTER block in the side-bar menu:   open the Virtual Machine details page - for this click on the Name of the corresponding Virtual Machine:   open the NETWORKS &amp;amp; SECURITY page of this VM - for this click on the NETWORKS &amp;amp; SECURITY TAB:</description>
     </item>
     
     <item>
@@ -37,8 +48,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/ssh-keys/</guid>
-      <description> On this page, you can find an explanation of how to create, delete SSH Keys and instructions for other steps to manage SSH Keys in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, delete SSH Keys and instructions for other steps to manage SSH Keys in Cloud Console.
+Table of contents  SSH Keys page Create SSH Key Pair Add Public Key Copy Public Key Delete SSH Key Pair  SSH Keys page To get to the SSH Keys page Security from the VIRTUAL DATACENTER block in the side-bar menu and click the SSH Keys TAB: On this page you can find all created SSH Keys with their Headers, Create and Add buttons, Search bar and Actions icon, which opens a list of available management actions for the selected Keypair: Actions icon opens the next list of available management actions with the selected Keypair:</description>
     </item>
     
     <item>
@@ -47,8 +58,8 @@ Table of contents </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/products/security/cli-users/</guid>
-      <description> On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in the Cloud Console.
-Table of contents </description>
+      <description>On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in Cloud Console.
+Table of contents  CLI Users page Create CLI User Download RC File Edit CLI User  Change the password Delete CLI User   CLI Users page To get to the CLI Users page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the CLI Users TAB: On this page you can find all created CLI Users, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected CLI User: Actions icon opens the next list of available management actions with the selected CLI User:</description>
     </item>
     
   </channel>

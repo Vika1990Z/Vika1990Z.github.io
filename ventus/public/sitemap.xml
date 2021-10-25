@@ -22,6 +22,10 @@
   </url>
   
   <url>
+    <loc>http://example.org/advanced/installation-openstack-cli/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/products/kubernetes/kubernetes-cluster/</loc>
   </url>
   
@@ -31,6 +35,10 @@
   
   <url>
     <loc>http://example.org/products/compute/virtual-machines/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/object-storage-credentials/</loc>
   </url>
   
   <url>
@@ -90,6 +98,10 @@
   </url>
   
   <url>
+    <loc>http://example.org/products/security/manage-firewalls/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/advanced/</loc>
     <lastmod>2019-09-25T01:53:09+03:30</lastmod>
   </url>
@@ -99,7 +111,15 @@
   </url>
   
   <url>
+    <loc>http://example.org/products/network/manage-networksinterfaces/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/products/storage/volumes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/manage-volumes/</loc>
   </url>
   
   <url>
@@ -117,6 +137,10 @@
   
   <url>
     <loc>http://example.org/products/security/ssh-keys/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/products/storage/manage-snapshots/</loc>
   </url>
   
   <url>
