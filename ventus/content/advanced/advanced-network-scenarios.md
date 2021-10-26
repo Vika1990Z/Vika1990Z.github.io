@@ -67,35 +67,36 @@ Verify created servers:
 
 >**Optionally:**  
 Install Nginx web server on server1 and Apache on server2 and configure Ventus firewall rule to allow TCP port 80 from your workstation:
->```
-Centos: 
-Server1:
-yum install nginx
-systemctl enable nginx
-systemctl start nginx
+> >Centos:   
+Server1:    
+`yum install nginx`  
+`systemctl enable nginx`  
+`systemctl start nginx`  
+> >
+> >Server2:   
+`yum install httpd`  
+`systemctl enable httpd`  
+`systemctl start httpd`  
+> >
+> >Ubuntu:   
+Server1:  
+`apt update`  
+`apt install nginx`  
+`systemctl enable nginx`  
+`systemctl start nginx`  
+> >
+> >Server2:   
+`apt install apache2`  
+`systemctl enable apache2`  
+`systemctl start apache2`  
 
-Server2: 
-yum install httpd
-systemctl enable httpd
-systemctl start httpd
+>Verify that IP addres of server-1-port is served by nginx webserver and IP addres of server-2-port served by Apache: 
+> >`curl <IP addres of server-1-port>`  
+`curl <IP addres of server-2-port>`
 
-Ubuntu: 
-Server1:
-apt update
-apt install nginx
-systemctl enable nginx
-systemctl start nginx
 
-Server2: 
-apt install apache2
-systemctl enable apache2
-systemctl start apache2
-```  
-Verify that IP addres of server-1-port is served by nginx webserver and IP addres of server-2-port served by Apache: 
-```
-curl <IP addres of server-1-port>
-curl <IP addres of server-2-port>
-```
+
+
 
 
 
