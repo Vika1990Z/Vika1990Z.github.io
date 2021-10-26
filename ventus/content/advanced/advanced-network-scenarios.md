@@ -66,36 +66,37 @@ Verify created servers:
 `openstack server list`  
 `openstack port list`  
 
->**Optionally:**  
+{{% notice info %}}
+**Optionally:**  
 Install Nginx web server on server1 and Apache on server2 and configure Ventus firewall rule to allow TCP port 80 from your workstation:
->
->**Centos:**     
+
+**Centos:**     
 Server1:    
 `yum install nginx`  
 `systemctl enable nginx`  
 `systemctl start nginx`  
-> 
->Server2:   
+ 
+Server2:   
 `yum install httpd`  
 `systemctl enable httpd`  
 `systemctl start httpd`  
->
->**Ubuntu:**  
+
+**Ubuntu:**  
 Server1:  
 `apt update`  
 `apt install nginx`  
 `systemctl enable nginx`  
 `systemctl start nginx`  
->
->Server2:   
+
+Server2:   
 `apt install apache2`  
 `systemctl enable apache2`  
 `systemctl start apache2`  
->
->Verify that IP addres of server-1-port is served by nginx webserver and IP addres of server-2-port served by Apache: 
->`curl <IP addres of server-1-port>`  
-`curl <IP addres of server-2-port>`
 
+Verify that IP addres of server-1-port is served by nginx webserver and IP addres of server-2-port served by Apache: 
+`curl <IP addres of server-1-port>`  
+`curl <IP addres of server-2-port>`
+{{% /notice %}}
 
 **Perform failover.** 
 
@@ -124,17 +125,19 @@ Verify that ports were switched:
 openstack server list
 openstack port list
 ```
-
+{{% notice info %}}
 >**Optionally:**
 >
 >Verify that IP address of server-1-port is now served by Apache webserver and IP address of server-2-port is now served by Nginx web servers. It will mean that we successfully switched ports of our servers. 
 >
 >`curl <IP addres of server-1-port>`  
 `curl <IP addres of server-2-port>`  
+{{% /notice %}}
 
->**Pro Tips:**
->
->Use "--fixed-ip" argument during port creation for better control of IP allocation in private networks e.g.:  
+{{% notice tip %}}
+**Pro Tips:**
+
+Use "--fixed-ip" argument during port creation for better control of IP allocation in private networks e.g.:  
 ```
 openstack port create --network <network_name> --fixed-ip \
 subnet=<subnet_name>,ip-address=<ip_address> <port_name>
@@ -142,38 +145,38 @@ e.g.:
 openstack port create --network network1 --fixed-ip \
 subnet=subnet1,ip-address=10.0.0.10 server-1-port
 ```
->
->You can assign multiple ports to one instance e.g.:
+
+You can assign multiple ports to one instance e.g.:
 ```
 openstack server add port server1 server-1-port
 openstack server add port server1 server-2-port
 ```
->
->Remove IP address from port
+
+Remove IP address from port
 ```
 openstack port set --no-fixed-ip <port_id>
 e.g.:
 openstack port set --no-fixed-ip 68c763c4-d523-4a47-baf9-XXXXXXXXXXXX
 ``` 
 
->Assign Desired IP to port:
+Assign Desired IP to port:
 ```
 openstack port set --fixed-ip subnet=<subnet_name>,ip-address=<ip_address> <port_id>
 e.g.:
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.10 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 ```
->
->Assign multiple IP addresses to one port:
+
+Assign multiple IP addresses to one port:
 ```
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.11 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.12 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.13 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 ```
->
->You can use a custom MAC address for port. Contact support if you need it. 
 
+You can use a custom MAC address for port. Contact support if you need it. 
+{{% /notice %}}
 
-{{% notice note %}}
+{{% notice %}}
 A notice disclaimer
 {{% /notice %}}
 
