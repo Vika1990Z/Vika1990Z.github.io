@@ -7,7 +7,7 @@ On this page, you can find an explanation of how to install OpenStack CLI on Lin
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
-1. [Install OpenStack CLI on Ubuntu VM ](#install-openstack-clion-ubuntu-vm)
+1. [Install OpenStack CLI on Ubuntu VM](#install-openstack-clion-ubuntu-vm)
 1. [Install OpenStack CLI on Centos VM](#install-openstack-clion-centos-vm)
 
 ## Prerequisites
