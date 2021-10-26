@@ -310,7 +310,7 @@ To edit Project name do the following:
     * *Headers*:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
-    * *Body*: as a row - `{"name":"NEW_PROJECT_NAME"}`
+    * *Body*: as a row - `{"name":"NEW_PROJECT_NAME"}`  
 
     ![](../../assets/images/adv/7.png?classes=border,shadow)   
     ![](../../assets/images/adv/8.png?classes=border,shadow) 
