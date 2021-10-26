@@ -97,7 +97,7 @@ Server1:
 `curl <IP addres of server-2-port>`
 
 
-Perform failover. 
+**Perform failover.** 
 
 Detaching ports from servers:
 ```
@@ -173,7 +173,9 @@ openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.13 68c763c4-a293-
 >You can use a custom MAC address for port. Contact support if you need it. 
 
 
-
+{{% notice note %}}
+A notice disclaimer
+{{% /notice %}}
 
 
 
