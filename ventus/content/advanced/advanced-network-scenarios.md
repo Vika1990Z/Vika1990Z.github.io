@@ -67,7 +67,7 @@ Verify created servers:
 
 >**Optionally:**  
 Install Nginx web server on server1 and Apache on server2 and configure Ventus firewall rule to allow TCP port 80 from your workstation:
-```
+>```
 Centos: 
 Server1:
 yum install nginx
