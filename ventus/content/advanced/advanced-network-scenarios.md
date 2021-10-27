@@ -27,7 +27,7 @@ Port migration can be used in drop-in replacement of instances in case of major 
 * Install and configure new instance nearby to old one, verify internally that it works as expected and then switch production traffic to it with preserving ability to rollback to previous version (instance).
 * In case of major failures - restore instance from backup and leverage previously used IP.
 
-![](../assets/images/adv/12.png?classes=border,shadow) 
+![](../../assets/images/adv/12.png?classes=border,shadow) 
 
 **Configuration**   
 Make sure that CLI user has SSH key:   
@@ -180,7 +180,7 @@ You need to know that:
 * Only one Floating IP can be assigned to instance at one time
 * You can't have Floating IP created from range of your private network. You can leverage Load Balancers to cover this case.
 
-![](../assets/images/adv/13.png?classes=border,shadow) 
+![](../../assets/images/adv/13.png?classes=border,shadow) 
 
 **Configuration**  
 Create private network:  
@@ -271,7 +271,7 @@ Floating IP is a great addition to your infrastructure. It's simple to use. It l
 ## Load Balancer
 Load balancer is a feature designed to satisfy the needs of the most complex and modern distributed application architectures. It helps to increase the performance of your application by distributing requests over multiple instances based on the chosen algorithm as well as reduce possible interruption to service caused by failed instances by leveraging instance auto-eviction functionality based on health probes. 
 
-![](../assets/images/adv/14.png?classes=border,shadow) 
+![](../../assets/images/adv/14.png?classes=border,shadow) 
 
 **Configuration**   
 Create and configure network:  

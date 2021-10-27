@@ -190,7 +190,7 @@ To get ID and Access tokens do the following:
 }
 ```
 
-![](../assets/images/adv/1.png?classes=border,shadow) 
+![](../../assets/images/adv/1.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:
 ```output
@@ -202,11 +202,11 @@ To get ID and Access tokens do the following:
 
 To save this tokens as variables for the reusing them in the next steps do the following:
 * go to the **Environments** tab:
-![](../assets/images/adv/2.png?classes=border,shadow) 
+![](../../assets/images/adv/2.png?classes=border,shadow) 
 
 * select **Globals** if you need make this variables *global accessible*, or create additional environment for them;
 * enter *key/value* of your variables and click on the **Save** icon:
-![](../assets/images/adv/3.png?classes=border,shadow)
+![](../../assets/images/adv/3.png?classes=border,shadow)
 
 **List all Projects**  
 To list all Projects do the following:  
@@ -219,11 +219,11 @@ To list all Projects do the following:
         * *Access*: Bearer ACCESS_TOKEN;  
 
 {{% notice note %}}
-*ORG-ID*: Organization ID that was extracted from URL in Ventus Console, and saved as a variable.
-ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
+*ORG-ID* - Organization ID that was extracted from URL in Ventus Console, and saved as a variable.  
+*ID_TOKEN* and *ACCESS_TOKEN* - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
 {{% /notice %}}
 
-![](../assets/images/adv/4.png?classes=border,shadow)    
+![](../../assets/images/adv/4.png?classes=border,shadow)    
 
 * Click on the **Send** icon and in Response block you will receive:
 ```output
@@ -257,11 +257,11 @@ To create new Project do the following:
         * *Access*: Bearer ACCESS_TOKEN.
 
 {{% notice note %}}
-*REGION_NAME* - region name that was entered in lowercase and saved as a variable;  
+*REGION_NAME* - region name that was entered in lowercase and saved as a variable;    
 *newPROJECT* - name of the new Project.
 {{% /notice %}}  
 
-![](../assets/images/adv/5.png?classes=border,shadow)    
+![](../../assets/images/adv/5.png?classes=border,shadow)    
 
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
@@ -285,7 +285,7 @@ To get Project by ID do the following:
 *PROJECT_ID* - ID of the desired project that was saved as a variable.
 {{% /notice %}}  
 
-![](../assets/images/adv/6.png?classes=border,shadow)  
+![](../../assets/images/adv/6.png?classes=border,shadow)  
 
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
@@ -306,8 +306,8 @@ To edit Project name do the following:
         * *Access*: Bearer ACCESS_TOKEN.
     * *Body*: as a row - `{"name":"NEW_PROJECT_NAME"}`  
 
-    ![](../assets/images/adv/7.png?classes=border,shadow)   
-    ![](../assets/images/adv/8.png?classes=border,shadow) 
+    ![](../../assets/images/adv/7.png?classes=border,shadow)   
+    ![](../../assets/images/adv/8.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
@@ -331,7 +331,7 @@ To delete Project do the following:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
 
-    ![](../assets/images/adv/9.png?classes=border,shadow) 
+    ![](../../assets/images/adv/9.png?classes=border,shadow) 
 
 * Click on the **Send** icon and the selected project will be deleted.     
 
@@ -345,7 +345,7 @@ To get Prices do the following:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
 
-    ![](../assets/images/adv/10.png?classes=border,shadow) 
+    ![](../../assets/images/adv/10.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
