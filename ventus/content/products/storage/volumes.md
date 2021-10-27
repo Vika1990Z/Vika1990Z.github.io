@@ -49,7 +49,9 @@ After these steps, the newly created Volume will be added to the *Volumes page*
 ![](../../../assets/images/vol/5.png?classes=border,shadow) 
 
 ## Attach Volume
->**NOTE:** you can attach only Volumes with state *available*.  
+{{% notice note %}}
+You can attach only Volumes with state *available*. 
+{{% /notice %}}
 
 To attach a Volume from the *Volumes page* do the following:
 - identify Volume you want to attach on the *Volumes page*;
@@ -65,7 +67,9 @@ And also, this Volume will be displayed on the *VOLUMES TAB* on the *Virtual Ma
 ![](../../../assets/images/vol/10.png?classes=border,shadow) 
 
 ## Detach Volume
->**NOTE:** you can detach only Volumes with state *in-use*.
+{{% notice note %}}
+You can detach only Volumes with state *in-use*. 
+{{% /notice %}}
 
 To detach a Volume from the *Volumes page* you need to do the following:
 - identify Volume that you want to detach on the *Volumes page*;
