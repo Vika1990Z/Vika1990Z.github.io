@@ -99,7 +99,9 @@ To extend a Volume from the *Volumes page* do the following:
 After these steps, the selected Volume will be updated.
 
 ## Delete Volume
->**NOTE**: You can't delete the Volume with the state *in-use,* firstly, you need to detach it.  
+{{% notice note %}}
+You can't delete the Volume with the state *in-use,* firstly, you need to detach it. 
+{{% /notice %}}
 
 To delete a Volume do the following:
 - identify this unnecessary Volume on the *Volumes page*;

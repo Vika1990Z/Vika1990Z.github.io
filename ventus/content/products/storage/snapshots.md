@@ -40,7 +40,7 @@ To create new Snapshot from the *Snapshots page* do the following:
   - *Description* - set a description for the Snapshot;
   - *Volume* - select volume from what you want to create a Snapshot.
 
-{{% notice note %}}
+{{% notice warning %}}
 Snapshot created from the volume with "in-use" status can contain corrupted data.
 {{% /notice %}}  
 
