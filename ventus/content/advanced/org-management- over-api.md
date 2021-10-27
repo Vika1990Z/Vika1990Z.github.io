@@ -214,16 +214,14 @@ To list all Projects do the following:
 * Create new Request with the next parameters:
     * *Option*: GET;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-enterprises/method/orgs/ORG-ID/projects;  
-    {{% notice note %}}
-    *ORG-ID*: Organization ID that was extracted from URL in Ventus Console, and saved as a variable.
-    {{% /notice %}}
-    
     * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN;  
-        {{% notice note %}}
-        ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
-        {{% /notice %}}
+
+{{% notice note %}}
+*ORG-ID*: Organization ID that was extracted from URL in Ventus Console, and saved as a variable.
+ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
+{{% /notice %}}
 
     ![](../assets/images/adv/4.png?classes=border,shadow)    
 * Click on the **Send** icon and in Response block you will receive:
@@ -253,14 +251,14 @@ To create new Project do the following:
 * Create new Request with the next parameters:
     * *Option*: POST;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/ORG-ID/projects/newPROJECT;  
-    {{% notice note %}}
-    *REGION_NAME* - region name that was entered in lowercase and saved as a variable;  
-    *newPROJECT* - name of the new Project.
-    {{% /notice %}}  
-
    * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
+
+{{% notice note %}}
+*REGION_NAME* - region name that was entered in lowercase and saved as a variable;  
+*newPROJECT* - name of the new Project.
+{{% /notice %}}  
 
     ![](../assets/images/adv/5.png?classes=border,shadow)    
 * Click on the **Send** icon and in Response block you will receive:     
@@ -277,13 +275,13 @@ To get Project by ID do the following:
 * Create new Request with the next parameters:
     * *Option*: GET;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/projects/PROJECT_ID;
-    {{% notice note %}}
-    *PROJECT_ID* - ID of the desired project that was saved as a variable.
-    {{% /notice %}}
-    
     * *Headers*:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
+
+{{% notice note %}}
+*PROJECT_ID* - ID of the desired project that was saved as a variable.
+{{% /notice %}}
 
     ![](../assets/images/adv/6.png?classes=border,shadow)  
 
