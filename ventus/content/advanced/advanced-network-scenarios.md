@@ -67,27 +67,27 @@ Verify created servers:
 `openstack port list`  
 
 {{% notice info %}}
-**Optionally:**  
-Install Nginx web server on server1 and Apache on server2 and configure Ventus firewall rule to allow TCP port 80 from your workstation:
-**Centos:**     
-Server1:    
-`yum install nginx`  
-`systemctl enable nginx`  
-`systemctl start nginx`  
-Server2:   
-`yum install httpd`  
-`systemctl enable httpd`  
-`systemctl start httpd`  
-**Ubuntu:**  
-Server1:  
-`apt update`  
-`apt install nginx`  
-`systemctl enable nginx`  
-`systemctl start nginx`  
-Server2:   
-`apt install apache2`  
-`systemctl enable apache2`  
-`systemctl start apache2`  
+**Optionally:**    
+Install Nginx web server on server1 and Apache on server2 and configure Ventus firewall rule to allow TCP port 80 from your workstation:  
+* **Centos:**     
+    * *Server1:*      
+        `yum install nginx`  
+        `systemctl enable nginx`  
+        `systemctl start nginx`  
+    * *Server2:*   
+        `yum install httpd`  
+        `systemctl enable httpd`  
+        `systemctl start httpd`  
+* **Ubuntu:**  
+    * *Server1:*    
+        `apt update`  
+        `apt install nginx`  
+        `systemctl enable nginx`  
+        `systemctl start nginx`  
+    * *Server2:*   
+        `apt install apache2`  
+        `systemctl enable apache2`  
+        `systemctl start apache2`  
 Verify that IP addres of server-1-port is served by nginx webserver and IP addres of server-2-port served by Apache: 
 `curl <IP addres of server-1-port>`  
 `curl <IP addres of server-2-port>`
@@ -129,39 +129,30 @@ Verify that IP address of server-1-port is now served by Apache webserver and IP
 
 {{% notice tip %}}
 **Pro Tips:**
-Use "--fixed-ip" argument during port creation for better control of IP allocation in private networks e.g.:  
->openstack port create --network <network_name> --fixed-ip \
-subnet=<subnet_name>,ip-address=<ip_address> <port_name>
-e.g.:
-openstack port create --network network1 --fixed-ip \
-subnet=subnet1,ip-address=10.0.0.10 server-1-port*
-
-You can assign multiple ports to one instance e.g.:  
-`openstack server add port server1 server-1-port`  
-`openstack server add port server1 server-2-port`  
-
-Remove IP address from port:
-openstack port set --no-fixed-ip <port_id>
-e.g.:
-openstack port set --no-fixed-ip 68c763c4-d523-4a47-baf9-XXXXXXXXXXXX
-
-Assign Desired IP to port:
-___
-openstack port set --fixed-ip subnet=<subnet_name>,ip-address=<ip_address> <port_id>
-e.g.:
-openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.10 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
-___
-Assign multiple IP addresses to one port:
-openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.11 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
-openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.12 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
-openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.13 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
-
-You can use a custom MAC address for port. Contact support if you need it. 
+* *Use "--fixed-ip" argument during port creation for better control of IP allocation in private networks e.g.:*  
+openstack port create --network <network_name> --fixed-ip \  
+subnet=<subnet_name>,ip-address=<ip_address> <port_name>  
+e.g.:  
+openstack port create --network network1 --fixed-ip \  
+subnet=subnet1,ip-address=10.0.0.10 server-1-port    
+* *You can assign multiple ports to one instance e.g.:*    
+`openstack server add port server1 server-1-port`    
+`openstack server add port server1 server-2-port`    
+* *Remove IP address from port:*    
+openstack port set --no-fixed-ip <port_id>  
+e.g.:  
+openstack port set --no-fixed-ip 68c763c4-d523-4a47-baf9-XXXXXXXXXXXX  
+* *Assign Desired IP to port:*  
+openstack port set --fixed-ip subnet=<subnet_name>,ip-address=<ip_address> <port_id>  
+e.g.:  
+openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.10 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX   
+* *Assign multiple IP addresses to one port:*  
+openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.11 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX  
+openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.12 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX  
+openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.13 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX  
+* *You can use a custom MAC address for port. Contact support if you need it.*  
 {{% /notice %}}
 
-{{% notice %}}
-A notice disclaimer
-{{% /notice %}}
 
 
 
