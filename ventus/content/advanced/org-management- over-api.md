@@ -223,7 +223,8 @@ To list all Projects do the following:
 ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
 {{% /notice %}}
 
-    ![](../assets/images/adv/4.png?classes=border,shadow)    
+![](../assets/images/adv/4.png?classes=border,shadow)    
+
 * Click on the **Send** icon and in Response block you will receive:
 ```output
 [
@@ -260,7 +261,8 @@ To create new Project do the following:
 *newPROJECT* - name of the new Project.
 {{% /notice %}}  
 
-    ![](../assets/images/adv/5.png?classes=border,shadow)    
+![](../assets/images/adv/5.png?classes=border,shadow)    
+
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
 {
@@ -279,11 +281,11 @@ To get Project by ID do the following:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
 
-{{% notice note %}}
+{{% notice note %}}  
 *PROJECT_ID* - ID of the desired project that was saved as a variable.
-{{% /notice %}}
+{{% /notice %}}  
 
-    ![](../assets/images/adv/6.png?classes=border,shadow)  
+![](../assets/images/adv/6.png?classes=border,shadow)  
 
 * Click on the **Send** icon and in Response block you will receive:     
 ```output
