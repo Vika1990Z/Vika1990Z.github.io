@@ -121,10 +121,10 @@ openstack server list
 openstack port list
 ```
 {{% notice info %}}
-**Optionally:**
-Verify that IP address of server-1-port is now served by Apache webserver and IP address of server-2-port is now served by Nginx web servers. It will mean that we successfully switched ports of our servers. 
-`curl <IP addres of server-1-port>`  
-`curl <IP addres of server-2-port>`  
+**Optionally:**  
+Verify that IP address of server-1-port is now served by Apache webserver and IP address of server-2-port is now served by Nginx web servers. It will mean that we successfully switched ports of our servers.   
+`curl <IP addres of server-1-port>`   
+`curl <IP addres of server-2-port>`    
 {{% /notice %}}
 
 {{% notice tip %}}
