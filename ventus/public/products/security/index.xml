@@ -18,7 +18,7 @@
       
       <guid>http://example.org/products/security/firewalls/</guid>
       <description>On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
-Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall:  NOTE: All VMs have a default Firewall which is applied to any VM.</description>
+Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall: All VMs have a default Firewall which is applied to any VM.</description>
     </item>
     
     <item>

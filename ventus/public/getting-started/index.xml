@@ -39,7 +39,7 @@ Table of contents  Organizations page Create Organization Edit Organization Dele
       
       <guid>http://example.org/getting-started/projects/</guid>
       <description>On this page, you can find an explanation of how to create a new Project, and how to manage it in the Cloud Console.
-Table of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page  NOTE To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
+Table of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
     </item>
     
   </channel>

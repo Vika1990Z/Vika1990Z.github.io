@@ -28,8 +28,8 @@ Table of contents  Registration Manage Account   Edit Account Change password S
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/advanced/installation-openstack-cli/</guid>
-      <description>On this page, you can find an explanation of how install OpenStack CLI on Linux VM in Cloud Console.
-Table of contents  Prerequisites Install OpenStack CLI on Ubuntu VM  Install OpenStack CLI on Centos VM  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
+      <description>On this page, you can find an explanation of how to install OpenStack CLI on Linux VM in Cloud Console.
+Table of contents  Prerequisites Install OpenStack CLI on Ubuntu VM Install OpenStack CLI on Centos VM  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
  API User, created with the following parameters and its RC file has already been loaded:  Name: testCLIuser; Password: P@sword.</description>
     </item>
     
@@ -101,7 +101,7 @@ Table of contents  Prerequisites Configuring Firewalls Connect using SSH  Prereq
       
       <guid>http://example.org/products/security/firewalls/</guid>
       <description>On this page, you can find an explanation of how to create, edit and delete Firewalls in the Cloud Console.
-Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall:  NOTE: All VMs have a default Firewall which is applied to any VM.</description>
+Table of contents  Firewalls page Create Firewall Edit Firewall Delete Firewall  Firewalls page To get to the Firewalls page select the Security from the VIRTUAL DATACENTER block in the side-bar menu and click the Firewalls TAB: On this page you can find default Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Firewall: All VMs have a default Firewall which is applied to any VM.</description>
     </item>
     
     <item>
@@ -125,13 +125,23 @@ Table of contents  Organizations page Create Organization Edit Organization Dele
     </item>
     
     <item>
+      <title>Working with OpenStack API</title>
+      <link>http://example.org/advanced/working-with-openstack-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/working-with-openstack-api/</guid>
+      <description>On this page, you can find an explanation of how to work with OpenStack API using Ventus Cloud account.
+Table of contents  Introduction Configure credentials file  Dot source credentials file Run test commands Change region Find resources Conclusion  Introduction We encourage clients to use CLI Users to work directly with OpenStack API, but it has a limitation - it&amp;rsquo;s bonded to the specific project in the specific region.</description>
+    </item>
+    
+    <item>
       <title>Administrators</title>
       <link>http://example.org/identity-management/administrators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/identity-management/administrators/</guid>
       <description>On this page, you can find an explanation of how to add a new Administrator to the Organization, how to transfer the Organization to another User and how to remove Administrator from the Organization in Cloud Console.
-Table of contents  Administrators page Add Administrator to the Organization  Resend Invitation Delete Invitation   Transfer Organization Remove Administrator from the Organization  Administrators page   NOTE: To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
+Table of contents  Administrators page Add Administrator to the Organization  Resend Invitation Delete Invitation   Transfer Organization Remove Administrator from the Organization  Administrators page To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
     </item>
     
     <item>
@@ -156,6 +166,17 @@ Table of contents  Firewall Rules page Characteristics of Firewall Rules Create 
     </item>
     
     <item>
+      <title>Organization&#39;s management over API</title>
+      <link>http://example.org/advanced/org-management-over-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/org-management-over-api/</guid>
+      <description>On this page, you can find the workflow for management of your Organization in Ventus Cloud using API.
+Table of contents  Required endpoints Example using CURL Example using Postman  Required endpoints  auth.ventuscloud.eu - use it to get ID and Access tokens from basic credentials api.ventuscloud.eu - use it to work with organization&amp;rsquo;s resources   Example using CURL Get ID and Access tokens
+To get ID and Access tokens use next command:</description>
+    </item>
+    
+    <item>
       <title>Subnets</title>
       <link>http://example.org/products/network/subnets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -164,6 +185,17 @@ Table of contents  Firewall Rules page Characteristics of Firewall Rules Create 
       <description>On this page, you can find an explanation of how to create, edit and delete Subnets in Cloud Console.
 Table of contents  Subnets page Create Subnet Edit Subnet Delete Subnet  Subnets page To open the Subnets page go to Networks page and click on the Name of the corresponding Network: On this page you can find:
  panel with available quick actions for the selected Network:  all created Subnets related to the selected Network with their Headers, Create button, Search bar and Actions icon, which opens a list of available management actions for the selected Subnet:   Actions icon opens the next list of available management actions for the selected Subnet:</description>
+    </item>
+    
+    <item>
+      <title>Advanced network scenarios</title>
+      <link>http://example.org/advanced/advanced-network-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/advanced-network-scenarios/</guid>
+      <description>On this page, we will discuss scenarios that can help you to build software upgrade friendly and fault-tolerant cloud infrastructure.
+ Most of the topics described below considered advanced. Basic Linux and Networking skills are required. Please contact support if you need guidance and best practices for your specific use case.
+Most of the features described below are in beta state, thus not available at the Console portal, and can be configured through CLI and IaC tools like Terraform and Ansible.</description>
     </item>
     
     <item>
@@ -184,7 +216,17 @@ Table of contents  VM&amp;rsquo;s NETWORKS &amp;amp; SECURITY TAB Add Firewall 
       
       <guid>http://example.org/getting-started/projects/</guid>
       <description>On this page, you can find an explanation of how to create a new Project, and how to manage it in the Cloud Console.
-Table of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page  NOTE To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
+Table of contents  Projects page Create Project Edit Project Delete Project Add Users to Project  Projects page To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an Administrator or Owner.</description>
+    </item>
+    
+    <item>
+      <title>The Site to Site IPSec VPN</title>
+      <link>http://example.org/advanced/site-to-site-ipsec-vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/advanced/site-to-site-ipsec-vpn/</guid>
+      <description>On this page, you can find an explanation of how to configure Site to Site IPSec connection between Ventus Cloud Regions.
+Table of contents  Prerequisites Configure Site to Site IPSec connection Strongswan useful commands Capture traffic Disable port-security Preparing client side Verifying connectivity  Prerequisites  Create a private network in each region. How to create a network see the articles - Networks, Subnets Create two VMs in private and public networks based on Ubuntu 18.</description>
     </item>
     
     <item>
@@ -226,7 +268,7 @@ Table of contents  VM&amp;rsquo;s VOLUMES TAB Attach Volume Detach Volume Edit 
       
       <guid>http://example.org/identity-management/groups/</guid>
       <description>On this page, you can find an explanation of how to create and manage a new Group in the Cloud Console.
-Table of contents  Group page Create Group Сonfigure Group  Manage Users in Group Manage Projects in Group   Edit Group Delete Group  Groups page  NOTE: Using Groups in Cloud Console you can add additional Users to the Project.
+Table of contents  Group page Create Group Сonfigure Group  Manage Users in Group Manage Projects in Group   Edit Group Delete Group  Groups page Using Groups in Cloud Console you can add additional Users to the Project.
  To get to the Group page select the Groups from the side-bar menu.</description>
     </item>
     

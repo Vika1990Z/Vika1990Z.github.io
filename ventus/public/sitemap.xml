@@ -72,6 +72,10 @@
   </url>
   
   <url>
+    <loc>http://example.org/advanced/working-with-openstack-api/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/products/</loc>
     <lastmod>2019-09-25T01:53:09+03:30</lastmod>
   </url>
@@ -94,7 +98,15 @@
   </url>
   
   <url>
+    <loc>http://example.org/advanced/org-management-over-api/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/products/network/subnets/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/advanced/advanced-network-scenarios/</loc>
   </url>
   
   <url>
@@ -108,6 +120,10 @@
   
   <url>
     <loc>http://example.org/getting-started/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/advanced/site-to-site-ipsec-vpn/</loc>
   </url>
   
   <url>
