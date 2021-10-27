@@ -8,29 +8,14 @@ On this page, you can find the workflow for management of your Organization in V
 # Table of contents
 1. [Required endpoints](#required-endpoints)
 2. [Example using CURL](#example-using-curl)
-    1. [Get ID and Access tokens](#get-id-and-access-tokens)
-    2. [List all Projects](#list-all-projects)
-    3. [Create new Project](#create-new-project)
-    4. [Get Project by ID](#get-project-by-id)
-    5. [Edit Project name](#edit-project-name)
-    6. [Delete Project](#delete-project)
-    7. [Get Prices](#get-prices)
-3. [Example using Postman](#example-using-postman)
-    1. [Get ID and Access tokens](#get-id-and-access-tokens)
-    2. [List all Projects](#list-all-projects)
-    3. [Create new Project](#create-new-project)
-    4. [Get Project by ID](#get-project-by-id)
-    5. [Edit Project name](#edit-project-name)
-    6. [Delete Project](#delete-project)
-    7. [Get Prices](#get-prices)    
-
+3. [Example using Postman](#example-using-postman) 
 
 ## Required endpoints
 - **auth.ventuscloud.eu** - use it to get ID and Access tokens from basic credentials
 - **api.ventuscloud.eu** - use it to work with organization's resources 
 
 ## Example using CURL
-### Get ID and Access tokens
+**Get ID and Access tokens**  
 To get ID and Access tokens use next command: 
 ```
 curl -XGET https://auth.ventuscloud.eu/get-tokens -d '
@@ -41,7 +26,7 @@ curl -XGET https://auth.ventuscloud.eu/get-tokens -d '
 ```
 
 Response example:
-```
+```output
 {
 "id_token":"eyJ......kRg",
 "access_token":"eyJ......6Tg"
@@ -62,7 +47,7 @@ Organization ID can be extracted from URL in Ventus Console, e.g.:
 https://console.ventuscloud.eu/organizations/c19XXXX-XXXX-XXXX-XXXX-XXXX50/projects
 ```
 
-### List all Projects
+**List all Projects**  
 To list all Projects use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-enterprises/method/orgs/$ORGANIZATION_ID/projects \
@@ -71,7 +56,7 @@ curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-enterprises/method/orgs
 ```
 
 Response example:
-```
+```output
 [
 {
 "id":"a8dxxxxxxxxxxxxxxxxxddf",
@@ -91,7 +76,7 @@ Response example:
 ]
 ```
 
-### Create new Project
+**Create new Project**  
 To create new Project use next command:
 ```
 curl -XPOST https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/PROJECT_NAME \
@@ -100,14 +85,14 @@ curl -XPOST https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/
 ```
 
 Response example:
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"PROJECT_NAME"
 }
 ```
 
-### Get Project by ID
+**Get Project by ID**  
 To get Project by ID use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/projects/$PROJECT_ID \
@@ -116,14 +101,14 @@ curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/m
 ```
 
 Response example:
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"PROJECT_NAME"
 }
 ```
 
-### Edit Project name
+**Edit Project name**  
 To edit Project name use next command:
 ```
 curl -XPUT https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/$PROJECT_ID \
@@ -132,14 +117,14 @@ curl -XPUT https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/m
 ```
 
 Response example:
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"NEW_PROJECT_NAME"
 }
 ```
 
-### Delete Project
+**Delete Project**  
 To delete Project use next command:
 ```
 curl -XDELETE -I https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/$PROJECT_ID \
@@ -148,12 +133,12 @@ curl -XDELETE -I https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-iden
 ```
 
 Response example:
-```
+```output
 HTTP/2 200
 ```
 
 
-### Get Prices
+**Get Prices**  
 To get Prices use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-bank/method/prices \
@@ -162,7 +147,7 @@ curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-bank/method/prices \
 ```
 
 Response example:
-```
+```output
 {
     "chf": {
         "storage": 0.0003,
@@ -191,7 +176,7 @@ Response example:
 ```
 
 ## Example using Postman
-### Get ID and Access tokens: 
+**Get ID and Access tokens**  
 To get ID and Access tokens do the following:
 
 * Create new Request with the next parameters:
@@ -208,7 +193,7 @@ To get ID and Access tokens do the following:
 ![](../assets/images/adv/1.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:
-```
+```output
 {
 "id_token":"eyJ......kRg",
 "access_token":"eyJ......6Tg"
@@ -223,21 +208,26 @@ To save this tokens as variables for the reusing them in the next steps do the f
 * enter *key/value* of your variables and click on the **Save** icon:
 ![](../assets/images/adv/3.png?classes=border,shadow)
 
-### List all Projects
+**List all Projects**  
 To list all Projects do the following:  
 
 * Create new Request with the next parameters:
     * *Option*: GET;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-enterprises/method/orgs/ORG-ID/projects;  
-    >*ORG-ID*: Organization ID that was extracted from URL in Ventus Console, and saved as a variable.
+    {{% notice note %}}
+    *ORG-ID*: Organization ID that was extracted from URL in Ventus Console, and saved as a variable.
+    {{% /notice %}}
+    
     * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN;  
-        >ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
+        {{% notice note %}}
+        ID_TOKEN and ACCESS_TOKEN - tokens that were received with previous "Get ID And Access tokens" request and saved as a variables.
+        {{% /notice %}}
 
     ![](../assets/images/adv/4.png?classes=border,shadow)    
 * Click on the **Send** icon and in Response block you will receive:
-```
+```output
 [
 {
 "id":"a8dxxxxxxxxxxxxxxxxxddf",
@@ -257,14 +247,16 @@ To list all Projects do the following:
 ]    
 ```
 
-### Create new Project
+**Create new Project**  
 To create new Project do the following:
 
 * Create new Request with the next parameters:
     * *Option*: POST;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/ORG-ID/projects/newPROJECT;  
-    >*REGION_NAME* - region name that was entered in lowercase and saved as a variable;  
-    *newPROJECT* - name of the new Project.  
+    {{% notice note %}}
+    *REGION_NAME* - region name that was entered in lowercase and saved as a variable;  
+    *newPROJECT* - name of the new Project.
+    {{% /notice %}}  
 
    * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
@@ -272,21 +264,23 @@ To create new Project do the following:
 
     ![](../assets/images/adv/5.png?classes=border,shadow)    
 * Click on the **Send** icon and in Response block you will receive:     
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"newPROJECT"
 }
 ```
 
-### Get Project by ID
+**Get Project by ID**  
 To get Project by ID do the following:
 
 * Create new Request with the next parameters:
     * *Option*: GET;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/projects/PROJECT_ID;
-    >*PROJECT_ID* - ID of the desired project that was saved as a variable.  
-
+    {{% notice note %}}
+    *PROJECT_ID* - ID of the desired project that was saved as a variable.
+    {{% /notice %}}
+    
     * *Headers*:
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
@@ -294,14 +288,14 @@ To get Project by ID do the following:
     ![](../assets/images/adv/6.png?classes=border,shadow)  
 
 * Click on the **Send** icon and in Response block you will receive:     
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"PROJECT_NAME"
 }
 ```        
 
-### Edit Project name
+**Edit Project name**  
 To edit Project name do the following: 
 
 * Create new Request with the next parameters:
@@ -316,20 +310,22 @@ To edit Project name do the following:
     ![](../assets/images/adv/8.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:     
-```
+```output
 {
 "id":"efexxxxxxxxxxxxxxxxxf9b",
 "name":"NEW_PROJECT_NAME"
 }
 ```     
 
-### Delete Project
+**Delete Project**  
 To delete Project do the following:
 
 * Create new Request with the next parameters:
     * *Option*: DELETE;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/ORG-ID/projects/PROJECT_ID;  
-    >PROJECT_ID - ID of the project, that you want to delete, saved as a variable.
+    {{% notice note %}}
+    PROJECT_ID - ID of the project, that you want to delete, saved as a variable.
+    {{% /notice %}}
 
     * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
@@ -339,7 +335,7 @@ To delete Project do the following:
 
 * Click on the **Send** icon and the selected project will be deleted.     
 
-### Get Prices
+**Get Prices**   
 To get Prices do the following:
 
 * Create new Request with the next parameters:
@@ -352,7 +348,7 @@ To get Prices do the following:
     ![](../assets/images/adv/10.png?classes=border,shadow) 
 
 * Click on the **Send** icon and in Response block you will receive:     
-```
+```output
 {
     "chf": {
         "storage": 0.0003,

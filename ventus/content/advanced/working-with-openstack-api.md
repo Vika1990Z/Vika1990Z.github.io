@@ -33,7 +33,7 @@ Take an example template below to configure your credentials file, you need to a
 * OS_PROJECT_ID - Id of created projects in Ventus Cloud; can be found on the project details page;   
 * OS_AUTH_URL - Endpoint to the region where your project created.
 
-```output
+```
 cat << EOF > ./ventus_credentials
 
 export OS_USERNAME="username@company.domain"

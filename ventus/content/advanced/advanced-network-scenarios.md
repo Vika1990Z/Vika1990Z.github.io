@@ -243,7 +243,7 @@ Verify that you can connect to server1 over internet using Floating IP address. 
 `#ssh centos@<floating_ip_address>`  
 `ssh centos@88.218.52.5`  
 
-Reassign Floating IP to server2:
+Reassign Floating IP to server2:  
 `#openstack server add floating ip server2 <floating_ip_address>`  
 `openstack server add floating ip server2 88.218.52.5`  
 
@@ -255,7 +255,7 @@ Delete server2 and verify that Floatin IP still exists in your project and can b
 `openstack server delete server2`  
 `openstack floating ip list`  
 
-Assign Floating IP to server1:
+Assign Floating IP to server1:  
 `#openstack server add floating ip server1 <floating_ip_address>`  
 `openstack server add floating ip server1 88.218.52.5`  
 `openstack floating ip list`  
