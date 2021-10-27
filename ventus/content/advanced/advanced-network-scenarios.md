@@ -141,17 +141,18 @@ You can assign multiple ports to one instance e.g.:
 `openstack server add port server1 server-2-port`  
 
 Remove IP address from port:
->openstack port set --no-fixed-ip <port_id>
+openstack port set --no-fixed-ip <port_id>
 e.g.:
 openstack port set --no-fixed-ip 68c763c4-d523-4a47-baf9-XXXXXXXXXXXX
 
 Assign Desired IP to port:
->openstack port set --fixed-ip subnet=<subnet_name>,ip-address=<ip_address> <port_id>
+___
+openstack port set --fixed-ip subnet=<subnet_name>,ip-address=<ip_address> <port_id>
 e.g.:
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.10 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
-
+___
 Assign multiple IP addresses to one port:
->openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.11 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
+openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.11 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.12 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 openstack port set --fixed-ip subnet=subnet1,ip-address=10.0.0.13 68c763c4-a293-68f9-anr6-XXXXXXXXXXXX
 
