@@ -34,8 +34,10 @@ To create a new SSH Key Pair do the following:
 The next open page will provide your *Private Key* and you can copy it or upload the *pem file* by choosing the action that suits you best:
 ![ssh![](../../../assets/images/ssh/4.png?classes=border,shadow)
 
->**NOTE:** You will have access to the private key only after creation, please save it to your private server if necessary.
-
+{{% notice note %}}
+You will have access to the private key only after creation, please save it to your private server if necessary.
+{{% /notice %}}
+ 
 After these steps, the newly created SSH Key Pair will be added to the *SSH Keys page*.
 
 ## Add Public Key 

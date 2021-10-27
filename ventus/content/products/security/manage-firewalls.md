@@ -42,8 +42,10 @@ Now you can open this *Firewall Rules page* by clicking on the **Name** of the
 On this page you can find all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
 ![](../../../assets/images/fw/12.png?classes=border,shadow) 
 
->**NOTE**: You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
-   
+{{% notice note %}}
+You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
+{{% /notice %}}
+ 
 For more information about Firewalls and their Rules, please, see the next articles:  
 [Firewalls]()  
 [Firewall Rules]()

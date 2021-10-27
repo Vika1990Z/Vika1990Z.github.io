@@ -41,7 +41,9 @@ After these steps the newly created Organization will be added to the *Organizat
 
 ## Edit Organization
 
->**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
+{{% notice note %}}
+This action available only if your User Role in this Organization is *Owner or Administrator*.
+{{% /notice %}}
 
 To edit Organization do the following:
 - identify what Organization you want to edit on the *Organizations page*;   
@@ -52,7 +54,9 @@ After these steps, the selected Organization will be updated.
 
 ## Delete Organization
 
->**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
+{{% notice note %}}
+This action available only if your User Role in this Organization is *Owner or Administrator*.
+{{% /notice %}}
 
 To delete Organization do the following:
 - identify this unnecessary Organization on the *Organizations page*;   

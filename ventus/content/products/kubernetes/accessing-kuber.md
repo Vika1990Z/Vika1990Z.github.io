@@ -262,7 +262,9 @@ kube-system   openstack-cloud-controller-manager-mfswf        1/1     Running   
 Since we created an SSH Keypair (see Prerequsutus of this article), the public key of which is deployed on our Cluster nodes, and the private key on our local system (for example, ~ / .ssh / id_rsa), we can connect to this Kubernetes Cluster remotely from our local server - via SSH to the Master Node of the selected Cluster, which IP is 185.226.41.220. For this, just use the following command:  
 `ssh -i ~/.ssh/id_rsa username@*10.111.22.333*`  
 
->**NOTE**: *Username* for Cluster nodes is **core.**  
+{{% notice note %}}
+*Username* for Cluster nodes is **core.**  
+{{% /notice %}}
 
 Replace *username* and *10.11.22.333* in the command with your data and specify the appropriate path to your private key. In our example, the command will look like this:   
 `ssh -i ~/.ssh/id_rsa core@185.226.41.220`

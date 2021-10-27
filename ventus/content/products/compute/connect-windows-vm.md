@@ -26,7 +26,9 @@ For more information on creating and configuring these resources, see the follow
 ## Configuring Firewalls
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
 
->**NOTE**: *Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too. 
+{{% notice note %}}
+*Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too. 
+{{% /notice %}}
 
 To resolve this, we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
 
@@ -68,7 +70,9 @@ This newly added rule will allow access to the TCP port 54000 on the all VMs in 
 
 *This is the first option, how we can configure the Firewall for RDP access - by creating a new one with the required rule. But we can just add this rule to the default Firewall that is already assigned to our VM, and these changes will automatically be applied to the VMs.*  
 
->**NOTE**: You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
+{{% notice note %}}
+You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
+{{% /notice %}}
 
 **To add required rule to the default Firewall you need to do next:**
 - open the *Firewalls page -* for this select the **Security** from the VIRTUAL DATACENTER block and click on the FIREWALL TAB:

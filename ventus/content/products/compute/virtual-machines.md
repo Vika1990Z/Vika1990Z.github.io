@@ -117,7 +117,10 @@ This action will redirect you to the *Virtual Machine details page*, where you
   ![](../../../assets/images/vms/17.png?classes=border,shadow)
 
 ## Download RDP File
->**NOTE:** This option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs.
+
+{{% notice note %}}
+This option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs.
+{{% /notice %}}
 
 To download RDP for the remote connection to the Windows Virtual Machine do the following:
 - identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;

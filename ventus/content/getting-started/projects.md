@@ -13,7 +13,10 @@ On this page, you can find an explanation of how to create a new Project, and ho
 5. [Add Users to Project](#add-users-to-project) 
 
 ## Projects page
->**NOTE** To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*. 
+
+{{% notice note %}}
+To see information about Projects of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*. 
+{{% /notice %}}
 
 To see information about created Projects in the Organization or create more Projects in it, you need on the *Organizations page* click on the *Name* of the appropriating Organization:
 ![](../../assets/images/projects/1-pr.png?classes=border,shadow) 
@@ -36,7 +39,9 @@ To create a new Project do the following:
 After these steps the newly created Project will be added to the *Projects page:*
 ![](../../assets/images/projects/5-pr.png?classes=border,shadow) 
 
->**NOTE:** All subsequent services provided by the Cloud Console within the one Project will be created in the corresponding Region in which this Project was created.
+{{% notice note %}}
+All subsequent services provided by the Cloud Console within the one Project will be created in the corresponding Region in which this Project was created.
+{{% /notice %}}
 
 ## Edit Project 
 To edit a Project do the following:
@@ -58,4 +63,6 @@ To add Users to the Project, you need to create a Group in which you can create 
 
 For more details, please, see - [Groups]
 
->**NOTE:** Added Members of the Group will have access to Projects from this Group and, accordingly, to all resources in this Project, but will not be able to see information about each other and manage the Groups and Administrators of the Organization that owns this Project.
+{{% notice note %}}
+Added Members of the Group will have access to Projects from this Group and, accordingly, to all resources in this Project, but will not be able to see information about each other and manage the Groups and Administrators of the Organization that owns this Project.
+{{% /notice %}}

@@ -39,7 +39,10 @@ There are two ways to *attach*, *detach*, *edit* and *extend* Volumes:
 In this article, we will explain the second way - to manage Volumes from the *VOLUMES TAB* on the *Virtual Machine details page*. Information about the first one you can find in the next article - [Volumes]().  
 
 ## Attach Volume
->**NOTE:** you can attach only Volumes with state *available*.  
+
+{{% notice note %}}
+You can attach only Volumes with state *available*.  
+{{% /notice %}}
 
 To attach a Volume from the *VOLUMES TAB* on the *Virtual Machine details page* do the following:
 - click on the ATTACH VOLUME icon in the upper left corner of the *VOLUMES TAB* on the *Virtual Machine details page*;
@@ -53,7 +56,10 @@ On the *Volumes page* its status will change to *in-use:
 ![](../../../assets/images/vol/9.png?classes=border,shadow) 
 
 ## Detach Volume
->**NOTE:** you can detach only Volumes with state *in-use*.
+
+{{% notice note %}}
+You can detach only Volumes with state *in-use*. 
+{{% /notice %}}  
 
 To detach a Volume from the *VOLUMES TAB* on the *Virtual Machine details page* do the following:
 - identify Volume that you want to detach on the *VOLUMES TAB*;

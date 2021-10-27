@@ -15,7 +15,10 @@ On this page, you can find an explanation of how to create and manage a new Grou
 5. [Delete Group](#delete-group)
 
 ## Groups page
->**NOTE:** Using Groups in Cloud Console you can add additional Users to the Project. 
+
+{{% notice note %}}
+Using Groups in Cloud Console you can add additional Users to the Project. 
+{{% /notice %}}  
 
 To get to the *Group page* select the **Groups** from the *side-bar menu*.
 
@@ -51,7 +54,10 @@ So, from this page you can:
 - **remove Projects** from access of selected Users;
 
 ### Manage Users in Group
->**NOTE:** You can add as many Users and Projects to the Group as you need.
+
+{{% notice note %}}
+You can add as many Users and Projects to the Group as you need.
+{{% /notice %}}
 
 To add a new User to the selected Group do the next:
 - go to the *Group details page* and click on the ADD USER icon;

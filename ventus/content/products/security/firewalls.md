@@ -19,9 +19,11 @@ To get to the *Firewalls page* select the **Security** from the VIRTUAL DAT
 On this page you can find *default* Firewall, all your own Firewalls created in the current Project, and the Firewalls created during Cluster creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Firewall:
 ![](../../../assets/images/fw/2.png?classes=border,shadow)
 
->**NOTE**: All VMs have a default Firewall which is applied to any VM.  
+{{% notice note %}}
+All VMs have a default Firewall which is applied to any VM.  
 The user cannot delete default Firewall or change its Name or Description but can change its rules.  
 Default Firewall allows access to the Internet from the VMs, but denies almost all access on the VMs from outside, except for objects belonging to the same default Firewall.  
+{{% /notice %}}
 
 **Actions** icon opens the next list of available management actions but isn't active for default Firewall:
 - *Edit* - this option is used to change the name and/or description of the selected Firewall;

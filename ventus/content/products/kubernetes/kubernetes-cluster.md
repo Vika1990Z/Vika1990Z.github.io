@@ -66,7 +66,10 @@ This action will redirect you to the *Cluster  details page*, where you can f
 ![](../../../assets/images/clusters/11.png?classes=border,shadow)
 
 ## Download kubeconfig file
->**NOTE:** The kubeconfig file is required to configure access to a cluster and switch between multiple clusters, multiple users, and with different authentication mechanisms such as passwords or tokens.
+
+{{% notice note %}}
+The kubeconfig file is required to configure access to a cluster and switch between multiple clusters, multiple users, and with different authentication mechanisms such as passwords or tokens.
+{{% /notice %}}
 
 To download the kubeconfig file that pertains to Cluster do the following:
 - identify this desired Cluster on the *Clusters page*;

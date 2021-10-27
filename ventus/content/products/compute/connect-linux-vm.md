@@ -32,7 +32,9 @@ For more information on creating and configuring these resources, see the follow
 ## Configuring Firewalls
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
 
->**NOTE**: *Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too. 
+{{% notice note %}}
+*Default* *Firewall* allows all outbound traffic and controls the inbound traffic that's allowed to reach the VMs that are associated with the *default* *Firewall* too.
+{{% /notice %}} 
 
 To resolve this, we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
 
@@ -74,7 +76,9 @@ This newly added rule will allow access to the TCP port 22 on the all VMs in the
 
 *This is the first option, how we can configure the Firewall for SSH access - by creating a new one with the required rule. But we can just add this rule to the default Firewall that is already assigned to our VM, and these changes will automatically be applied to the VMs.* 
 
->**NOTE**: You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
+{{% notice note %}}
+You can add and remove rules at any time. Your changes are automatically applied to the VMs that are associated with the corresponding Firewall.
+{{% /notice %}}  
 
 **To add required rule to the default Firewall you need to do next:**
 - open the *Firewalls page -* for this select the **Security** from the VIRTUAL DATACENTER block and click on the FIREWALL TAB:
@@ -94,8 +98,10 @@ And that's all, this newly created Firewall Rule will be automatically applied t
 Since we have the public key deployed on our Linux VM, the private key on our local system (for example ~/.ssh/id_rsa) and a Firewall configured to allow incoming traffic on port 22, we can connect to this Virtual Machine remotely from our local server via SSH, just use the next command: 
 `ssh -i ~/.ssh/id_rsa username@*10.111.22.333*`
 
->**NOTE**: Username for VMs created with *Ubuntu image* will be **ubuntu**;   
+{{% notice note %}}
+Username for VMs created with *Ubuntu image* will be **ubuntu**;   
 with *Centos image* - **centos.**
+{{% /notice %}} 
 
 Replace *username* and *10.11.22.333* in the command with your data and specify the appropriate path to your private key. In our example, the command will look like this:
 `sudo ssh -i ~/.ssh/id_rsa ubuntu@185.226.41.42`

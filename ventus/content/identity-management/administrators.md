@@ -14,8 +14,10 @@ On this page, you can find an explanation of how to add a new Administrator to t
 4. [Remove Administrator from the Organization](#remove-administrator)
 
 ## Administrators page
-___
->**NOTE:** To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*.    
+
+{{% notice note %}}
+To see information about Administrators of the Organization and to manage them you can only if your User Role in this Organization is an *Administrator* or *Owner*.   
+{{% /notice %}}
 
 To see information about Administrators of the Organization go to the *Organizations page* and click on the **Name** of the Organization:  
 ![](../../assets/images/organizations/7-org.png?classes=border,shadow)  
@@ -26,7 +28,9 @@ This action will redirect you to the *Administrators page*, where you can find a
 
 ## Add Administrator
 
->**NOTE:** You can add only those Users who have already passed the registration stage in the Cloud Console and aren't members of one of the Projects of this Organization    
+{{% notice note %}}
+You can add only those Users who have already passed the registration stage in the Cloud Console and aren't members of one of the Projects of this Organization
+{{% /notice %}}   
 
 To add new Administrator to the selected Organization do the following:   
 - go to the *Administrators page* and click the ADD ADMINISTRATOR icon in the upper left corner;      
@@ -64,7 +68,9 @@ After these, the *Accept invitation link* in the email, that was sent to the Use
 ## Transfer Organization
 Transfer an organization means changing the Owner of it.  
 
->**NOTE:** This action available only if your User Role in this Organization is *Owner*. 
+{{% notice note %}}
+This action available only if your User Role in this Organization is *Owner*. 
+{{% /notice %}}
 
 To Transfer Organization do the following:  
 - identify the Administrator to whom you want to Transfer the Organization on the *Administrators page*;    
@@ -75,7 +81,10 @@ After confirming this action, the selected User will recieve the message with th
  
 
 ## Remove Administrator
->**NOTE:** This action available only if your User Role in this Organization is *Owner or Administrator*.
+
+{{% notice note %}}
+This action available only if your User Role in this Organization is *Owner or Administrator*.
+{{% /notice %}}
 
 To remove Administrator from the selected Organization do the following:
 - identify this unnecessary Administrator on the *Administrators page*;   

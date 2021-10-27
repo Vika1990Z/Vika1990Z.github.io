@@ -34,8 +34,10 @@ To add additional Interface to the selected VM do the following:
 - select one of the available Networks, specify *Fixed IPs* on the next opened *Add interface window* and click on the ADD icon:
 ![](../../../assets/images/networks/10.png?classes=border,shadow)
 
->**NOTE:** You can select only Networks that have associated Subnets.  
+{{% notice note %}}
+You can select only Networks that have associated Subnets.  
 The Fixed IPs should be selected from the Allocation pools of the corresponding Subnet.
+{{% /notice %}}
 
 After these steps, the newly added Interface will appear in the first top block of the NETWORKS & SECURITY TAB of the *selected VM detailed page* with the status ACTIVE.  
 Now you can open its *Subnets page* by clicking on the **Name** of the corresponding Network:

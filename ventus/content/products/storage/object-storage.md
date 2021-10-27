@@ -38,7 +38,9 @@ To start use the Object Storage with the Python API do the following:
 - install boto library by running the command:  
 `pip install boto`    
 
->**NOTE:** As well as Python API you can select other programming languages for using the Object Storage.
+{{% notice note %}}
+As well as Python API you can select other programming languages for using the Object Storage.
+{{% /notice %}}
 
 Now let's take a closer look at each block of code to deal with possible interactions with Object Storage via the Python API:
 
