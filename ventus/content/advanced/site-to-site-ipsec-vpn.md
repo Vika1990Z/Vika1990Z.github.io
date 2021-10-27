@@ -21,7 +21,7 @@ On this page, you can find an explanation of how to configure Site to Site IPSec
 
 ## Configure Site to Site IPSec connection
 Example network topology:
-![](../../assets/images/adv/11.png?classes=border,shadow) 
+![](../assets/images/adv/11.png?classes=border,shadow) 
 
 **Details of 2 sites**:
 
