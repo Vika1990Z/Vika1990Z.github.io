@@ -27,7 +27,7 @@ Port migration can be used in drop-in replacement of instances in case of major 
 * Install and configure new instance nearby to old one, verify internally that it works as expected and then switch production traffic to it with preserving ability to rollback to previous version (instance).
 * In case of major failures - restore instance from backup and leverage previously used IP.
 
-![](../assets/images/adv/12.png?classes=border,shadow) 
+![](../../assets/images/adv/12.png?classes=border,shadow) 
 
 **Configuration**   
 Make sure that CLI user has SSH key:   
