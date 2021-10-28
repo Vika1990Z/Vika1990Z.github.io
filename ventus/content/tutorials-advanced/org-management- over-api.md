@@ -279,10 +279,10 @@ To get Project by ID do the following:
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/projects/PROJECT_ID;
     * *Headers*:
         * *Authorization*: Bearer ID_TOKEN;
-        * *Access*: Bearer ACCESS_TOKEN.
+        * *Access*: Bearer ACCESS_TOKEN.  
 
-{{% notice note %}}  
-*PROJECT_ID* - ID of the desired project that was saved as a variable.
+{{% notice note %}}    
+*PROJECT_ID* - ID of the desired project that was saved as a variable.  
 {{% /notice %}}  
 
 ![](../../assets/images/adv/6.png?classes=border,shadow)  
