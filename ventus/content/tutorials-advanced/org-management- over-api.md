@@ -323,15 +323,15 @@ To delete Project do the following:
 * Create new Request with the next parameters:
     * *Option*: DELETE;
     * *URL*: https://api.ventuscloud.eu/v1.0/invoke/gotham-REGION_NAME-identity/method/ORG-ID/projects/PROJECT_ID;  
-    {{% notice note %}}
-    PROJECT_ID - ID of the project, that you want to delete, saved as a variable.
-    {{% /notice %}}
-
     * *Headers*: 
         * *Authorization*: Bearer ID_TOKEN;
         * *Access*: Bearer ACCESS_TOKEN.
 
-    ![](../../assets/images/adv/9.png?classes=border,shadow) 
+{{% notice note %}}
+PROJECT_ID - ID of the project, that you want to delete, saved as a variable.
+{{% /notice %}}
+
+![](../../assets/images/adv/9.png?classes=border,shadow) 
 
 * Click on the **Send** icon and the selected project will be deleted.     
 
