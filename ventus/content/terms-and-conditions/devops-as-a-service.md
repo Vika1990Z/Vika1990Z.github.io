@@ -315,7 +315,10 @@ Die Vergütung erfolgt gemäss nachfolgender Preisliste für die einzelnen Nutze
 |**Wartungsfenster**|1x wöchentlich|1x wöchentlich|Nach Absprache|
 |**Anwendungsfälle**|<p>Prototyping, Developers,</p><p>Staging</p>|Normale produktive Verwendung, auch empfohlen für Systeme von Build- und Test-Pipelines|Geschäftskritische Verwendung, z.B. Webshops, Reservierungssysteme, ERP|
 |**Kosten pro vRAM**|**CHF 9,- / 8,35 €**|**CHF 19,- / 17,60 €**|**CHF 29,- / 26,80 €**|
+
+{{% notice note %}}
 Auf [Anfrage](mailto:support@ventus.ag) bietet die Ventus Cloud auch grössere Nutzerpakete an.
+{{% /notice %}}
 
 **Preise für zusätzliche Betriebsleistungen**
 
