@@ -12,6 +12,27 @@
     
     
     <item>
+      <title>Privacy Policy</title>
+      <link>http://example.org/terms-and-conditions/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/terms-and-conditions/privacy-policy/</guid>
+      <description>Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend „Daten“) innerhalb des Onlineangebotes der Ventus Cloud AG (im Folgenden „wir“ bzw. „uns“) und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unserer Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Die nachfolgende Datenschutzrichtlinie ist auf die Ventus Cloud AG anwendbar.
+ Verantwortlicher Firma
+Ventus Cloud AG</description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>http://example.org/terms-and-conditions/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/terms-and-conditions/terms-and-conditions/</guid>
+      <description>General Terms and Conditions of Ventus Cloud AG
+  Geltungsbereich  Diese allgemeinen Geschäftsbedingungen (AGB) gelten für alle Geschäftsbeziehungen zwischen dem Kunden und der Ventus Cloud AG (Ventus). Vertragsgrundlage ist jeweils die zum Zeitpunkt des Vertragsschlusses gültige Fassung der AGB sowie die Ventus Cloud AG Datenschutzerklärung ventuscloud.eu/de/privacy und die aktuelle Preisliste der Ventus Dienstleistungen ventuscloud.eu/de/pricing welche integrierende Bestandteile der AGB bilden. Abweichende oder ergänzende allgemeine Geschäftsbedingungen des Kunden werden selbst bei Kenntnis von Ventus nicht Vertragsbestandteil der Geschäftsbeziehung mit dem Kunden, ausser Ventus hat diesen ausdrücklich schriftlich zugestimmt.</description>
+    </item>
+    
+    <item>
       <title>Account</title>
       <link>http://example.org/getting-started/account/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -23,11 +44,23 @@ Table of contents  Registration Manage Account   Edit Account Change password S
     </item>
     
     <item>
-      <title>Installation OpenStack CLI</title>
-      <link>http://example.org/advanced/installation-openstack-cli/</link>
+      <title>Devops as a Service</title>
+      <link>http://example.org/terms-and-conditions/devops-as-a-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/advanced/installation-openstack-cli/</guid>
+      <guid>http://example.org/terms-and-conditions/devops-as-a-service/</guid>
+      <description>Leistungsbeschreibung &amp;amp; zusätzliche Bedingungen DevOps-as-a-Service ist eine DevOps-Tool-Umgebung für eine container-basierte Software-Entwicklung. Der Kunde erhält über Ventus Cloud Console Zugriff auf nachfolgende DevOps-Funktionen.
+Leistungsbeschreibung &amp;amp; zusätzliche Bedingungen DEVOPS-AS-A-SERVICE
+Stand: 25.11.2020 Version: 1
+ Funktionen DevOps-Funktionen Die Ventus Cloud stellt dem Kunden nachfolgende DevOps-Funktionen innerhalb einer Tool-Umgebung bereit. Die Ventus Cloud ist frei, durch welche Software-Tools in welcher Version die DevOpsFunktionen realisiert werden. Folgend ist der aktuelle Stand von DevOps-Funktionen und Software-Tools dargestellt:</description>
+    </item>
+    
+    <item>
+      <title>Installation OpenStack CLI</title>
+      <link>http://example.org/tutorials-advanced/installation-openstack-cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorials-advanced/installation-openstack-cli/</guid>
       <description>On this page, you can find an explanation of how to install OpenStack CLI on Linux VM in Cloud Console.
 Table of contents  Prerequisites Install OpenStack CLI on Ubuntu VM Install OpenStack CLI on Centos VM  Prerequisites In this article, we will assume that we have already created the following resources, that refer to the Project named dev1 that was created in the Organization named Test-Shop:
  API User, created with the following parameters and its RC file has already been loaded:  Name: testCLIuser; Password: P@sword.</description>
@@ -51,6 +84,19 @@ Table of contents  Clusters Page Create Cluster Cluster details page Download ku
       <guid>http://example.org/products/storage/object-storage/</guid>
       <description>On this page, you can find an explanation of what is Object Storage in Cloud Console, how to create, delete buckets and instructions for other steps to manage an Object Storage in Cloud Console.
 Table of contents  Introduction Use Object Storage with Python API  Creating connection Listing owned buckets Creating bucket Creating object Listing bucket&amp;rsquo;s content Changing object&amp;rsquo;s ACL Generating object&amp;rsquo;s download-URL Deleting object Deleting a bucket   Use Object Storage with S3 Browser  Introduction The Cloud Console Object Storage makes it possible to store data simply and cost-effectively.</description>
+    </item>
+    
+    <item>
+      <title>Ventus Console 2.5.6</title>
+      <link>http://example.org/release-notes/ventus-console2.5.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/release-notes/ventus-console2.5.6/</guid>
+      <description> Successfully delivered to Production: 28.04.2021
+ Ventus Console 2.5.6 was successfully delivered to Production. Here are the list of updates:
+Console:
+ Newsfeed Additional VM actions in the menu Error details for VMs and Clusters in ERROR status Allow all Unicode characters in entity names: Cluster Auto-scaling and private network access settings Miscellaneous fixes and improvements  Admin console:
+ Users list with pagination and filters  </description>
     </item>
     
     <item>
@@ -125,11 +171,22 @@ Table of contents  Organizations page Create Organization Edit Organization Dele
     </item>
     
     <item>
-      <title>Working with OpenStack API</title>
-      <link>http://example.org/advanced/working-with-openstack-api/</link>
+      <title>Ventus Console 2.4.5</title>
+      <link>http://example.org/release-notes/ventus-console2.4.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/advanced/working-with-openstack-api/</guid>
+      <guid>http://example.org/release-notes/ventus-console2.4.5/</guid>
+      <description>Successfully delivered to Production: 07.04.2021
+ Ventus Console 2.4.5 was successfully delivered to Production. Here are the list of updates:
+ “Create VM” dialog was changed:  Added ability to create VM from volume – volume should be in available state and it will be attached to the new VM. Added ability to create VM from snapshot – new volume will be created from the snapshot and will be attached to the new VM.</description>
+    </item>
+    
+    <item>
+      <title>Working with OpenStack API</title>
+      <link>http://example.org/tutorials-advanced/working-with-openstack-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorials-advanced/working-with-openstack-api/</guid>
       <description>On this page, you can find an explanation of how to work with OpenStack API using Ventus Cloud account.
 Table of contents  Introduction Configure credentials file  Dot source credentials file Run test commands Change region Find resources Conclusion  Introduction We encourage clients to use CLI Users to work directly with OpenStack API, but it has a limitation - it&amp;rsquo;s bonded to the specific project in the specific region.</description>
     </item>
@@ -167,10 +224,10 @@ Table of contents  Firewall Rules page Characteristics of Firewall Rules Create 
     
     <item>
       <title>Organization&#39;s management over API</title>
-      <link>http://example.org/advanced/org-management-over-api/</link>
+      <link>http://example.org/tutorials-advanced/org-management-over-api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/advanced/org-management-over-api/</guid>
+      <guid>http://example.org/tutorials-advanced/org-management-over-api/</guid>
       <description>On this page, you can find the workflow for management of your Organization in Ventus Cloud using API.
 Table of contents  Required endpoints Example using CURL Example using Postman  Required endpoints  auth.ventuscloud.eu - use it to get ID and Access tokens from basic credentials api.ventuscloud.eu - use it to work with organization&amp;rsquo;s resources   Example using CURL Get ID and Access tokens
 To get ID and Access tokens use next command:</description>
@@ -188,11 +245,22 @@ Table of contents  Subnets page Create Subnet Edit Subnet Delete Subnet  Subnets
     </item>
     
     <item>
-      <title>Advanced network scenarios</title>
-      <link>http://example.org/advanced/advanced-network-scenarios/</link>
+      <title>Ventus Console 2.4.4</title>
+      <link>http://example.org/release-notes/ventus-console2.4.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/advanced/advanced-network-scenarios/</guid>
+      <guid>http://example.org/release-notes/ventus-console2.4.4/</guid>
+      <description>Successfully delivered to Production: 25.03.2021
+ Ventus Console 2.4.4 was successfully delivered to Production. Here are the list of updates:
+ MariaDB was added as DBaaS – all DBaaS UI was changed to support multiple DB engines VM Console logs were added to VM details – might be useful for customers to troubleshoot Linux VMs “Download RDP” action was removed for non-Windows VMs – a leftover bug, now fixed Image information was added to VM details Max length of organization name was changed to 255 chars Max length of cli user name was changed to 218 chars Max length of project name was changed to 27 chars Action to create Volume from Snapshot was added to the Storage -&amp;gt; Snapshots page .</description>
+    </item>
+    
+    <item>
+      <title>Advanced network scenarios</title>
+      <link>http://example.org/tutorials-advanced/advanced-network-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tutorials-advanced/advanced-network-scenarios/</guid>
       <description>On this page, we will discuss scenarios that can help you to build software upgrade friendly and fault-tolerant cloud infrastructure.
  Most of the topics described below considered advanced. Basic Linux and Networking skills are required. Please contact support if you need guidance and best practices for your specific use case.
 Most of the features described below are in beta state, thus not available at the Console portal, and can be configured through CLI and IaC tools like Terraform and Ansible.</description>
@@ -221,10 +289,10 @@ Table of contents  Projects page Create Project Edit Project Delete Project Add 
     
     <item>
       <title>The Site to Site IPSec VPN</title>
-      <link>http://example.org/advanced/site-to-site-ipsec-vpn/</link>
+      <link>http://example.org/tutorials-advanced/site-to-site-ipsec-vpn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/advanced/site-to-site-ipsec-vpn/</guid>
+      <guid>http://example.org/tutorials-advanced/site-to-site-ipsec-vpn/</guid>
       <description>On this page, you can find an explanation of how to configure Site to Site IPSec connection between Ventus Cloud Regions.
 Table of contents  Prerequisites Configure Site to Site IPSec connection Strongswan useful commands Capture traffic Disable port-security Preparing client side Verifying connectivity  Prerequisites  Create a private network in each region. How to create a network see the articles - Networks, Subnets Create two VMs in private and public networks based on Ubuntu 18.</description>
     </item>

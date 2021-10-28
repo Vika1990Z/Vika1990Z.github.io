@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Release Notes on Ventus Docs</title>
+    <link>http://example.org/release-notes/</link>
+    <description>Recent content in Release Notes on Ventus Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2019 01:53:09 +0330</lastBuildDate>
+    
+	<atom:link href="http://example.org/release-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ventus Console 2.5.6</title>
+      <link>http://example.org/release-notes/ventus-console2.5.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/release-notes/ventus-console2.5.6/</guid>
+      <description> Successfully delivered to Production: 28.04.2021
+ Ventus Console 2.5.6 was successfully delivered to Production. Here are the list of updates:
+Console:
+ Newsfeed Additional VM actions in the menu Error details for VMs and Clusters in ERROR status Allow all Unicode characters in entity names: Cluster Auto-scaling and private network access settings Miscellaneous fixes and improvements  Admin console:
+ Users list with pagination and filters  </description>
+    </item>
+    
+    <item>
+      <title>Ventus Console 2.4.5</title>
+      <link>http://example.org/release-notes/ventus-console2.4.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/release-notes/ventus-console2.4.5/</guid>
+      <description>Successfully delivered to Production: 07.04.2021
+ Ventus Console 2.4.5 was successfully delivered to Production. Here are the list of updates:
+ “Create VM” dialog was changed:  Added ability to create VM from volume – volume should be in available state and it will be attached to the new VM. Added ability to create VM from snapshot – new volume will be created from the snapshot and will be attached to the new VM.</description>
+    </item>
+    
+    <item>
+      <title>Ventus Console 2.4.4</title>
+      <link>http://example.org/release-notes/ventus-console2.4.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/release-notes/ventus-console2.4.4/</guid>
+      <description>Successfully delivered to Production: 25.03.2021
+ Ventus Console 2.4.4 was successfully delivered to Production. Here are the list of updates:
+ MariaDB was added as DBaaS – all DBaaS UI was changed to support multiple DB engines VM Console logs were added to VM details – might be useful for customers to troubleshoot Linux VMs “Download RDP” action was removed for non-Windows VMs – a leftover bug, now fixed Image information was added to VM details Max length of organization name was changed to 255 chars Max length of cli user name was changed to 218 chars Max length of project name was changed to 27 chars Action to create Volume from Snapshot was added to the Storage -&amp;gt; Snapshots page .</description>
+    </item>
+    
+  </channel>
+</rss>
