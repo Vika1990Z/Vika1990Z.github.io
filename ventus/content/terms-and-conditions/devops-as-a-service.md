@@ -73,28 +73,28 @@ Das folgende Bild zeigt eine schematische, beispielhafte Übersicht der Systemar
 Weiterhin kann der Kunde feste public IP-Adressen bestellen. Die festen IP-Adressen ermöglichen es Verbindungen in die Zielumgebung des Kunden mit einer bekannten IP-Adresse aufzubauen.
 
 -----
-# LEISTUNGEN DER VENTUS CLOUD
+## LEISTUNGEN DER VENTUS CLOUD
 
-### Bereitstellung
+#### Bereitstellung
 
 Die Ventus Cloud legt die Tool-Umgebung und ein Nutzer-Konto mit Administrator-Rolle an. Hiernach versendet die Ventus Cloud eine E-Mail an den Kunden mit Zugangsdaten und der URL zur Ventus Cloud Console, sowie Kontaktinformationen für den Service Desk (Ready-for-Service E-Mail). Mit Versendung der Ready-for-Service E-Mail, spätestens mit Nutzungsbeginn, ist die Bereitstellung der Leistung abgeschlossen.
 
-### Betrieb
+#### Betrieb
 
 **Ort der Leistungserbringung**  
 
 Die Ventus Cloud stellt die Leistungen aus Rechenzentren in Österreich, Schweiz und Deutschland bereit. Die Ventus Cloud erbringt die Support- und Betriebsleistungen in der Europäischen Union und der Schweiz.
 
-### Betriebszeiten
+#### Betriebszeiten
 
 1. **Betriebszeit**  
    Die Betriebszeit ist Montag bis Sonntag 0:00 Uhr bis 24:00 Uhr. Innerhalb der Betriebszeit kann die Leistung genutzt werden.
 1. **Betreute Betriebszeit (AOT):**  
    Die betreute Betriebszeit ist Montag bis Freitag, jeweils 8:00 Uhr bis 18:00 Uhr (MEZ/MESZ), ausser an schweizer Während der betreuten Betriebszeit erbringt die Ventus Cloud Betriebs- und Supportleistungen.
 
-## Betriebs- und Supportleistungen
+### Betriebs- und Supportleistungen
 
-### Bereitstellung Service Desk
+#### Bereitstellung Service Desk
 
 Die Ventus Cloud stellt benannten Nutzern des Kunden einen [Service Desk](https://share.hsforms.com/1L4qNGjNUSpGqJDMl3SN8Yg4wnqg?__hstc=242763933.13b00a3271ac607f313707b3c27f9c1a.1606133566041.1635345485486.1635410062714.240&__hssc=242763933.10.1635410062714&__hsfp=2187346942) als zentralen Kommunikationspunkt bereit. Der Service Desk erbringt folgende Leistungen:
 
@@ -110,7 +110,7 @@ Die Ventus Cloud stellt benannten Nutzern des Kunden einen [Service Desk](https
 Der Kunde kann den Service Desk per ChatBot oder [E-Mail](mailto:support@ventus.ag) kontaktieren. Die Kontaktdaten des Service Desk werden zusammen mit der Ready-for-Service-E-Mail kommuniziert. Die Kommunikation durch den Kunden mit dem Service Desk erfolgt grundsätzlich in englischer Sprache. Eine Kommunikation auf Deutsch ist, soweit verfügbar, möglich.
 {{% /notice %}}
 
-### Störungsbearbeitung
+#### Störungsbearbeitung
 
 Störungen werden durch die Ventus Cloud entsprechend ihrer Kritikalität bearbeitet. Dabei klassifiziert die Ventus Cloud Störungsmeldungen wie folgt:
 
@@ -127,23 +127,23 @@ Die Ventus Cloud ist berechtigt, Störungen durch einen Workaround zu beheben.
 Ist die Ursache einer Störung die Auslastung oder Überlastung der Kapazitäten des Kunden (z.B. Disk-Kapazität, vCPU/ vRAM überlastet), informiert die Ventus Cloud den Kunden. Der Kunde ist in diesem Fall verpflichtet, durch eine Mindernutzung (z.B. Last verringern, Daten löschen) oder, sofern technisch möglich, eine kostenpflichtige Erweiterung der Kapazitäten die Ursache dieser Störung zu beheben.
 {{% /notice %}}
 
-### Patch Management
+#### Patch Management
 
 Die Ventus Cloud installiert nach eigenem Ermessen für die von der Ventus Cloud bereitgestellten Leistungen im Rahmen der Wartungsarbeiten durch Hersteller bereitgestellte Patches bzw. Minor Updates.
 
-### Housekeeping
+#### Housekeeping
 
 Die Ventus Cloud bereinigt die durch die Leistungserbringung der Ventus Cloud generierten Logfiles und temporären Dateien, um die genutzten Ressourcen des Kunden zu reduzieren.
 
-### Monitoring
+#### Monitoring
 
 Die Ventus Cloud überwacht die bereitgestellten Services und die zugrunde liegende Infrastruktur, um Störungen der vereinbarten Leistung proaktiv zu erkennen und Alarme zu generieren.
 
-### Backup
+#### Backup
 
 Die Ventus Cloud führt ein tägliches Backup der Server der Tool-Umgebung durch, um diese im Desaster-Fall wiederherstellen zu können. Das Backup dient nicht der Wiederherstellung einzelner Daten des Kunden. Das Backup wird automatisiert ausserhalb der betreuten Betriebszeit durchgeführt. Während des Backups kann es zu kurzen Unterbrechungen oder Beeinträchtigungen der Services kommen.
 
-### Service Requests
+#### Service Requests
 
 Der Service Desk der Ventus Cloud führt auf Anfrage des Kunden Unterstützungsleistungen und Änderungen an der bereitgestellten technischen Konfiguration der Tool-Umgebung durch:
 
@@ -156,7 +156,7 @@ Die Ventus Cloud ist berechtigt einen Service Request abzulehnen, wenn dieser di
 
 Die bei der Ventus Cloud entstehenden Aufwände zur Umsetzung von Service Requests werden gemäss aktueller Preisliste berechnet.
 
-## Wartungsarbeiten
+### Wartungsarbeiten
 
 Die Ventus Cloud führt regelmässig Wartungsarbeiten durch. Sollten diese Wartungsarbeiten zu Unterbrechungen der Leistung führen, wird die Ventus Cloud den Kunden vorab informieren. Die Ventus Cloud ist hierbei bestrebt, Beeinträchtigungen durch Wartungsarbeiten möglichst gering zu halten. Wartungsarbeiten gelten nicht als Ausfallzeiten und bleiben daher bei der Berechnung der Verfügbarkeit unberücksichtigt.
 
@@ -164,11 +164,11 @@ Die Ventus Cloud führt regelmässig Wartungsarbeiten durch. Sollten diese Wartu
 Im Falle von Notfall-Wartungsarbeiten erfolgt eine Information der Kunden ggf. nachträglich.
 {{% /notice %}}
 
-## Leistungsübergabepunkt
+### Leistungsübergabepunkt
 
 Die Verantwortung der Ventus Cloud endet am Leistungsübergabepunkt. Leistungsübergabepunkt der Ventus Cloud ist jeweils die Web-Anwendung der in der Tool-Umgebung laufenden einzelnen Software-Tools und die Ventus Cloud Console am Eintrittspunkt des Rechenzentrums in das Internet.
 
-## Service Qualität
+### Service Qualität
 
 Die nachfolgende Verfügbarkeit bezieht sich ausschliesslich auf die betreuten Betriebszeiten der jeweiligen DevOps-Funktion. Ausserhalb der betreuten Betriebszeit gilt für die Leistung keine Mindestverfügbarkeit aus beim Nutzungspaket - Enterprise. Die Ventus Cloud ist jedoch bemüht Einschränkungen der Leistung gering zu halten.
 
@@ -196,7 +196,7 @@ Summe Ausfallminuten – Anzahl der Minuten eines Kalendermonats, in der die bet
 
 Für die Störungsklasse Urgent beträgt die Reaktionszeit innerhalb der betreuten Betriebszeit 1h. Die Reaktionszeit stellt die Zeitspanne von Meldung oder Auftreten der Störung bis zur ersten Bestätigung des aktuellen Status an den Kunden dar.
 
-### Nutzungsrechte, Lizenzen
+#### Nutzungsrechte, Lizenzen
 
 Soweit für die Leistungserbringung erforderlich erhält der Kunde für die Laufzeit des Vertrags ein einfaches Nutzungsrecht an den nachfolgend aufgeführten Software-Tools der benannten Hersteller.
 
@@ -204,17 +204,17 @@ Durch die Nutzung der DevOps-Funktionen akzeptiert der Kunde die nachfolgend auf
 
 - Jenkins (Continuous Integration / Delivery): https://jenkins.io/license/
 
-### Einseitige Leistungsänderungen
+#### Einseitige Leistungsänderungen
 
 Die Ventus Cloud behält sich einseitige Leistungsänderungen und Entgeltreduzierungen zu Gunsten des Kunden vor. Der Kunde erklärt sich mit diesen Anpassungen einverstanden.
 
 In Abweichung zu dem vereinbarten Schriftformerfordernis wird die Ventus Cloud den Kunden über diese Anpassungen durch Übersendung aktualisierter Versionen der bestehenden Vertragsunterlagen per E-Mail informieren, welche die bestehenden Unterlagen ersetzen.
 
-### Optionale Leistungen
+#### Optionale Leistungen
 
 Die nachfolgend beschriebenen optionalen Leistungen werden bei gesonderter Beauftragung gegen zusätzliche Vergütung durch die Ventus Cloud erbracht. Auf Anfrage wird die Ventus Cloud dem Kunden ein Angebot unterbreiten, sowie detaillierte Beschreibungen zu den nachfolgenden Leistungen zur Verfügung stellen.
 
-### Erweiterte Betriebsleistung
+#### Erweiterte Betriebsleistung
 
 Die Ventus Cloud stellt folgende erweiterte Betriebsleistungen zur Verfügung:
 
@@ -222,7 +222,7 @@ Die Ventus Cloud stellt folgende erweiterte Betriebsleistungen zur Verfügung:
 - Die Formel zur Berechnung der Verfügbarkeit wird dementsprechend auf die erweiterte Betriebsleistung angepasst.
 - Wartungsarbeiten werden regelmässig nicht Montag bis Freitag 8:00 bis 18:00 durchgeführt.
 
-## Try & Buy
+### Try & Buy
 
 Die Ventus Cloud stellt dem Kunden zwecks Test seiner Anforderungen an die Leistung das Developer Nutzerpaket für zwölf Monate als Try-and-Buy-Option bereit. Für die Try-and-Buy-Option gelten folgende Bestimmungen:
 
@@ -230,7 +230,7 @@ Die Ventus Cloud stellt dem Kunden zwecks Test seiner Anforderungen an die Leist
 - Wird die Try-and-Buy-Option nicht bis zu Ihrem Ende gekündigt, wird das Developer-Nutzerpaket zu den regulären Bedingungen (insbesondere Laufzeit und Kündigung und Preise) fortgeführt.
 - Der Kunde kann während der Try-and-Buy-Option jederzeit ein höherwertiges Nutzerpaket beauftragen. Mit Bereitstellung des höherwertigen Nutzerpaketes endet die Try-and-BuyOption. Für das höherwertige Nutzerpaket gelten die regulären Bestimmungen.
 
-## Consulting-Paket
+### Consulting-Paket
 
 Die Ventus Cloud bietet für DevOps-as-a-Service folgende Beratungsleistungen an, die über die Beantwortung einzelner konkreter fachlicher Fragestellungen hinausgehen:
 
@@ -241,15 +241,15 @@ Die Ventus Cloud bietet für DevOps-as-a-Service folgende Beratungsleistungen an
 - Schulungen
 - Workshops
 
-## Individuelle Nutzerpakete
+### Individuelle Nutzerpakete
 
 Die Ventus Cloud stellt dem Kunden auf[ Anfrage](mailto:support@ventus.ag) auf seine Bedürfnisse zugeschnittene Nutzerpakete bereit.
 
 -----
-# MITWIRKUNGSLEISTUNGEN DES KUNDEN
+## MITWIRKUNGSLEISTUNGEN DES KUNDEN
 Der Kunde verpflichtet sich, alle Leistungen, die zur ordnungsgemässen Leistungserbringung erforderlich sind, insbesondere jedoch nachfolgende Leistungen unentgeltlich, rechtzeitig und in erforderlichem Umfang zu erbringen.
 
-**Allgemeine Mitwirkungsleistungen**
+### Allgemeine Mitwirkungsleistungen
 
 1. Der Kunde hat alle für die Erbringung der Leistung erforderlichen und geeigneten Nutzungsrechte und kompatible Softwarelizenzen (einschliesslich Updates oder Upgrades) beizustellen, soweit diese nicht durch die Ventus Cloud auf Grund einer schriftlichen Vereinbarung beizustellen sind.
 1. Der Kunde erklärt sich mit dem unverschlüsselten Schriftwechsel per E-Mail einverstanden und wird stets aktuelle E-Mail-Adressen hinterlegen. Dem Kunden ist bekannt, dass für die Leistungserbringung wesentliche Informationen, wie Zugangsdaten, Informationen zu Änderungen der Leistungen und der rechtlichen Bedingungen, Passwortrücksetzung, sowie Rechnungen ausschliesslich per Mail versendet werden.
@@ -268,7 +268,7 @@ Der Kunde verpflichtet sich, alle Leistungen, die zur ordnungsgemässen Leistung
 1. Die Ventus Cloud empfiehlt zur Nutzung die Browser Google Chrome und Mozilla Firefox in jeweils aktueller Version. Der Microsoft Internet Explorer wird nicht unterstützt.
 1. Die Leistungen werden dem Kunden innerhalb Ventus Cloud Console Der Kunde ist daher insbesondere für die Konfiguration, Kapazitätsmanagement und die sonstige Bedienung des Service selbst verantwortlich.
 
-**Mitwirkungsleistungen im Rahmen des Betriebs**
+### Mitwirkungsleistungen im Rahmen des Betriebs
 
 1. Der Kunde ist verpflichtet sich auf Anforderung gegenüber dem Service Desk der Ventus Cloud zu authentifizieren.
 1. Der Kunde ist verpflichtet, Störungen oder Beeinträchtigungen der Leistungen unverzüglich mit einer nachvollziehbaren Schilderung der Fehlersymptome anzuzeigen.
@@ -278,27 +278,27 @@ Der Kunde verpflichtet sich, alle Leistungen, die zur ordnungsgemässen Leistung
 1. Zur durchgängigen Nutzung der DevOps-Funktionen stellt der Kunde sicher, dass Software Entwicklung, Build-Prozesse und Deployments der Kunden-Applikationen auf Basis von Docker-Containern erfolgen.
 1. Der Kunde bindet die Ziel-Umgebungen für das Deployment der erstellten Container in das Tool für Container Management selbständig ein. Die Verantwortung für die Ziel-Umgebung und das Deployment der erstellten Container in die Ziel-Umgebungen verbleibt vollständig beim Kunden und ist kein Bestandteil der Leistung der Ventus Cloud. Ebenso liegt die Verantwortung für die über die Tool-Umgebung erstellten Container inkl. der enthaltenen Software und Daten vollständig beim Kunden.
 
-**Mitwirkungsleistungen bei Beendigung der Leistung**
+### Mitwirkungsleistungen bei Beendigung der Leistung
 
 Der Kunde muss selbständig – vor Beendigung des Vertrags – alle von ihm benötigten Daten in der Tool-Umgebung durch Nutzung von Funktionen und Schnittstellen der Tools herunterladen und eigenverantwortlich sichern.
 
 -----
 
-# MINDESTÜBERLASSUNGSZEIT/BEENDIGUNG
+## MINDESTÜBERLASSUNGSZEIT/BEENDIGUNG
 
-**Mindestlaufzeit und Kündigung**
+### Mindestlaufzeit und Kündigung
 
 Ein Nutzerpaket hat eine Mindestlaufzeit von 12 Monaten ab Bereitstellung der Leistung. Die Leistung kann unter Einhaltung einer Frist von drei (3) Monaten erstmalig zum Ablauf der Mindestlaufzeit gekündigt werden. Anderenfalls verlängert sich diese automatisch um zwölf (12) Monate und kann dann mit einer Frist von drei (3) Monaten zum Ende des jeweiligen Verlängerungszeitraums gekündigt werden.
 
-**Änderung der Paketgrösse**
+### Änderung der Paketgrösse
 
 Der Wechsel in ein grösseres Nutzer-Paket ist während und nach Ende der Mindestlaufzeit mit einer Frist von 2 Wochen zum Monatsende möglich. In diesem Falle beginnt die Mindestlaufzeit von 12 Monaten zum Zeitpunkt der Bereitstellung der Änderung erneut. Der Wechsel in ein kleineres Nutzer-Paket ist erst nach Ende der Mindestvertragslaufzeit mit einer Frist von 2 Wochen zum Monatsende möglich.
 
-**Beendigung**
+### Beendigung
 
 Alle Preise verstehen sich zzgl. der zum Zeitpunkt der Lieferung und Leistung geltenden Steuern und Abgaben. Bei untermonatlicher Bereitstellung wird anteilig gemäss der Anzahl der Tage des jeweiligen Kalendermonats abgerechnet.
 
-**Nutzer Pakete und Preise**
+### Nutzer Pakete und Preise
 
 Die Vergütung erfolgt gemäss nachfolgender Preisliste für die einzelnen Nutzer-Pakete:
 
@@ -320,7 +320,7 @@ Die Vergütung erfolgt gemäss nachfolgender Preisliste für die einzelnen Nutze
 Auf [Anfrage](mailto:support@ventus.ag) bietet die Ventus Cloud auch grössere Nutzerpakete an.
 {{% /notice %}}
 
-**Preise für zusätzliche Betriebsleistungen**
+### Preise für zusätzliche Betriebsleistungen
 
 Zusätzliche Betriebsleistungen werden wie folgt zusätzlich berechnet:
 
@@ -330,7 +330,7 @@ Zusätzliche Betriebsleistungen werden wie folgt zusätzlich berechnet:
 |Bearbeitungsaufwand zur Umsetzung von Service Requests des Kunden|<p>CHF 30,- / 28,- € je angefangene 15 Minuten</p><p> </p>|
 -----
 
-# NUTZERPAKET VERGLEICH
+## NUTZERPAKET VERGLEICH
 
 |<p>Managed Services</p><p> </p><p> </p>|<p>CHF Preis/</p><p>per 1GB vRAM</p>|8|16|32|64|128|256|RAM|
 | :- | :- | :- | :- | :- | :- | :- | :- | :- |
@@ -338,10 +338,12 @@ Zusätzliche Betriebsleistungen werden wie folgt zusätzlich berechnet:
 |**Developer Managed\***|9|**123.3**|**242.4**|**480.7**|**961.5**|**1922.9**|**3646.7**| |
 |**Business Managed\***|19|**203.3**|**402.4**|**800.7**|**1601.5**|**3202.9**|**6206.7**| |
 |**Enterprise Managed\***|29|**283.3**|**562.4**|**1120.7**|**2241.5**|**4482.9**|**8766.7**| |
-\*Managed Preise beinhalten VM o. Cluster Ressourcenpreise
+
+*Managed Preise beinhalten VM o. Cluster Ressourcenpreise
 
 -----
-**GLOSSAR/ ABKÜRZUNGSVERZEICHNIS**
+
+## GLOSSAR/ ABKÜRZUNGSVERZEICHNIS
 
 |API|Application Programming Interface – Programmierschnittstelle einer Software|
 | :- | :- |
@@ -356,72 +358,5 @@ Zusätzliche Betriebsleistungen werden wie folgt zusätzlich berechnet:
 |Virtual Machines|Logisch isolierte Umgebung in einer Cloud über dedizierte virtuelle Server, Subnetze und IP-Adressen|
 |vRAM|Virtueller RAM (Random Access Memory) eines virtuellen Servers|
 
-
-
-
-Zum Zeitpunkt der Beendigung werden seitens Ventus Cloud die Leistungen eingestellt und alle Zugangsmöglichkeiten des Kunden zur Tool-Umgebung deaktiviert.
-
-Die Ventus Cloud wird zum Beendigungstermin die Daten des Kunden in der Tool-Umgebung löschen.
-
------
-# PREISLISTE / KOMMERZIELLE BEDINGUNGEN
-
-**Verfahren der Entgeltberechnung**
-Alle Preise verstehen sich zzgl. der zum Zeitpunkt der Lieferung und Leistung geltenden Steuern und Abgaben. Bei untermonatlicher Bereitstellung wird anteilig gemäss der Anzahl der Tage des jeweiligen Kalendermonats abgerechnet.
-
-**Nutzer Pakete und Preise**
-
-Die Vergütung erfolgt gemäss nachfolgender Preisliste für die einzelnen Nutzer-Pakete:
-
-|** |**Developer**|**Business**|**Enterprise**|
-| :- | :- | :- | :- |
-|**Reaktionszeit**|Best effort|8h zu Bürozeiten|3h, 24/7|
-|**Durchschnittl. Wiederherstellungszeit**|Best effort|8h zu Bürozeiten|3h, 24/7|
-|**Garantierte Verfügbarkeit des Services** |Best effort|99,5%|99,9%|
-|**Erwartete Verfügbarkeit des Services** |99,5%|99,9%|99,95%|
-|**Backup**|-|1x täglich|Mind. 1x täglich, nach Absprache|
-|**Installations-Consulting**|-|Best effort|inkl.|
-|**Laufende Kapazitätsplanung**|-|Best effort|inkl.|
-|**Tuning**|-|-|inkl.|
-|**Wartungsfenster**|1x wöchentlich|1x wöchentlich|Nach Absprache|
-|**Anwendungsfälle**|<p>Prototyping, Developers,</p><p>Staging</p>|Normale produktive Verwendung, auch empfohlen für Systeme von Build- und Test-Pipelines|Geschäftskritische Verwendung, z.B. Webshops, Reservierungssysteme, ERP|
-|**Kosten pro vRAM**|**CHF 9,- / 8,35 €**|**CHF 19,- / 17,60 €**|**CHF 29,- / 26,80 €**|
-Auf [Anfrage](mailto:support@ventus.ag) bietet die Ventus Cloud auch grössere Nutzerpakete an.
-
-**Preise für zusätzliche Betriebsleistungen**
-
-Zusätzliche Betriebsleistungen werden wie folgt zusätzlich berechnet:
-
-|Option|Preis|
-| :- | :- |
-|Bearbeitungsaufwand für Störungsmeldungen des Kunden, die in seinem Verantwortungsbereich liegen|<p>CHF 30,- / 28,- € je angefangene 15 Minuten</p><p> </p>|
-|Bearbeitungsaufwand zur Umsetzung von Service Requests des Kunden|<p>CHF 30,- / 28,- € je angefangene 15 Minuten</p><p> </p>|
------
-
-# NUTZERPAKET VERGLEICH
-
-|<p>Managed Services</p><p> </p><p> </p>|<p>CHF Preis/</p><p>per 1GB vRAM</p>|8|16|32|64|128|256|RAM|
-| :- | :- | :- | :- | :- | :- | :- | :- | :- |
-|VM/Cluster Price| |51.3|98.4|192.7|385.5|770.9|1342.7| |
-|**Developer Managed\***|9|**123.3**|**242.4**|**480.7**|**961.5**|**1922.9**|**3646.7**| |
-|**Business Managed\***|19|**203.3**|**402.4**|**800.7**|**1601.5**|**3202.9**|**6206.7**| |
-|**Enterprise Managed\***|29|**283.3**|**562.4**|**1120.7**|**2241.5**|**4482.9**|**8766.7**| |
-\*Managed Preise beinhalten VM o. Cluster Ressourcenpreise
-
------
-# GLOSSAR/ ABKÜRZUNGSVERZEICHNIS
-
-|API|Application Programming Interface – Programmierschnittstelle einer Software|
-| :- | :- |
-|AOT|Attended Operation Time (betreute Betriebszeiten)|
-|Container|Technik zur Isolierung von Anwendungen mit Container-Virtualisierung. Wird in diesem Dokument synonym für Container-Images (Speicherabbild eines Containers) und die aktive Laufzeitinstanz verwendet.|
-|Deployment|Übertragung erzeugter Docker-Container bzw. deren Images in eine ZielUmgebung zum Zwecke der Ausführung|
-|DevOps|Kunstwort aus „Development“ und „Operations“, definiert Methoden zur Verbesserung von Softwareentwicklung und -betrieb|
-|<p>Release Upgrades</p><p> </p>|Upgrade auf eine neue Software Version, die über ein Minor Update oder Patch hinausgeht. Geht häufig mit Änderungen der Schnittstellen und Funktionen einher.|
-|SSL|Secure Sockets Layer - Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet|
-|URL|Uniform Resource Locator – Lesbare Adresse einer Webseite|
-|vCPU|Virtuelle CPU (Central Processing Unit) eines virtuellen Servers|
-|Virtual Machines|Logisch isolierte Umgebung in einer Cloud über dedizierte virtuelle Server, Subnetze und IP-Adressen|
-|vRAM|Virtueller RAM (Random Access Memory) eines virtuellen Servers|
 
 
