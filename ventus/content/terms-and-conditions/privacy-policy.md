@@ -12,20 +12,20 @@ ___
 Ventus Cloud AG
 
 **Anschrift**  
-Linthstrasse 53,
-8856 Tuggen,
-Schweiz
+Linthstrasse 53,  
+8856 Tuggen,  
+Schweiz  
 
 **Kontakt**  
-Tel.: [+41 41 510 87 80](tel:+41%2041%20510%2087%2080)
-E-Mail: <info@ventus.ag>
-Web: [ventuscloud.eu](https://ventuscloud.eu/)
+Tel.: [+41 41 510 87 80](tel:+41%2041%20510%2087%2080)  
+E-Mail: <info@ventus.ag>  
+Web: [ventuscloud.eu](https://ventuscloud.eu/)  
 
 ### Datenschutzbeauftragter
 
-Paul Hauser
-E-Mail: <paul.hauser@ventus.ag>
-Tel.: [+41 41 510 87 80](tel:+41%2041%20510%2087%2080)
+Paul Hauser  
+E-Mail: <paul.hauser@ventus.ag>  
+Tel.: [+41 41 510 87 80](tel:+41%2041%20510%2087%2080)  
 
 ### Rechtsgrundlagen für die Verarbeitung
 

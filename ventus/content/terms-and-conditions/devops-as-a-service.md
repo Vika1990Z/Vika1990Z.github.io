@@ -25,6 +25,7 @@ Die Ventus Cloud stellt dem Kunden nachfolgende DevOps-Funktionen innerhalb eine
 |Continuous Integration / Delivery|Jenkins, GitLab, Atlassian|
 |Artifact Repository / Docker Registry|Ventus Cloud S3 Object Storage|
 |Container Management|Kubernetes|
+
 Die Ventus Cloud wird den Kunden über Änderungen der Software-Tools per E-Mail informieren.
 
 ### Katalogbereitstellung
