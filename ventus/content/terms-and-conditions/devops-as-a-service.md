@@ -185,9 +185,9 @@ Summe Ausfallminuten – Anzahl der Minuten eines Kalendermonats, in der die bet
 >**Excused Events:**
 >
 >Ausfallzeiten auf Grund eines der nachfolgenden Ereignisse bleiben bei der Berechnung der Verfügbarkeit unberücksichtigt:
-- Ausfälle aufgrund von Wartungsarbeiten
-- Störungen, Ausfälle und Probleme, die auf den Kunden, seine Mitarbeiter oder Vertreter zurückzuführen sind, insbesondere Ausfälle auf Grund einer Überschreitung der zur Verfügung gestellten Kapazitäten
-- Angriffe Dritter, z.B. durch (D)DoS Attacken, Hacking, Spamming
+>- Ausfälle aufgrund von Wartungsarbeiten
+>- Störungen, Ausfälle und Probleme, die auf den Kunden, seine Mitarbeiter oder Vertreter zurückzuführen sind, insbesondere Ausfälle auf Grund einer Überschreitung der zur Verfügung gestellten Kapazitäten
+>- Angriffe Dritter, z.B. durch (D)DoS Attacken, Hacking, Spamming
 >
 >Gefährdung oder Störung für Leistungen Dritter.  
 >Die Ventus Cloud ist berechtigt, die Leistung für den Kunden ohne vorherige Benachrichtigung, bis zur Behebung einer Gefährdung oder Störung für Leistungen Dritter oder die Infrastruktur der Ventus Cloud, zu deaktivieren.
