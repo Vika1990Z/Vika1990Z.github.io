@@ -1,5 +1,5 @@
 ---
-title: Connect Linux VM
+title: Access Linux VM
 weight: 15
 ---
 ___
@@ -26,7 +26,7 @@ In this article, we will assume that we have already created the following resou
   - *Volume size*: 10.
 
 For more information on creating and configuring these resources, see the following articles:  
-[SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)        
+[SSH Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)        
 [Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)   
 
 ## Configuring Firewalls

@@ -1,5 +1,5 @@
 ---
-title: Connect Windows VM 
+title: Access Windows VM 
 weight: 20
 ---
 ___
