@@ -11,7 +11,7 @@ On this page, you can find an explanation of how to connect to the Windows Virtu
 3. [Connect using RDP](#connect-using-rdp)
 
 ## Prerequisites
-In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
+In this article we will assume, that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
 - **Windows Virtual Machine** - that was created with the next parameters and has IP: 185.226.42.128:
   - *Name*: test-win;
   - *Flavor*: VC-4;
@@ -20,7 +20,7 @@ In this article, we will assume that we have already created the following resou
   - *Firewalls*: default;
   - *Volume size*: 40.
 
-For more information on creating and configuring these resources, see the following articles:           
+For more information about creating and configuring these resources, see the following articles:           
 [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)   
 
 ## Configuring Firewalls

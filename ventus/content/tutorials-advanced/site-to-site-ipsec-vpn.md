@@ -3,7 +3,7 @@ title: The Site to Site IPSec VPN
 weight: 25
 ---
 ___
-On this page, you can find an explanation of how to configure Site to Site IPSec connection between Ventus Cloud Regions.
+On this page, you can find an explanation of how to configure Site to Site IPSec connection between the Ventus Cloud Regions.
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
@@ -15,8 +15,8 @@ On this page, you can find an explanation of how to configure Site to Site IPSec
 7. [Verifying connectivity](#verifying-connectivity)
 
 ## Prerequisites
-1. Create a private network in each region. How to create a network see the articles - [Networks](), [Subnets]()
-2. Create two VMs in private and public networks based on Ubuntu 18.04 or higher in each region. How to create VMs see the article - [Virtual Machines]()
+1. Create a private network in each region. How to create a network see the articles - [Networks](https://docs.ventuscloud.eu/products/network/networks/) and [Subnets](https://docs.ventuscloud.eu/products/network/subnets/)
+2. Create two VMs in private and public networks based on Ubuntu 18.04 or higher in each region. How to create VMs see the article - [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)
 3. For testing, need to create on each private network VM based on Windows or Linux
 
 ## Configure Site to Site IPSec connection
@@ -191,15 +191,15 @@ sudo ipsec rereadsecrets
 ```
 
 ## Capture traffic
-To capture traffic from the tunnel use the command:
+To capture traffic from the tunnel, use the command:
 ```
 sudo tcpdump esp
 ```
 
 ## Disable port-security 
-To disable port-security in internal networks for VPN routers and clients do the following:
+To disable port-security in internal networks for VPN routers and clients, do the following:
 
-1. Create API user and install OpenStack CLI. To find more detailed instructions see the article - [Installation OpenStack CLI]().  
+1. Create API user and install OpenStack CLI. To find more detailed instructions see the article - [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/).  
 In each region need to create its own API user.   
 This example shows how to disable port security in Eastern-Switzerland region.  
 
@@ -307,7 +307,7 @@ route print
 ```
 
 ## Verifying connectivity 
-To verify connectivity between Client A and Client B do the following:
+To verify connectivity between Client A and Client B, do the following:
 
 1. Ping from Client B to Client A:
 ```

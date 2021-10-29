@@ -15,7 +15,7 @@ On this page, you can find an explanation of how to find list of default Images 
     4. [Delete custom Image](#delete-custom-image)
 
 ## Images page
-To get to the *Images page* select the **Storage** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **Images TAB:**
+To get to the *Images page*, select the **Storage** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **Images TAB:**
 ![](../../../assets/images/vol/1.png?classes=border,shadow) 
 ![](../../../assets/images/images/1.png?classes=border,shadow) 
 
@@ -26,7 +26,7 @@ On this page you can find all default and custom Images, with their *Headers* a
 The Cloud Console functionality allows to upload custom Images to the system, which will be available for all resources in the current Project.
 
 ### Prerequisites
-In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
+In this article we will assume, that we have already created the following resources, that refer to the Project named *dev1*, that was created in the Organization named *Test-Shop*:
 - **SSH Key,** that will be specified during creating the Virtual Machine and Kubernetes Cluster for further connection to them via SSH; it was created with the next parameters:
   - *Name*: mykey;
   - *Public key* is placed on the Linux VM during its creation;
@@ -52,17 +52,17 @@ In this article, we will assume that we have already created the following resou
   - *Password*: P@sword.
 
 For more information on creating and configuring these resources, see the following articles:
-
-- [SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)
-- [Firewalls and Firewall Rules](https://kb.ventuscloud.eu/knowledge/firewalls)
-- [Linux Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)
-- [CLI Users](https://kb.ventuscloud.eu/knowledge/cli-users)
-- [Connect to Linux VM via SSH](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)
+- [SSH Keys](https://docs.ventuscloud.eu/products/security/ssh-keys/)
+- [Firewalls](https://docs.ventuscloud.eu/products/security/firewalls/)
+- [Firewall Rules](https://docs.ventuscloud.eu/products/security/firewall-rules/)
+- [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)
+- [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)
+- [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)
 
 ### Get Images list
-To get the list of all available Images in the current Project follow the next steps:
+To get the list of all available Images in the current Project, follow the next steps:
 - Loggin to your Ubuntu Virtual Machine, from which you are going to create custom Image;  
-for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)  
+for this we use SSH protocol - to find additional information about, it see the article: [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)    
 `ssh -i ~/.ssh/id_rsa ubuntu@185.226.42.187`
 
 - Update Ubuntu package sources by running the following command:   
@@ -131,7 +131,7 @@ Also, all this Images you can find on the *Images page* in the Cloud Console and
 ![](../../../assets/images/images/2.png?classes=border,shadow)  
 
 ### Create custom Image
-To create/upload a custom Image follow the next steps:
+To create/upload a custom Image, follow the next steps:
 - Prepare your own Image that you want to upload to the Cloud Console.  
   In our case, we use just one of the Ubuntu images, but you can upload your own unique Image that should be located locally:
   `wget https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.img`
@@ -151,7 +151,7 @@ To create/upload a custom Image follow the next steps:
     - *–file* - Upload image from a local file.
     - *–property* - Set a property on this image (repeat for multiple values).
     - *ubuntu-server-Ventus-Test* - New image name.  
-    Also here you can use some other required arguments, for example:
+    Also, here you can use some other required arguments, for example:
     - *–location* - Download image from an existing URL.
     - *–copy-from* - Copy image from the data store (similar to \*--location\*).
     - *–volume* - Create an image from a volume.
@@ -192,7 +192,7 @@ Also, you can find this new Image on the *Images page* in the Cloud Console and 
 ![](../../../assets/images/images/3.png?classes=border,shadow)  
 
 ### Delete Custom Image
-To delete an image use the next command:  
+To delete an image, use the next command:  
 `openstack image delete <IMAGE-ID>`  
 
 If the image, that you want to delete is protected, the first step for deleting is to unprotect it, for this use the next command:  

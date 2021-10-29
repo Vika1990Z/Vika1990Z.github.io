@@ -9,7 +9,7 @@ pre = "<b>5. </b>"
 ### Chapter 5
 # **Terms and Conditions**
 ___
-Here are General Terms and Conditions and Privacy Policy of Ventus Cloud AG
+Here are General Terms and Conditions and Privacy Policy of the Ventus Cloud AG
 ___
 
 {{% children style="h4" depth="2" %}}

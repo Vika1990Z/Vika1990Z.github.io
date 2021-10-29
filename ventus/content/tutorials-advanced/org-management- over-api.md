@@ -3,7 +3,7 @@ title: Organization's management over API
 weight: 20
 ---
 ___
-On this page, you can find the workflow for management of your Organization in Ventus Cloud using API.
+On this page, you can find the workflow for management of your Organization in the Ventus Cloud using API.
 
 # Table of contents
 1. [Required endpoints](#required-endpoints)
@@ -11,12 +11,12 @@ On this page, you can find the workflow for management of your Organization in V
 3. [Example using Postman](#example-using-postman) 
 
 ## Required endpoints
-- **auth.ventuscloud.eu** - use it to get ID and Access tokens from basic credentials
-- **api.ventuscloud.eu** - use it to work with organization's resources 
+- *auth.ventuscloud.eu* - use it to get ID and Access tokens from basic credentials
+- *api.ventuscloud.eu* - use it to work with organization's resources 
 
 ## Example using CURL
 **Get ID and Access tokens**  
-To get ID and Access tokens use next command: 
+To get ID and Access tokens. use next command: 
 ```
 curl -XGET https://auth.ventuscloud.eu/get-tokens -d '
 {
@@ -48,7 +48,7 @@ https://console.ventuscloud.eu/organizations/c19XXXX-XXXX-XXXX-XXXX-XXXX50/proje
 ```
 
 **List all Projects**  
-To list all Projects use next command:
+To list all Projects, use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-enterprises/method/orgs/$ORGANIZATION_ID/projects \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -77,7 +77,7 @@ Response example:
 ```
 
 **Create new Project**  
-To create new Project use next command:
+To create new Project, use next command:
 ```
 curl -XPOST https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/PROJECT_NAME \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -93,7 +93,7 @@ Response example:
 ```
 
 **Get Project by ID**  
-To get Project by ID use next command:
+To get Project by ID, use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/projects/$PROJECT_ID \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -109,7 +109,7 @@ Response example:
 ```
 
 **Edit Project name**  
-To edit Project name use next command:
+To edit Project name, use next command:
 ```
 curl -XPUT https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/$PROJECT_ID \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -125,7 +125,7 @@ Response example:
 ```
 
 **Delete Project**  
-To delete Project use next command:
+To delete Project, use next command:
 ```
 curl -XDELETE -I https://api.ventuscloud.eu/v1.0/invoke/gotham-$REGION_NAME-identity/method/$ORGANIZATION_ID/projects/$PROJECT_ID \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -139,7 +139,7 @@ HTTP/2 200
 
 
 **Get Prices**  
-To get Prices use next command:
+To get Prices, use next command:
 ```
 curl -XGET https://api.ventuscloud.eu/v1.0/invoke/gotham-bank/method/prices \
 -H "Authorization: Bearer $ID_TOKEN" \
@@ -177,7 +177,7 @@ Response example:
 
 ## Example using Postman
 **Get ID and Access tokens**  
-To get ID and Access tokens do the following:
+To get ID and Access tokens, do the following:
 
 * Create new Request with the next parameters:
     * *Option*: GET;
@@ -209,7 +209,7 @@ To save this tokens as variables for the reusing them in the next steps do the f
 ![](../../assets/images/tutorials/3.png?classes=border,shadow)
 
 **List all Projects**  
-To list all Projects do the following:  
+To list all Projects, do the following:  
 
 * Create new Request with the next parameters:
     * *Option*: GET;
@@ -247,7 +247,7 @@ To list all Projects do the following:
 ```
 
 **Create new Project**  
-To create new Project do the following:
+To create new Project, do the following:
 
 * Create new Request with the next parameters:
     * *Option*: POST;
@@ -272,7 +272,7 @@ To create new Project do the following:
 ```
 
 **Get Project by ID**  
-To get Project by ID do the following:
+To get Project by ID, do the following:
 
 * Create new Request with the next parameters:
     * *Option*: GET;
@@ -296,7 +296,7 @@ To get Project by ID do the following:
 ```        
 
 **Edit Project name**  
-To edit Project name do the following: 
+To edit Project name, do the following: 
 
 * Create new Request with the next parameters:
     * *Option*: PUT;
@@ -318,7 +318,7 @@ To edit Project name do the following:
 ```     
 
 **Delete Project**  
-To delete Project do the following:
+To delete Project, do the following:
 
 * Create new Request with the next parameters:
     * *Option*: DELETE;
@@ -336,7 +336,7 @@ PROJECT_ID - ID of the project, that you want to delete, saved as a variable.
 * Click on the **Send** icon and the selected project will be deleted.     
 
 **Get Prices**   
-To get Prices do the following:
+To get Prices, do the following:
 
 * Create new Request with the next parameters:
     * *Option*: GET;

@@ -3,24 +3,24 @@ title: Installation OpenStack CLI
 weight: 10
 ---
 ___
-On this page, you can find an explanation of how to install OpenStack CLI on Linux VM in Cloud Console.
+On this page, you can find an explanation of how to install OpenStack CLI on Linux VM in the Cloud Console.
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
-1. [Install OpenStack CLI on Ubuntu VM](#install-openstack-clion-ubuntu-vm)
-1. [Install OpenStack CLI on Centos VM](#install-openstack-clion-centos-vm)
+1. [Install OpenStack CLI on Ubuntu VM](#install-openstack-cli-on-ubuntu-vm)
+1. [Install OpenStack CLI on Centos VM](#install-openstack-cli-on-centos-vm)
 
 ## Prerequisites
-In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
+In this article we will assume, that we have already created the following resources, that refer to the Project named *dev1*, that was created in the Organization named *Test-Shop*:
 - **API User**, created with the following parameters and its RC file has already been loaded:
   - *Name*: testCLIuser;
   - *Password*: P@sword.
 
-For more information, see the article -[CLI Users](https://kb.ventuscloud.eu/knowledge/cli-users)
+For more information, see the article -[CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)
 
 ## Install OpenStack CLI on Ubuntu VM
 - Create and log in to your Ubuntu Virtual Machine on which you want to install OpenStack CLI;  
-  for more information, see articles - [Virtual Machines]() and [Connect Linux VM]());  
+  for more information, see articles - [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/) and [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);  
 
 - Update Ubuntu package sources by running the following command:    
 `sudo apt update` 
@@ -76,7 +76,7 @@ ubuntu@test-2:~$ openstack coe cluster list
 
 ## Install OpenStack CLI on Centos VM
 - Create and log in to your Ubuntu Virtual Machine on which you want to install OpenStack CLI;  
-  for more information, see articles - [Virtual Machines]() and [Connect Linux VM]());  
+  for more information, see articles - [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/) and [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);      
 
 - Enable the OpenStack repository;  
 on CentOS, the extras repository provides the RPM that enables the OpenStack repository. CentOS includes the extras repository by default, so you can simply install the package to enable the OpenStack repository. For CentOS 8, you will also need to enable the PowerTools repository:  

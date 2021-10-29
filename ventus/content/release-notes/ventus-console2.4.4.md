@@ -6,7 +6,8 @@ ___
 Successfully delivered to Production: 25.03.2021
 ___
 
-Ventus Console 2.4.4 was successfully delivered to Production. Here are the list of updates:
+*Ventus Console 2.4.4 was successfully delivered to Production.*  
+Here are the list of updates:
 
 * MariaDB was added as DBaaS – all DBaaS UI was changed to support multiple DB engines
 * VM Console logs were added to VM details – might be useful for customers to troubleshoot Linux VMs

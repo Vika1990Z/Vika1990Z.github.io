@@ -12,7 +12,6 @@ On this page, you can find an explanation of how to create a new Organization an
 4. [Delete Organization](#delete-organization)
 
 ## Organizations page
-
 If you are a new user and have just created new account, you will be automatically redirected to the *Organizations page*, where you can create your first Organization or find a list of Organizations, to which Projects your User has access as a *Member*:  
 
 If you aren't a new User, but want to see information about created Organizations or find information about Organizations to which Projects your User has access, you need to select the **Organizations** from the *side-bar menu:*  
@@ -40,20 +39,18 @@ After these steps the newly created Organization will be added to the *Organizat
 ![](../../assets/images/organizations/6-org.png?classes=border,shadow)  
 
 ## Edit Organization
-
 {{% notice note %}}
 This action is available only if your User Role in this Organization is *Owner or Administrator*.
 {{% /notice %}}
 
 To edit Organization, do the following:
-- identify, what Organization you want to edit on the *Organizations page*;   
+- identify, what Organization you want to edit, on the *Organizations page*;   
 - click on the **Actions** icon and select the EDIT in the list of available options;    
 - update the name of the Organization on the next opened *Edit Organization window* and click on the SAVE icon.     
 
 After these steps, the selected Organization will be updated.
 
 ## Delete Organization
-
 {{% notice note %}}
 This action is available only if your User Role in this Organization is *Owner or Administrator*.
 {{% /notice %}}

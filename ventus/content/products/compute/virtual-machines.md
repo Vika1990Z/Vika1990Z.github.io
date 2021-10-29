@@ -17,24 +17,24 @@ On this page, you can find an explanation of how to create, resize, delete Linux
 
 
 ## Virtual Machines page 
-To get to the *Virtual Machines page* select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
+To get to the *Virtual Machines page*, select the **Virtual Machines** from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/vms/1-vm.png?classes=border,shadow)  
 
-On this page you can find all created Virtual Machines in the current Project of the selected Organization with their *Headers, Create button, Search bar* and *Actions icon*, which opens a list of available management actions for the selected VM:
+On this page you can find all created Virtual Machines in the current Project of the selected Organization, with their *Headers, Create button, Search bar* and *Actions icon*, which opens a list of available management actions for the selected VM:
 ![](../../../assets/images/vms/2-vm.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
 - *Start* - this option is used to start the VM if it was stoppedd; 
 - *Stop* - this option is used to stop the VM;
 - *Soft reboot* - this option is used a graceful shut down and restart of the VM;
-- *Edit* - this option is used to to change VM's name;
+- *Edit* - this option is used to change VM's name;
 - *Resize* - this option is used to change the Flavor for the VM;
 - *Delete* - this option is for VM removing;
 - *Remote console* - this option is used to use remote console for VM;
 - *Download RDP file* - this option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs;
 
-## Create Linux Virtual Machine
-To create new Linux VM do the following:
+## Create Linux Virtual Machine
+To create new Linux VM, do the following:
 - go to the *Virtual Machines page* and click on the CREATE VM icon in the upper left corner;
 - fill in the form on the next opened *Create Virtual Machine window* and click on the CREATE icon:
 ![](../../../assets/images/vms/3-vm.png?classes=border,shadow)
@@ -47,7 +47,7 @@ To create new Linux VM do the following:
   - *Key pair* - this field is necessary only for Linux VMs; select here the SSH Key that was previously created on the *SSH Keys page* or create a new one, which you will use to connect to the Linux VM;
   - *Networks* - choose one or more networks;
   - *Firewalls*- choose what collection of network access rules will control the traffic to this VM;  
-    >**NOTE:** To connect to the selected **Linux Virtual Machine** remotely via SSH you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this, please see the article **[Connect to Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)**;
+    >**NOTE:** To connect to the selected **Linux Virtual Machine** remotely via SSH, you need to add an additional Firewall with a rule, that will allow incoming traffic to TCP port 22 (like shown below) - to find additional information about this, please see the article **[Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)**;
     ![](../../../assets/images/vms/4-vm.png?classes=border,shadow)
 
   - *Volume size (GB)* - provide the preferred disk size for the VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size for Linux VMs - 10 GB; and also just below this field you can make a mark ***for auto-deleting volume*** when the VM is terminated;   
@@ -56,8 +56,8 @@ After these steps, the newly created Linux VM will be added to the *Virtual Mac
 ![](../../../assets/images/vms/6-vm.png?classes=border,shadow)
 
 
-## Create Windows Virtual Machine
-To create new Windows VM do the following:
+## Create Windows Virtual Machine
+To create new Windows VM, do the following:
 - go to the *Virtual Machines page* and click on the CREATE VM icon in the upper left corner;
 - fill in the form on the next opened *Create Virtual Machine window* and click on the CREATE icon:
 ![](../../../assets/images/vms/7-vm.png?classes=border,shadow)
@@ -71,7 +71,7 @@ To create new Windows VM do the following:
   - *Confirm password;*
   - *Networks* - choose one or more networks;
   - *Firewalls*- choose what collection of network access rules will control the traffic to this VM; 
-    >**NOTE:** To connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this, please see the article **[Connect to the Windows VM via RDP](https://kb.ventuscloud.eu/knowledge/connect-windows-vm)**;
+    >**NOTE:** To connect to the selected **Windows Virtual Machine** remotely via RDP you need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 like shown below - to find additional information about this, please see the article **[Access Windows VM](https://docs.ventuscloud.eu/products/compute/connect-windows-vm/)**;
     ![](../../../assets/images/vms/5-vm.png?classes=border,shadow)
 
   - *Volume size (GB)* - provide the preferred disk size for this VM, it can be specified in the range from 10 GB to 1000 GB. Minimal available size for Windows VMs - 40 GB; and also just below this field you can make a mark ***for auto-deleting volume*** when the VM is terminated;   
@@ -80,7 +80,7 @@ After these steps, the newly created Windows VM will be added to the *Virtual M
 ![](../../../assets/images/vms/6-vm.png?classes=border,shadow)
 
 ## Virtual Machine details page
-To open the *Virtual Machine details page* click on the **Name** of the corresponding Virtual Machine:
+To open the *Virtual Machine details page*, click on the **Name** of the corresponding Virtual Machine:
 ![](../../../assets/images/vms/10-vm.png?classes=border,shadow)
 
 This action will redirect you to the *Virtual Machine details page*, where you can find:
@@ -122,16 +122,16 @@ This action will redirect you to the *Virtual Machine details page*, where you
 This option is available only for Windows VMs and is used to download RDP file for the remote connection to the Windows VMs.
 {{% /notice %}}
 
-To download RDP for the remote connection to the Windows Virtual Machine do the following:
-- identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;
+To download RDP for the remote connection to the Windows Virtual Machine, do the following:
+- identify Windows Virtual Machine, for what  you want to download RDP file on the *Virtual Machines page*;
 - click on the **Actions** icon and select the **Download RDP file** in the list of available options.
 
 After these steps, the RDP File of the selected Windows Virtual Machine will be downloaded.  
 Also, you can download RDP file from *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Edit Virtual Machine
-To edit a Virtual Machine do the following:
-- identify Virtual Machine that you want to edit on the *Virtual Machines page*;
+To edit the Virtual Machine, do the following:
+- identify Virtual Machine, that you want to edit, on the *Virtual Machines page*;
 - click on the **Actions** icon  and select the **Edit** in the list of available options;
 - update the Virtual Machine Name on the opened *Edit Virtual Machines window*  and click on the SAVE icon.
 
@@ -139,26 +139,28 @@ After these steps, the selected Virtual Machine will be updated.
 Also, you can edit Virtual Machine from *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Resize Virtual Machine
-To resize a Virtual Machine do the following:
-- identify Virtual Machine you want to resize on the *Virtual Machines page*;
+To resize the Virtual Machine, do the following:
+- identify Virtual Machine, that you want to resize, on the *Virtual Machines page*;
 - click on the **Actions** icon and select the **Resize** in the list of available options;
 - choose new flavor for the Virtual Machine on the next opened *Resize Virtual Machines window* and click on the SAVE icon;
 - verify resize by clicking again on the **Actions** icon and select additional option - **Confirm resize**
 
-When the VM's status changes from RESIZE to VERIFY_RESIZE you can confirm or revert your action, just click again on the **Actions** icon and select one of the additional options - **Confirm resize** or **Revert resize**:
+When the VM's status changes from RESIZE to VERIFY_RESIZE, you can confirm or revert your action, just click again on the **Actions** icon and select one of the additional options - **Confirm resize** or **Revert resize**:
 ![](../../../assets/images/vms/9-vm.png?classes=border,shadow)
 
 If you confirm resizing, the selected virtual machine will be resized after a few minutes and its status will be ACTIVE.  
 Also, you can resize Virtual Machine from *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Delete Virtual Machine
-To delete Virtual Machine do the following:
+To delete the Virtual Machine, do the following:
 - identify this unnecessary Virtual Machine on the *Virtual Machines page*;
 - click on the **Actions** icon  and select the **Delete** in the list of available options;
 - confirm the Virtual Machine deletion on the next opened *Confirmation window*.
 
 After these steps, the selected Virtual Machine will be deleted.  
 Also, you can delete Virtual Machine from *Virtual Machine details page*, by clicking on the appropriative **quick actions** icon there.
+
+
 
 
 

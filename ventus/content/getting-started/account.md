@@ -15,9 +15,7 @@ On this page, you can find an explanation of how to create and manage a new user
    5. [Login and Logout](#login-and-logout)
 
 ## Registration
-
 To start work in the Cloud Console, firstly, you need to register a new account, for this do the following:
-
 - follow the *Authorization page* of the Cloud Console - [console.ventuscloud.eu](https://console.ventuscloud.eu/), and click on the **Register** icon:
 ![](../../assets/images/account/1-acc.png?classes=border,shadow) 
 - fill in the form on the next opened *Register window* and click on the **Register** icon;
@@ -49,14 +47,14 @@ Option **Settings** gives you an access to the available actions to manage you
 Option **Logout** is used to end the login session.
 
 ### Edit account
-To edit account, do the following:
+To edit the account, do the following:
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Account** TAB from the *side-bar menu*;
 - on the opened  the *Edit Account page* make the changes that you need with your personal information that you have provided before and click on the **Save** icon:
 ![](../../assets/images/account/6-acc.png?classes=border,shadow) 
 
 ### Change password
-To change password of your User Account, do the following:
+To change the password of your User Account, do the following:
 - open the *User menu* and  select **Settings** option from the opened *drop-down menu;*
 - select the **Password** TAB from the *side-bar menu*;
 - on the opened the *Change Password page* make the changes that you need with the password that you have provided before and click on the **Save** icon:

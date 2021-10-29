@@ -3,8 +3,7 @@ title: CLI Users
 weight: 35
 ---
 ___
-On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in 
-Cloud Console.
+On this page, you can find an explanation of how to create, edit, delete CLI Users and instructions for other steps to manage CLI Users in the Cloud Console.
 
 # Table of contents
 1. [CLI Users page](#cli-users-page)
@@ -15,7 +14,7 @@ Cloud Console.
 1. [Delete CLI User ](#delete-cli-user)
 
 ## CLI Users page
-To get to the *CLI Users page* select the **Security** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **CLI Users TAB:**
+To get to the *CLI Users page*, select the **Security** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **CLI Users TAB:**
 ![](../../../assets/images/cli/1.png?classes=border,shadow) 
 ![](../../../assets/images/cli/2.png?classes=border,shadow) 
 
@@ -29,7 +28,7 @@ On this page you can find all created CLI Users, *Create button*, *Search bar*
 - *Delete* - this option is for the CLI User deletion.
 
 ## Create CLI User
-To create a new CLI User do the following:
+To create a new CLI User, do the following:
 - go to the *CLI Users page* and click on the CREATE CLI USER icon in the upper left corner;
 - fill in the form on the next opened *Create CLI User window*:
 ![](../../../assets/images/cli/3.png?classes=border,shadow) 
@@ -40,7 +39,7 @@ To create a new CLI User do the following:
 After these steps, the newly created CLI User will be added to the *CLI Users page*:
 
 ## Download RC File
-To download the RC File that pertains to the CLI User do the following:
+To download the RC File that pertains to the CLI User, do the following:
 - identify this desired CLI User on the *CLI Users page*;
 - click on the **Actions** icon and select the **Download RC File** in the list of available options.
 
@@ -77,23 +76,23 @@ For the next work with CLI User you need:
 - provide the password of the created CLI User and hit *Enter*; this password will be used to authenticate you in the Cloud Console.
 
 ## Edit CLI User 
-To edit a CLI User do the following:
-- identify CLI User that you want to edit on the *CLI Users page*;
+To edit the CLI User, do the following:
+- identify CLI User, that you want to edit, on the *CLI Users page*;
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the CLI User *Name* on the next opened *Edit CLI User window* and click on the SAVE icon.
 
 After these steps, the selected CLI User Name will be updated.
 
 ## Change the password
-To change the password of the CLI User do the following:
-- identify CLI User whose password you want to change on the *CLI Users page*;
+To change the password of the CLI User, do the following:
+- identify CLI User, whose password you want to change, on the *CLI Users page*;
 - click on the **Actions** icon and select the **Change password** in the list of available options;
 - update the password on the next opened *Change password window*, confirm it and click on the SAVE icon.
 
 After these steps, the password of the selected CLI User will be updated.
 
 ## Delete CLI User
-To delete a CLI User do the following:
+To delete the CLI User, do the following:
 - identify this unnecessary CLI User on the *CLI Users page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the CLI User deletion on the next opened *Confirmation window*.

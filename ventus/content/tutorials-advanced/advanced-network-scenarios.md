@@ -3,7 +3,7 @@ title: Advanced network scenarios
 weight: 22
 ---
 ___
-On this page, we will discuss scenarios that can help you to build software upgrade friendly and fault-tolerant cloud infrastructure.
+On this page we will discuss scenarios, that can help you to build software upgrade friendly and fault-tolerant cloud infrastructure.
 
 >Most of the topics described below considered advanced. Basic Linux and Networking skills are required. Please contact support if you need guidance and best practices for your specific use case.  
 > 
@@ -17,8 +17,8 @@ On this page, we will discuss scenarios that can help you to build software upgr
 
 
 ## Prerequisites
-1. CLI User created. To find more detailed instructions see the article - [CLI Users]().
-2. Openstack Client Configured. To find more detailed instructions see the article - [Installation OpenStack CLI]().
+1. CLI User created. To find more detailed instructions see the article - [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/).  
+2. Openstack Client Configured. To find more detailed instructions see the article - [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/).
 
 ## Port Migration
 Port migration can be used in drop-in replacement of instances in case of major software upgrades or recovery scenarios, especially when you need to preserve initial networking settings and you didn't plan for such actions in advance by leveraging Floating IPs or Load Balancers. 

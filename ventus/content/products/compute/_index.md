@@ -8,7 +8,7 @@ pre = "<b>      </b>"
 
 # **COMPUTE**
 ____
-Here you can find an explanation of how to create, manage and use Linux and Windows Virtual Machines in Cloud Console.
+Here you can find an explanation of how to create, manage and use Linux and Windows Virtual Machines in the Ventus Cloud.
 ____
 
 {{% children style="h4" depth="1" %}}

@@ -6,13 +6,13 @@ ___
 On this page, you can find an explanation of several ways how to access a Kubernetes Cluster created in Cloud Console
 
 # Table of contents
-1. [Prerequisites](#prerequsites)
+1. [Prerequisites](#prerequisites)
 1. [Get access from Ubuntu VM to K8S Cluster using CLI User](#get-access-from-ubuntu-vm-to-k8s-cluster-using-cli-user)
 1. [Get access from Centos VM to K8S Cluster using CLI User](#get-access-from-centos-vm-to-k8s-cluster-using-cli-user)
 1. [Connect to Cluster Master-Node via SSH](#connect-to-cluster-master-node-via-ssh)
 
 ## Prerequisites
-In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
+In this article we will assume, that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
 - **SSH Key,** that will be specified during creating the Virtual Machine and Kubernetes Cluster for further connection to them via SSH; it was created with the next parameters:
   - *Name*: mykey;
   - *Public key* is placed on the Linux VM during its creation;
@@ -54,19 +54,20 @@ In this article, we will assume that we have already created the following resou
   - *Name*: test-conn;
   - *Password*: P@ssword.
 
-For more information on creating and configuring these resources, see the following articles:
+For more information about creating and configuring these resources, see the following articles:
 
-- [SSh Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)
-- [Firewalls and Firewall Rules](https://kb.ventuscloud.eu/knowledge/firewalls)
-- [Linux Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)
-- [Kubernetes Cluster](https://kb.ventuscloud.eu/knowledge/kubernetes-cluster)
-- [CLI Users](https://kb.ventuscloud.eu/knowledge/cli-users)
-- [Connect to Linux VM via SSH](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)
+- [SSH Keys](https://docs.ventuscloud.eu/products/security/ssh-keys/)
+- [Firewalls](https://docs.ventuscloud.eu/products/security/firewalls/)
+- [Firewall Rules](https://docs.ventuscloud.eu/products/security/firewall-rules/)
+- [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)
+- [Kubernetes Cluster](https://docs.ventuscloud.eu/products/kubernetes/kubernetes-cluster/)
+- [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)
+- [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)
 
 ## Get access from Ubuntu VM to K8S Cluster using CLI User
-To get the access from the Ubuntu Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:
+To get the access from the Ubuntu Virtual Machine to the created Kubernetes cluster using CLI, follow the next steps:
 - Loggin to your Ubuntu Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
-for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
+for this we use SSH protocol - to find additional information about, it see the article:[Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)      
 `ssh -i ~/.ssh/id_rsa ubuntu@185.226.42.187`
 
 - Update Ubuntu package sources by running the following command:   
@@ -159,9 +160,9 @@ kube-system   openstack-cloud-controller-manager-mfswf        1/1     Running   
 ```
 
 ## Get access from CentOS VM to K8S Cluster using CLI User
-To get the access from the CentOS Virtual Machine to the created Kubernetes cluster using CLI follow the next steps:  
+To get the access from the CentOS Virtual Machine to the created Kubernetes cluster using CLI, follow the next steps:  
 - Loggin to your CentOS Virtual Machine from which you want to get access to the Kubernetes Cluster API;  
-for this we use SSH protocol - to find additional information about, it see the article: [Connect Linux VM:](https://kb.ventuscloud.eu/knowledge/connect-vm-by-ssh)   
+for this we use SSH protocol - to find additional information about, it see the article: [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)      
 `ssh -i ~/.ssh/id_rsa centos@185.226.43.21`
 
 - Enable the OpenStack repository;  

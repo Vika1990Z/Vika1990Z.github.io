@@ -3,7 +3,7 @@ title: Working with OpenStack API
 weight: 15
 ---
 ___
-On this page, you can find an explanation of how to work with OpenStack API using Ventus Cloud account.
+On this page, you can find an explanation of how to work with OpenStack API using the Ventus Cloud Account.
 
 # Table of contents
 1. [Introduction](#introduction)
@@ -15,8 +15,8 @@ On this page, you can find an explanation of how to work with OpenStack API usin
 7. [Conclusion](#conclusion)
 
 ## Introduction
-We encourage clients to use [CLI Users]() to work directly with OpenStack API, but it has a limitation - it's bonded to the specific project in the specific region.  
-When you need to manage resources in all regions and all projects using the same credentials, you can use the Ventus Cloud account.   
+We encourage clients to use [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/) to work directly with OpenStack API, but it has a limitation - it's bonded to the specific project in the specific region.  
+When you need to manage resources in all regions and all projects using the same credentials, you can use the Ventus Cloud Account.   
 
 **Required endpoints:** 
 * *login.ventuscloud.eu* - used for authentication;
@@ -85,7 +85,7 @@ Expected result - list of all projects in your currently active region:
 ```
 
 ## Change region
-To change the region do the dollowing:
+To change the region, do the dollowing:
 
 * Edit your *ventus_credentials file*, change currently selected region to another one;
 * Dot source your ventus_credentials file:  
@@ -104,7 +104,7 @@ Expected result - you can see your"
 ```
 
 ## Find resources 
-To find resources in the specific region in the specific project do the following:
+To find resources in the specific region in the specific project, do the following:
 
 * Configure your *credentials file (ventus_credentials)* to refer to the specific region and specific project: 
 
@@ -145,6 +145,6 @@ Expected result - list of servers deployed in this project:
 ```
 
 ## Conclusion
-You can leverage your Ventus account to work with any OpenStack resources in any available regions in any available projects using the same credentials.
+You can leverage your Ventus Cloud Account to work with any OpenStack resources in any available regions in any available projects using the same credentials.
 
  

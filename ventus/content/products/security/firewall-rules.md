@@ -3,32 +3,32 @@ title: Firewall Rules
 weight: 20
 ---
 ___
-On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in Cloud Console.
+On this page, you can find an explanation of how to create, delete Firewall Rules and instructions for other steps to manage Firewall Rules in the Cloud Console.
 
 # Table of contents
 1. [Firewall Rules page](#firewall-rules-page)
-2. [Characteristics of Firewall Rules](#characteristics-of-firewall-rules)
+2. [Firewall Rules Characteristics ](#firewall-rules-characteristics )
 3. [Create Firewall Rule](#create-firewall-rule)
 4. [Firewall Rule details page](#firewall-rule-details-page)
 5. [Delete Firewall Rule](#delete-firewall-rule)
 6. [Firewall Rule for SSH Protocol](#firewall-rule-for-ssh-protocol)
-7. [Firewall Rule for SSH Protocol](#firewall-rule-for-rdp)
+7. [Firewall Rule for RDP](#firewall-rule-for-rdp)
 
 ## Firewall Rules page
-To get to the *Firewall Rules page* click on the **Name** of the corresponding Firewall on the *Firewalls page*:
+To get to the *Firewall Rules page*, click on the **Name** of the corresponding Firewall on the *Firewalls page*:
 ![](../../../assets/images/fw/5.png?classes=border,shadow) 
 
 On this page you can find:
 - panel with available **quick actions** for the selected Firewall: 
 ![](../../../assets/images/networks/13.png?classes=border,shadow) 
-- all Rules related to the selected Firewall with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
+- all Rules, related to the selected Firewall, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Rule:
 ![](../../../assets/images/fw/4.png?classes=border,shadow)  
 
 **Actions** icon opens the next list of available management actions for the selected Rule:
 - *Delete* - this option is for Firewall Rule deletion.
 
-After creating a new Firewall, two rules have been automatically added to the *Firewall Rules page* - the default rules that allow all outgoing traffic. 
-You can remove them if needed.
+After creating a new Firewall two rules have been automatically added to the *Firewall Rules page* - the default rules that allow all outgoing traffic. 
+You can remove them, if needed.
 
 ## Firewall Rules Characteristics 
 **Firewall Rules** control the inbound traffic that's allowed to reach the VMs that are associated with the corresponding Firewall. The rules also control the outbound traffic that's allowed to leave them.
@@ -41,7 +41,7 @@ Firewall Rules have the following characteristics:
 - You can assign multiple Firewalls to the VMs. The rules from each Firewall are effectively aggregated to create one set of rules, but we recommend that you condense your rules as much as possible.
 
 ## Create Firewall Rule
-To create new Firewall Rule do the following:
+To create new Firewall Rule, do the following:
 - go to the *Firewall Rules page* and click on the CREATE FIREWALL RULE icon in the upper left corner;
 - fill in the form on the next opened *Create Firewall Rule window*:
 ![](../../../assets/images/conn-lin/20.png?classes=border,shadow)
@@ -60,14 +60,14 @@ After these steps, the newly created Firewall Rule will be added to the *Firewa
 ![](../../../assets/images/fw/6.png?classes=border,shadow) 
 
 ## Firewall Rule details page
-To get to the *Firewall Rule details page* click on the **ID** of the corresponding Firewall Rule:
+To get to the *Firewall Rule details page*, click on the **ID** of the corresponding Firewall Rule:
 ![](../../../assets/images/fw/7.png?classes=border,shadow) 
 
 On this page you can find additional information about this Rule and **quick actions** icon for rule deletion:
 ![](../../../assets/images/fw/8.png?classes=border,shadow) 
 
 ## Delete Firewall Rule
-To delete a Firewall Rule do the following:
+To delete the Firewall Rule, do the following:
 - identify this unnecessary Rule on the *Firewall Rule page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Firewall Rule deletion on the next opened *Confirmation window*.
@@ -77,15 +77,15 @@ Also, you can delete the rule from *Firewall Rule details page*, by clicking on 
 
 ## Firewall Rule for SSH Protocol
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.  
-Thus, to open connection to the selected Linux Virtual Machine remotely via SSH we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 22 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
+Thus, to open connection to the selected Linux Virtual Machine remotely via SSH, we need to add an additional Firewall with a rule, that will allow incoming traffic to TCP port 22 on the Virtual Machines, and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine. 
 
 Example of such rule you can see below:
 ![](../../../assets/images/conn-lin/5.png?classes=border,shadow)  
-To find more information about how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol, please use the article - [Connect Linux VM]()
+To find more information about how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol, please use the article - [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/)
 
 ## Firewall Rule for RDP
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall.  
-Thus, to open connection to the selected Windows Virtual Machine remotely via RDP we need to add an additional Firewall with a rule that will allow incoming traffic to TCP port 54000 on the Virtual Machines and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine.   
+Thus, to open connection to the selected Windows Virtual Machine remotely via RDP, we need to add an additional Firewall with a rule, that will allow incoming traffic to TCP port 54000 on the Virtual Machines, and assign this Firewall to the VM too, or just add the required rule to the Firewall that is already assigned to the Virtual Machine.   
 Example of such rule you can see below:
 ![](../../../assets/images/conn-lin/20.png?classes=border,shadow)  
-To find more information about how to connect to the Windows Virtual Machine created in Cloud Console using Remote Desktop Protocol, please, use the article - [Connect Windows VM ]()
+To find more information about how to connect to the Windows Virtual Machine created in Cloud Console using Remote Desktop Protocol, please, use the article - [Access Windows VM ](https://docs.ventuscloud.eu/products/compute/connect-windows-vm/)

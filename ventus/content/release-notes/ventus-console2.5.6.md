@@ -6,7 +6,8 @@ ___
 Successfully delivered to Production: 28.04.2021
 ___
 
-Ventus Console 2.5.6 was successfully delivered to Production. Here are the list of updates:
+*Ventus Console 2.5.6 was successfully delivered to Production.*  
+Here are the list of updates:
 
 **Console:**  
 - Newsfeed

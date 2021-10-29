@@ -3,7 +3,7 @@ title: Volumes
 weight: 25
 ---
 ___
-On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in Cloud Console.
+On this page, you can find an explanation of how to create, edit, delete Volumes and instructions for other steps to manage Volumes in the Cloud Console.
 
 # Table of contents
 1. [Volumes page](#volumes-page)
@@ -15,11 +15,11 @@ On this page, you can find an explanation of how to create, edit, delete Volumes
 7. [Delete Volume](#delete-volume)
 
 ## Volumes page
-To get to the *Volumes page* select the **Storage** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **Volumes TAB:**
+To get to the *Volumes page*, select the **Storage** from the VIRTUAL DATACENTER block in the *side-bar menu* and click the **Volumes TAB:**
 ![](../../../assets/images/vol/1.png?classes=border,shadow) 
 ![](../../../assets/images/vol/2.png?classes=border,shadow) 
 
-On this page you can find all your own Volumes created in the current Project, and the Volumes created during Cluster and VM creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon* which opens a list of available management actions for the selected Volume:
+On this page you can find all your own Volumes, created in the current Project, and the Volumes created during Cluster and VM creation, with their *Headers*, *Create button*, *Search bar* and *Actions icon* which opens a list of available management actions for the selected Volume:
 ![](../../../assets/images/vol/3.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions:
@@ -33,10 +33,10 @@ There are two ways to *attach*, *detach*, *edit* and *extend* Volumes:
 1. from the *Volumes page*;
 2. from the *VOLUMES TAB* on the *Virtual Machine details page*.
 
-In this article, we will explain the first way - to manage Volumes from the *Volumes page*. Information about the second one you can find in the next article - [VM's Volumes]().  
+In this article we will explain the first way - to manage Volumes from the *Volumes page*. Information about the second one you can find in the next article - [VM's Volumes](https://docs.ventuscloud.eu/products/storage/manage-volumes/).  
 
 ## Create Volume
-To create new Volume do the following:
+To create new Volume, do the following:
 - go to the *Volumes page* and click on the CREATE VOLUME icon in the upper left corner;
 - fill in the form on the next opened *Create Volume window* and click on the CREATE icon:
 ![](../../../assets/images/vol/4.png?classes=border,shadow) 
@@ -53,8 +53,8 @@ After these steps, the newly created Volume will be added to the *Volumes page*
 You can attach only Volumes with state *available*. 
 {{% /notice %}}
 
-To attach a Volume from the *Volumes page* do the following:
-- identify Volume you want to attach on the *Volumes page*;
+To attach the Volume from the *Volumes page*, do the following:
+- identify Volume, that you want to attach, on the *Volumes page*;
 - click on the **Actions** icon  and select the **Attach** in the list of available options;
 - choose VM to which you want to attach selected Volume on the next opened *Attach Volume window* and on the ATTACH icon:
 ![](../../../assets/images/vol/8.png?classes=border,shadow) 
@@ -71,8 +71,8 @@ And also, this Volume will be displayed on the *VOLUMES TAB* on the *Virtual Ma
 You can detach only Volumes with state *in-use*. 
 {{% /notice %}}
 
-To detach a Volume from the *Volumes page* you need to do the following:
-- identify Volume that you want to detach on the *Volumes page*;
+To detach the Volume from the *Volumes page*, do the following:
+- identify Volume, that you want to detach, on the *Volumes page*;
 - click on the **Actions** icon  and select the **Detach** in the list of available options;
 - confirm the Volume detaching on the next opened *Confirmation window*.
 
@@ -81,8 +81,8 @@ On the *Volumes page* its status will change to *available*:
 ![](../../../assets/images/vol/11.png?classes=border,shadow) 
 
 ## Edit Volume
-To edit a Volume from the *Volumes page* do the following:
-- identify Volume that you want to edit on the *Volumes page*;
+To edit the Volume from the *Volumes page*, do the following:
+- identify Volume, that you want to edit, on the *Volumes page*;
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the Volume Name, Description or/and make the it bootable on the next opened *Edit Volume window* and click on the SAVE icon:
 ![](../../../assets/images/vol/6.png?classes=border,shadow)
@@ -90,8 +90,8 @@ To edit a Volume from the *Volumes page* do the following:
 After these steps, the selected Volume will be updated.
 
 ## Extend Volume
-To extend a Volume from the *Volumes page* do the following:
-- identify Volume that you want to extend on the *Volumes page*;
+To extend the Volume from the *Volumes page*, do the following:
+- identify Volume, that you want to extend, on the *Volumes page*;
 - click on the **Actions** icon and select the **Extend** in the list of available options;
 - change the Volume Size on the next opened *Extend Volume window* and click on EXTEND icon:
 ![](../../../assets/images/vol/7.png?classes=border,shadow)
@@ -103,7 +103,7 @@ After these steps, the selected Volume will be updated.
 You can't delete the Volume with the state *in-use,* firstly, you need to detach it. 
 {{% /notice %}}
 
-To delete a Volume do the following:
+To delete the Volume, do the following:
 - identify this unnecessary Volume on the *Volumes page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Volume deletion on the next opened *Confirmation window*.

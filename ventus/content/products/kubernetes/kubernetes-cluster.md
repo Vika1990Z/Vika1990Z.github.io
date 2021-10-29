@@ -3,7 +3,7 @@ title: K8S Cluster
 weight: 10
 ---
 ___
-On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage Kubernetes Cluster in Cloud Console.
+On this page, you can find an explanation of how to create, resize, delete Kubernetes Cluster and instructions for other steps to manage Kubernetes Cluster in the Cloud Console.
 
 # Table of contents
 1. [Clusters Page](#clusters-page)
@@ -15,19 +15,19 @@ On this page, you can find an explanation of how to create, resize, delete Kuber
 
 
 ## Clusters page
-To get to the *Clusters page* select the **Clusters** from the VIRTUAL DATACENTER block in the *side-bar menu*:
+To get to the *Clusters page*, select the **Clusters** from the VIRTUAL DATACENTER block in the *side-bar menu*:
 ![](../../../assets/images/clusters/1.png?classes=border,shadow)  
 
-On this page you can find all created Kubernetes Clusters in the current Project of the selected Organization with their *Headers, Create button, Search bar* and *Actions icon* which opens a list of available management actions for the selected Cluster:
+On this page you can find all created Kubernetes Clusters in the current Project of the selected Organization, with their *Headers, Create button, Search bar* and *Actions icon* which opens a list of available management actions for the selected Cluster:
 ![](../../../assets/images/clusters/2.png?classes=border,shadow)   
 
 **Actions** icon opens the next list of available management actions:
-- *Download kubeconfig file -* this option is used to get the kubeconfig file that pertains to the selected Cluster;
+- *Download kubeconfig file -* this option is used to get the kubeconfig file, that pertains to the selected Cluster;
 - *Edit* - this option is used to change the count of Worker-nodes in the selected Cluster;
 - *Delete* - this option is for Cluster removing.
 
 ## Create Cluster
-To create new Cluster do the following:
+To create new Cluster, do the following:
 - go to the *Clusters page* and click on the CREATE CLUSTER icon in the upper left corner;
 - fill in the form on the next opened *Create Cluster window* and click on the CREATE icon:
 ![](../../../assets/images/clusters/3.png?classes=border,shadow) 
@@ -46,7 +46,7 @@ To create new Cluster do the following:
 After these steps, the newly created Cluster will be added to the *Clusters page* with the status CREATE_COMPLETE (Estimate creation time about 5 minutes).
 
 ## Cluster details page
-To open the *Cluster details page* click on the **Name** of the corresponding Cluster:
+To open the *Cluster details page*, click on the **Name** of the corresponding Cluster:
 ![](../../../assets/images/clusters/7.png?classes=border,shadow)
 
 This action will redirect you to the *Cluster  details page*, where you can find four tabs with additional information about selected Cluster and panel with available **quick actions**:
@@ -67,11 +67,11 @@ This action will redirect you to the *Cluster  details page*, where you can f
 
 ## Download kubeconfig file
 
-{{% notice note %}}
+{{% notice info %}}
 The kubeconfig file is required to configure access to a cluster and switch between multiple clusters, multiple users, and with different authentication mechanisms such as passwords or tokens.
 {{% /notice %}}
 
-To download the kubeconfig file that pertains to Cluster do the following:
+To download the kubeconfig file that pertains to Cluster, do the following:
 - identify this desired Cluster on the *Clusters page*;
 - click on the **Actions** icon and select the **Download kubeconfig file** in the list of available options.  
 
@@ -79,8 +79,8 @@ After these steps, the *kubeconfig file* will be downloaded.
 Also, you can download the kubeconfig file from *Cluster details page*, by clicking on the appropriative **quick actions** icon there.
 
 ## Resize Cluster
-To resize the Cluster do the following:
-- identify the Cluster that you want to resize on the *Clusters page*;
+To resize the Cluster, do the following:
+- identify the Cluster, that you want to resize, on the *Clusters page*;
 - click on the **Actions** icon  and select the **Edit** in the list of available options;
 - update the count of Worker-nodes in the Cluster on the opened *Edit Cluster window* and click on the SAVE icon:
 ![](../../../assets/images/clusters/5.png?classes=border,shadow)
@@ -90,8 +90,8 @@ After these steps, the selected Cluster will be resized after a few minutes with
 
 Also, you can resize the Cluster from *Cluster details page*, by clicking on the appropriative **quick actions** icon there.
 
-## Delete a Cluster
-To delete the Cluster do the following:
+## Delete Cluster
+To delete the Cluster, do the following:
 - identify this unnecessary Cluster on the *Clusters page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Cluster deletion on the next opened *Confirmation window*. 

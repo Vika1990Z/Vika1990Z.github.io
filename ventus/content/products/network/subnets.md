@@ -12,13 +12,13 @@ On this page, you can find an explanation of how to create, edit and delete Subn
 4. [Delete Subnet](#delete-subnet)
 
 ## Subnets page
-To open the *Subnets page* go to *Networks page* and click on the **Name** of the corresponding Network:
+To open the *Subnets page*, go to *Networks page* and click on the **Name** of the corresponding Network:
 ![](../../../assets/images/networks/5.png?classes=border,shadow) 
 
 On this page you can find:
 - panel with available **quick actions** for the selected Network: 
 ![](../../../assets/images/networks/13.png?classes=border,shadow) 
-- all created Subnets related to the selected Network with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet:
+- all created Subnets, related to the selected Network, with their *Headers*, *Create button*, *Search bar* and *Actions icon*, which opens a list of available management actions for the selected Subnet:
 ![](../../../assets/images/networks/7.png?classes=border,shadow) 
 
 **Actions** icon opens the next list of available management actions for the selected Subnet:
@@ -26,7 +26,7 @@ On this page you can find:
 - *Delete* - this option is for Subnet removing.
 
 ## Create Subnet
-To create new Subnet do the following:
+To create new Subnet, do the following:
 - go to the *Subnets page* and click on the CREATE SUBNET icon in the upper left corner;
 - fill in the form on the next opened *Create Subnet* *window* and click on the CREATE icon:
 ![](../../../assets/images/networks/6.png?classes=border,shadow)
@@ -42,8 +42,8 @@ To create new Subnet do the following:
 After these steps, the newly created Subnet will be added to the *Subnets page*:
 
 ## Edit Subnet
-To edit a Subnet do the following:
-- identify the Subnet that you want to edit on the *Subnets page*;
+To edit the Subnet, do the following:
+- identify the Subnet, that you want to edit, on the *Subnets page*;
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the Name, Allocation pools, DNS nameservers, Gateway IP, Host routs or state of DHCP and gateway state on the next opened *Edit Subnet window*, and click on the SAVE icon:
 ![](../../../assets/images/networks/8.png?classes=border,shadow)
@@ -51,7 +51,7 @@ To edit a Subnet do the following:
 After these steps, the selected Subnet will be updated.
 
 ## Delete Subnet
-To delete a Subnet do the following:
+To delete the Subnet, do the following:
 - to identify this unnecessary Subnet on the *Subnets page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Subnet deletion on the next opened *Confirmation window*.  

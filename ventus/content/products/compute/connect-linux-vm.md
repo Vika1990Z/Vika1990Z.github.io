@@ -11,7 +11,7 @@ On this page, you can find an explanation of how to connect to the Linux Virual 
 3. [Connect using SSH](#connect-using-ssh)
 
 ## Prerequisites
-In this article, we will assume that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
+In this article we will assume, that we have already created the following resources, that refer to the Project named *dev1* that was created in the Organization named *Test-Shop*:
 - **SSH Key,** that was created with the next parameters:
   - *Name*: mykey;
   - *Public key* is placed on the Linux VM during its creation;
@@ -25,7 +25,7 @@ In this article, we will assume that we have already created the following resou
   - *Firewalls*: default;
   - *Volume size*: 10.
 
-For more information on creating and configuring these resources, see the following articles:  
+For more information about creating and configuring these resources, see the following articles:  
 [SSH Keys](https://docs.ventuscloud.eu/products/security/ssh-keys/)        
 [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)   
 

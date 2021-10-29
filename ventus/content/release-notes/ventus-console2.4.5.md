@@ -6,7 +6,8 @@ ___
 Successfully delivered to Production: 07.04.2021
 ___
 
-Ventus Console 2.4.5 was successfully delivered to Production. Here are the list of updates:
+*Ventus Console 2.4.5 was successfully delivered to Production.*  
+Here are the list of updates:
 
 * “Create VM” dialog was changed:
     * Added ability to create VM from volume – volume should be in available state and it will be attached to the new VM.

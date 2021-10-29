@@ -27,7 +27,6 @@ This action will redirect you to the *Administrators page*, where you can find a
 ![](../../assets/images/organizations/9-org.png?classes=border,shadow)  
 
 ## Add Administrator
-
 {{% notice note %}}
 You can add only those Users, who have already passed the registration stage in the Cloud Console and aren't members of one of the Projects of this Organization
 {{% /notice %}}   
@@ -75,7 +74,7 @@ Transfering Organization is available only if your User Role in this Organizatio
 {{% /notice %}}
 
 To Transfer Organization do the following:  
-- identify the Administrator, to whom you want to Transfer the Organization on the *Administrators page*;    
+- identify the Administrator, to whom you want to Transfer the Organization, on the *Administrators page*;    
 - click on the **Actions** icon and select the **Transfer the Organization** in the list of available options;    
 - confirm your actions on the next opened *Confirmation window* and click on the SEND icon. 
 
@@ -83,7 +82,6 @@ After confirming this action, the selected User will recieve the message with th
  
 
 ## Remove Administrator
-
 {{% notice note %}}
 Removing Administrator is available only if your User Role in this Organization is *Owner* or *Administrator*.
 {{% /notice %}}
