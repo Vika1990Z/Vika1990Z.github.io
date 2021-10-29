@@ -43,7 +43,7 @@ After these steps the newly created Organization will be added to the *Organizat
 This action is available only if your User Role in this Organization is *Owner or Administrator*.
 {{% /notice %}}
 
-To edit Organization, do the following:
+To edit the Organization, do the following:
 - identify, what Organization you want to edit, on the *Organizations page*;   
 - click on the **Actions** icon and select the EDIT in the list of available options;    
 - update the name of the Organization on the next opened *Edit Organization window* and click on the SAVE icon.     

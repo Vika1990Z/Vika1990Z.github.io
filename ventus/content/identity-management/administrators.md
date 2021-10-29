@@ -73,7 +73,7 @@ Transfer an organization means changing the Owner of it.
 Transfering Organization is available only if your User Role in this Organization is *Owner*. 
 {{% /notice %}}
 
-To Transfer Organization do the following:  
+To Transfer Organization, do the following:  
 - identify the Administrator, to whom you want to Transfer the Organization, on the *Administrators page*;    
 - click on the **Actions** icon and select the **Transfer the Organization** in the list of available options;    
 - confirm your actions on the next opened *Confirmation window* and click on the SEND icon. 
@@ -86,7 +86,7 @@ After confirming this action, the selected User will recieve the message with th
 Removing Administrator is available only if your User Role in this Organization is *Owner* or *Administrator*.
 {{% /notice %}}
 
-To remove Administrator from the selected Organization do the following:
+To remove Administrator from the selected Organization, do the following:
 - identify this unnecessary Administrator on the *Administrators page*;   
 - click on the **Actions** icon and select the **Remove** in the list of available options;    
 - confirm the User deletion on the next opened *Confirmation window*. 

@@ -92,7 +92,7 @@ Users from the first block will have access to this Project and, accordingly, to
 ![](../../assets/images/groups/10-gr.png?classes=border,shadow)
 
 ## Edit Group
-To edit a Group, do the following:
+To edit the Group, do the following:
 - identify the Group, that you want to edit, on the *Groups page*;
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the Name of the selected Group on the next opened *Edit Group window*,  and click on the SAVE icon.
@@ -100,7 +100,7 @@ To edit a Group, do the following:
 After these steps, the selected Group will be updeted.
 
 ## Delete Group
-To delete a Group, do the following:
+To delete the Group, do the following:
 - identify the unnecessary Group on the *Groups page*;
 - click on the **Actions** icon and select the **Delete** in the list of available options;
 - confirm the Group deletion on the next opened *Confirmation window*.

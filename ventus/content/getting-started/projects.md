@@ -44,7 +44,7 @@ All subsequent services provided by the Cloud Console within the one Project, wi
 {{% /notice %}}
 
 ## Edit Project 
-To edit a Project do the following:
+To edit the Project, do the following:
 - identify the Project, that you want to edit on the *Projects page*;
 - click on the **Actions** icon and select the **Edit** in the list of available options;
 - update the Project Name on the next opened *Edit Project window*, and click on the SAVE icon.
