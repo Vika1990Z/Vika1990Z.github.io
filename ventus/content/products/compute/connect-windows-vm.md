@@ -3,7 +3,7 @@ title: Access Windows VM
 weight: 20
 ---
 ___
-On this page, you can find an explanation of how to connect to the Windows Virtual Machine created in Cloud Console using Remote Desktop Protocol
+On this page, you can find an explanation of how to connect to the Windows Virtual Machine created in the Cloud Console using the Remote Desktop Protocol
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
@@ -21,7 +21,7 @@ In this article, we will assume that we have already created the following resou
   - *Volume size*: 40.
 
 For more information on creating and configuring these resources, see the following articles:           
-[Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)   
+[Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)   
 
 ## Configuring Firewalls
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
@@ -89,9 +89,9 @@ You can add and remove rules at any time. Your changes are automatically applied
 And that's all, this newly created Firewall Rule will be automatically applied to our Virtual Machine.
 
 ## Connect using RDP
-Since we have created Windows Virtual Machine and configured Firewall that allows incoming traffic to TCP port 54000, so we can connect to the selected Virtual Machine remotely via RDP.
+Since we have created Windows Virtual Machine and configured Firewall, that allows incoming traffic to TCP port 54000, so we can connect to the selected Virtual Machine remotely via RDP.
 
-For this do the following:
+For this, do the following:
 - download RDP file of the VM:
   - identify Windows Virtual Machine for what  you want to download RDP file on the *Virtual Machines page*;
   - click on the **Actions** icon and select the **Download RDP file** in the list of available options:
@@ -101,7 +101,7 @@ For this do the following:
 - provide the password of the selected VM and click **OK:**
 ![](../../../assets/images/conn-lin/29.png?classes=border,shadow)
 
-And after these steps, a remote connection is established to the selected Windows virtual machine:
+And after these steps, a remote connection is established to the selected Windows Virtual Machine:
 ![](../../../assets/images/conn-lin/28.png?classes=border,shadow)
 
 

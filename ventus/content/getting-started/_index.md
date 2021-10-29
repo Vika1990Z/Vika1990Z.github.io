@@ -9,7 +9,7 @@ pre = "<b>1. </b>"
 ### Chapter 1
 # **Getting Started**
 ___
-Here are guides for the first steps in Ventus Cloud, such as registration and creating first organization and project.
+Here are guides for the first steps in the Ventus Cloud, such as registration and creating first Organization and Project.
 ___
 
 {{% children style="h4" depth="2" %}}

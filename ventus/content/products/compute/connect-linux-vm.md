@@ -3,7 +3,7 @@ title: Access Linux VM
 weight: 15
 ---
 ___
-On this page, you can find an explanation of how to connect to the Linux Virual Machine created in Cloud Console using SSH Protocol
+On this page, you can find an explanation of how to connect to the Linux Virual Machine created in the Cloud Console using the SSH Protocol
 
 # Table of contents
 1. [Prerequisites](#prerequisites)
@@ -26,8 +26,8 @@ In this article, we will assume that we have already created the following resou
   - *Volume size*: 10.
 
 For more information on creating and configuring these resources, see the following articles:  
-[SSH Keys](https://kb.ventuscloud.eu/knowledge/ssh-keys)        
-[Virtual Machines](https://kb.ventuscloud.eu/knowledge/linux-virtual-machines)   
+[SSH Keys](https://docs.ventuscloud.eu/products/security/ssh-keys/)        
+[Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)   
 
 ## Configuring Firewalls
 By default, all created Virtual Machines belong to the *default* Firewall, which allows access to the Internet from the VM, but denies almost all access on the VM from outside, except for objects belonging to the same default Firewall. Thus, using only the default Firewall, we cannot connect to the selected Virtual Machine remotely via SSH.
@@ -55,10 +55,10 @@ To resolve this, we need to add an additional Firewall with a rule that will all
 - on the *Firewall Rules page* you can see that rules, that allow all outbound traffic, have been already created by default, and to add additional rule here click on the CREATE FIREWALL RULE icon in the upper left corner:
 ![](../../../assets/images/conn-lin/16.png?classes=border,shadow)
 
-- fill in the form on the next opened *Create Firewall Rule window* as shown below  and click on the CREATE icon:
+- fill in the form on the next opened *Create Firewall Rule window* as shown below and click on the CREATE icon:
 ![](../../../assets/images/conn-lin/5.png?classes=border,shadow)
 
-This newly added rule will allow access to the TCP port 22 on the all VMs in the created Firewall over the public Internet, but if you want to allow access only on the one selected VM you need to specify *IP of this VM / 32* in the field named *Remote IP prefix* - example is shown below:
+This newly added rule will allow access to the TCP port 22 on the all VMs in the created Firewall over the public Internet, but if you want to allow access only on the one selected VM, you need to specify *IP of this VM / 32* in the field named *Remote IP prefix* - example is shown below:
 ![](../../../assets/images/conn-lin/6.png?classes=border,shadow)
 
 **To add this newly created Firewall to our Virtual Machine, do the following:**
