@@ -8,6 +8,9 @@ On this page we will discuss the workflow, that can help you to create an Image 
 # Table of contents
 1. [Prerequisites](#prerequisites)
 2. [Workflow](#workflow)
+    1. [Prepare Snapshot](#prepare-snapshot)
+    2. [Create Volume from Snapshot](#create-volume-from-snapshot)
+    3. [Create Image of Volume](#create-image-of-volume)
 
 
 
@@ -22,8 +25,15 @@ In this article we will assume, that we have already created the following resou
     [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/);      
     [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);        
 
-## Workflow    
-### Prepare the Snapshot
+## Workflow  
+The workflow for creating an image from a snapshot consists of three steps:
+1. Prepare the Snapshot;
+2. Create a Volume from the Snapshot;
+3. Create an Image of the Volume.
+
+Let's take a closer look at each of them.
+
+### Prepare Snapshot
 To create a Snapshot from the current state of the VM do the following:
 - open the *Virtual Machine details page* by clicking on the **Name** of the corresponding Virtual Machine:
 ![](../../../assets/images/tutorials/0-6.png?classes=border,shadow) 
@@ -52,7 +62,7 @@ You can check if this Snapshot is working correctly by creating Virtuale Machine
 ![](../../../assets/images/tutorials/0-4.png?classes=border,shadow)
 
 
-### Create Volume from the Snapshot
+### Create Volume from Snapshot
 To create a Volume from the Snapshot do the following:
 
 - open the *Snapshots page*, click on the **Actions** icon of the selected Snapshot and select the **Create volume** in the list of available options:
@@ -68,7 +78,7 @@ After these steps, the newly created Volume will be added to the *Volumes page*
 To find detailed instructions about Volume creation, see the article: [VM's Snapshots](https://docs.ventuscloud.eu/products/storage/manage-snapshots/) 
 {{% /notice %}} 
 
-### Create Image of the Volume
+### Create Image of Volume
 To create a Image of the Volume do the following:
 
 - connect to the preiviously created Virtual Machine in the current Project *dev-1*; 
