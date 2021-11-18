@@ -25,77 +25,49 @@ In this article we will assume, that we have already created the following resou
 
 ## Workflow    
 ### Prepare the Snapshot
-
-1. Connect to the preiviously created Virtual Machine in the current Project *dev-1*:  
-    `ssh -i ~/.ssh/id_rsa ubuntu@88.218.53.162`  
-
-*To find more detailed instructions see the article: [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/).*
-
-2. Create some txt file:  
-    `echo "BeforeMigration" > file.txt`
-
-3. Check that file was created:
-    ```
-    ubuntu@vm-1:~$ ll
-    total 36
-    drwxr-xr-x 5 ubuntu ubuntu 4096 Nov 18 12:39 ./
-    drwxr-xr-x 3 root   root   4096 Nov 18 12:29 ../
-    -rw-r--r-- 1 ubuntu ubuntu  220 Feb 25  2020 .bash_logout
-    -rw-r--r-- 1 ubuntu ubuntu 3771 Feb 25  2020 .bashrc
-    drwx------ 3 ubuntu ubuntu 4096 Nov 18 12:37 .cache/
-    drwx------ 4 ubuntu ubuntu 4096 Nov 18 12:37 .local/
-    -rw-r--r-- 1 ubuntu ubuntu  807 Feb 25  2020 .profile
-    drwx------ 2 ubuntu ubuntu 4096 Nov 18 12:29 .ssh/
-    -rw-r--r-- 1 ubuntu ubuntu    0 Nov 18 12:30 .sudo_as_admin_successful
-    -rw-rw-r-- 1 ubuntu ubuntu   16 Nov 18 12:39 file.txt               <---
-    ```
-
-4. Create a Snapshot from the current state of the VM:
+To create a Snapshot from the current state of the VM do the following:
+- open the *Virtual Machine details page* by clicking on the **Name** of the corresponding Virtual Machine:
+![](../../../assets/images/tutorials/0-6.png?classes=border,shadow) 
 
 {{% notice note %}}
-It is recommended to stop the virtual machine before taking a snapshot because snapshots taken from a volume with a "in-use" status may contain corrupted data
+It is recommended to stop the Virtual Machine before taking a Snapshot.  
 {{% /notice %}} 
 
-![](../../../assets/images/tutorials/0-5.png?classes=border,shadow) 
+{{% notice warning %}}
+Snapshots, taken from a volume with a "in-use" status, may contain corrupted data.
+{{% /notice %}} 
 
-*To find more detailed instructions see the article: [VM's Snapshots](https://docs.ventuscloud.eu/products/storage/manage-snapshots/).*  
+- go to the SNAPSHOTS TAB and click the CREATE icon in the upper left corner:
+![](../../../assets/images/tutorials/0-7.png?classes=border,shadow) 
 
-5. Check that the newly added Snapshot is working correctly:
+- fill in the form on the next opened *Create Snapshot window* and click on the CREATE icon:
+![](../../../assets/images/tutorials/0-8.png?classes=border,shadow)
 
-- Create Virtuale Machine from this Snapshot:
+After these steps, the newly created Snapshot will be added on the *Snapshots page*.
+
+{{% notice tip %}}
+To find more detailed instructions about Snapshot creation, see the article: [VM's Snapshots](https://docs.ventuscloud.eu/products/storage/manage-snapshots/).
+{{% /notice %}} 
+
+You can check if this Snapshot is working correctly by creating Virtuale Machine from it:
 ![](../../../assets/images/tutorials/0-4.png?classes=border,shadow)
 
-*To find more detailed instructions see the article: [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/)*  
-
-- Loggin to the newly created VM and check if the file.txt exists there after creation:  
-    `ssh -i ~/.ssh/id_rsa ubuntu@88.218.55.69`   
-    ```
-    ubuntu@vm-2:~$ ll
-    total 36
-    drwxr-xr-x 5 ubuntu ubuntu 4096 Nov 18 12:39 ./
-    drwxr-xr-x 3 root   root   4096 Nov 18 12:29 ../
-    -rw-r--r-- 1 ubuntu ubuntu  220 Feb 25  2020 .bash_logout
-    -rw-r--r-- 1 ubuntu ubuntu 3771 Feb 25  2020 .bashrc
-    drwx------ 3 ubuntu ubuntu 4096 Nov 18 12:37 .cache/
-    drwx------ 4 ubuntu ubuntu 4096 Nov 18 12:37 .local/
-    -rw-r--r-- 1 ubuntu ubuntu  807 Feb 25  2020 .profile
-    drwx------ 2 ubuntu ubuntu 4096 Nov 18 12:29 .ssh/
-    -rw-r--r-- 1 ubuntu ubuntu    0 Nov 18 12:30 .sudo_as_admin_successful
-    -rw-rw-r-- 1 ubuntu ubuntu   16 Nov 18 12:39 file.txt              <---
-    ```
 
 ### Create Volume from the Snapshot
+To create a Volume from the Snapshot do the following:
 
-1. Open the *Snapshots page*, click on the **Actions** icon of the selected Snapshot and select the **Create volume** in the list of available options:
+- open the *Snapshots page*, click on the **Actions** icon of the selected Snapshot and select the **Create volume** in the list of available options:
 ![](../../assets/images/tutorials/15.png?classes=border,shadow) 
 
-3. Fill in the form on the next opened *Create volume from snapshot window* and click on the CREATE icon:
+- fill in the form on the next opened *Create volume from snapshot window* and click on the CREATE icon:
 ![](../../assets/images/tutorials/16.png?classes=border,shadow) 
 
-4. Check that the newly created Volume was added to the *Volumes page* with the status *available*:
+After these steps, the newly created Volume will be added to the *Volumes page* with the status *available*:
 ![](../../assets/images/tutorials/16.png?classes=border,shadow) 
 
-*To find more detailed instructions see the article: [VM's Snapshots](https://docs.ventuscloud.eu/products/storage/manage-snapshots/)*  
+{{% notice tip %}}
+To find detailed instructions about Volume creation, see the article: [VM's Snapshots](https://docs.ventuscloud.eu/products/storage/manage-snapshots/) 
+{{% /notice %}} 
 
 ### Create Image of the Volume
 
@@ -104,8 +76,10 @@ It is recommended to stop the virtual machine before taking a snapshot because s
 
 {{% notice note %}}
 Please note, that the Openstack client has already installed on the current VM.  
+{{% /notice %}} 
 
-*To find more detailed instructions see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)*
+{{% notice tip %}}
+To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)*
 {{% /notice %}} 
 
 2. Place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:  
@@ -114,27 +88,50 @@ Please note, that the Openstack client has already installed on the current VM.
 
 {{% notice note %}}
 Please note, that RC file of the current CLI User has already loaded.   
+{{% /notice %}} 
 
-*To find more detailed instructions see the article: [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)*
+{{% notice tip %}}
+To find detailed instructions, how to load RC Files, see the article: [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)
 {{% /notice %}}   
 
 3. Get a list of all Volumes created in the corresponding Project and to which your User has access:  
     `openstack volume list`      
 
-In our case the output will be next:    
+    In our case the output will be next:    
     ```
     ubuntu@vm-1:~$ openstack volume list
     +--------------------------------------+-------------+-----------+------+-------------------------------+
     | ID                                   | Name        | Status    | Size | Attached to                   |
     +--------------------------------------+-------------+-----------+------+-------------------------------+
-    | 091b4641-7edb-42df-a7b7-0e89c84bbc59 | vol-from-sn | available |   10 |                               |
-    | 7fbbc2e6-ca7e-4e09-9659-40c9ef560c6c |             | in-use    |   10 | Attached to vm-2 on /dev/vda  |
+    | 95ed1f4c-1b74-407c-bf9c-9f13da36530e | vol-from-sn | available |   10 |                               |
+    | 48124dc6-2bce-4592-8b41-283ad14d06ae |             | in-use    |   10 | Attached to vm-2 on /dev/vda  |
     | 777b8334-ab4a-4f4a-bf5f-9eeb40e34180 |             | in-use    |   10 | Attached to vm-1 on /dev/vda  |
     +--------------------------------------+-------------+-----------+------+-------------------------------+
     ```
 4. Create an Image from the selected Volume:    
 
-    `openstack image create --disk-format qcow2 --volume 091b4641-7edb-42df-a7b7-0e89c84bbc59 img-migrated`  
+    `openstack image create --disk-format qcow2 --volume 95ed1f4c-1b74-407c-bf9c-9f13da36530e img-migrated`    
+
+    In our case the output will be next:    
+    ```
+    ubuntu@vm-1:~$ openstack image create --disk-format qcow2 --volume 95ed1f4c-1b74-407c-bf9c-9f13da36530e img-migrated
+    +---------------------+--------------------------------------+
+    | Field               | Value                                |
+    +---------------------+--------------------------------------+
+    | container_format    | bare                                 |
+    | disk_format         | qcow2                                |
+    | display_description | volume created from the snapshot     |
+    | id                  | 95ed1f4c-1b74-407c-bf9c-9f13da36530e |
+    | image_id            | cc326302-2c4d-490e-b3f0-4d6b9e3c98d6 |
+    | image_name          | img-migrated                         |
+    | protected           | False                                |
+    | size                | 10                                   |
+    | status              | uploading                            |
+    | updated_at          | 2021-11-18T14:25:35.000000           |
+    | visibility          | shared                               |
+    | volume_type         | __DEFAULT__                          |
+    +---------------------+--------------------------------------+
+    ```
 
 {{% notice note %}}
 It may take a long time to create Images from a Volume, please wait until its status becomes active.
@@ -157,7 +154,7 @@ In our case the output will be next:
     | f07d4696-9d62-41d8-8d6a-d79d848b928f | fedora-coreos-31.20200127.3.0                    | active |
     | 9a3ac5d4-a9e1-4416-bf31-27feb501463f | fedora-coreos-33.20210117.3.2                    | active |
     | 85785454-523c-46d1-841c-225bf67f6c90 | fedora-coreos-34.20210427.3.0                    | active |
-    /
+    | cc326302-2c4d-490e-b3f0-4d6b9e3c98d6 | img-migrated                                     | active |  <--
     | 0206848f-e705-4f62-aafa-7080f9048d5b | ubuntu-server-16.04-LTS-20201111                 | active |
     | 82a7dd1f-f8de-40c9-918d-87183c97f2f3 | ubuntu-server-18.04-LTS-20201111                 | active |
     | d36eba41-7a45-4015-bdd9-99ed08f07fb1 | ubuntu-server-20.04-LTS-20201111                 | active |
@@ -165,3 +162,5 @@ In our case the output will be next:
     +--------------------------------------+--------------------------------------------------+--------+
     ```
 
+After these steps, the newly created Image will be added to the *Images page* and you can use to create new Virtual Machines:
+![](../../assets/images/tutorials/0-9.png?classes=border,shadow) 
