@@ -14,14 +14,14 @@ On this page we will discuss the workflow, that can help you to create an Image 
 ## Prerequisites
 In this article we will assume, that we have already created the following resources, that refer to the Project named *dev-1* that was created in the Organization named *Test1*: 
 
-  - **CLI User** named *dev1CLIuser* and which RC file has already been loaded;   
-  *To find more detailed instructions see the article: [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/).*
-
+  - **CLI User** named *dev1CLIuser* and which RC file has already been loaded;  
   - **Ubuntu Virtual Machine (IP: 88.218.53.162, Name: vm-1)**; it was created with an additional firewall, configured to allow connection to this VM remotely via SSH; and has a previously installed Openstack client.    
-  *To find more detailed instructions see the next articles:*  
-    *[Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/);*    
-    *[Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);*        
-    *[Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/).*  
+  
+**To find more detailed instructions see the next articles:** 
+    [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/);   
+    [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/);      
+    [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);        
+    [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/). 
 
 ## Workflow    
 ### Prepare the Snapshot
@@ -70,8 +70,9 @@ To find detailed instructions about Volume creation, see the article: [VM's Snap
 {{% /notice %}} 
 
 ### Create Image of the Volume
+To create a Image of the Volume do the following:
 
-1. Connect to the preiviously created Virtual Machine in the current Project *dev-1*:  
+- connect to the preiviously created Virtual Machine in the current Project *dev-1*:  
     `ssh -i ~/.ssh/id_rsa ubuntu@88.218.53.162`  
 
 {{% notice note %}}
@@ -82,7 +83,7 @@ Please note, that the Openstack client has already installed on the current VM.
 To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)*
 {{% /notice %}} 
 
-2. Place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:  
+- place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:  
     `vi dev1-openrc`    
     `. dev1-openrc`  
 
@@ -94,7 +95,7 @@ Please note, that RC file of the current CLI User has already loaded.
 To find detailed instructions, how to load RC Files, see the article: [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/)
 {{% /notice %}}   
 
-3. Get a list of all Volumes created in the corresponding Project and to which your User has access:  
+- get a list of all Volumes created in the corresponding Project and to which your User has access:  
     `openstack volume list`      
 
     In our case the output will be next:    
@@ -108,13 +109,13 @@ To find detailed instructions, how to load RC Files, see the article: [CLI Users
     | 777b8334-ab4a-4f4a-bf5f-9eeb40e34180 |             | in-use    |   10 | Attached to vm-1 on /dev/vda  |
     +--------------------------------------+-------------+-----------+------+-------------------------------+
     ```
-4. Create an Image from the selected Volume:    
+* create an Image from the selected Volume:    
 
     `openstack image create --disk-format qcow2 --volume 95ed1f4c-1b74-407c-bf9c-9f13da36530e img-migrated`    
 
     In our case the output will be next:    
     ```
-    ubuntu@vm-1:~$ openstack image create --disk-format qcow2 --volume 95ed1f4c-1b74-407c-bf9c-9f13da36530e img-migrated
+    ubuntu@vm-1:~$ openstack image create --disk-format qcow2 --volume 95ed1f4c-1b74-407c-bf9c-9f13da36530e img-migrated    
     +---------------------+--------------------------------------+
     | Field               | Value                                |
     +---------------------+--------------------------------------+
@@ -137,12 +138,12 @@ To find detailed instructions, how to load RC Files, see the article: [CLI Users
 It may take a long time to create Images from a Volume, please wait until its status becomes active.
 {{% /notice %}} 
 
-5. Get a list of Images related to the current Project:  
+* get a list of Images related to the current Project:  
     `openstack image list`    
 
-In our case the output will be next:
-    ```
-    ubuntu@vm-1:~$ openstack image list
+    In our case the output will be next:  
+    ```  
+    ubuntu@vm-1:~$ openstack image list  
     +--------------------------------------+--------------------------------------------------+--------+
     | ID                                   | Name                                             | Status |
     +--------------------------------------+--------------------------------------------------+--------+
@@ -162,5 +163,5 @@ In our case the output will be next:
     +--------------------------------------+--------------------------------------------------+--------+
     ```
 
-After these steps, the newly created Image will be added to the *Images page* and you can use to create new Virtual Machines:
+After these steps, the newly created Image will be added to the *Images page* and you can use to create new Virtual Machines:   
 ![](../../assets/images/tutorials/0-9.png?classes=border,shadow) 
