@@ -104,8 +104,23 @@ To Upload custom Image to the Project-2 do the following:
 Make sure you are logged in to the correct OpenStack platform with your CLI tools
 {{% /notice %}} 
 
-* upload your image that you’ve just downloaded using the following command:  
-    `openstack image create --container-format bare --disk-format qcow2 --property os_platform='linux' --file <image_file_name> <image_name>`
+* upload your image that you’ve just downloaded using the following command: 
+    ```
+    openstack image create --container-format bare \
+                       --disk-format qcow2 \
+                       --file <image_file_name> \
+                       --property os_platform='linux' \
+                       <image_name>
+    ```
+    
+    In our case the command will look like: 
+    ```
+    openstack image create --container-format bare \
+                       --disk-format qcow2 \
+                       --file image.raw \
+                       --property os_platform='linux' \
+                       transfered-img
+    ```
     
 * check that the Image is added:  
     `openstack image list`  
