@@ -18,7 +18,7 @@ In this article, we will assume that we have already created two Projects, belon
 - **Project 1** named *dev-1*, that was created in the Organization named *Test1* and related to the Vienna Region, with the following resources:
   - **CLI User** named *dev1CLIuser* and which RC file has already been loaded;  
   - **Ubuntu Virtual Machine (IP: 88.218.53.162, Name: vm-1)**; it was created with an additional firewall, configured to allow connection to this VM remotely via SSH;
-  - **Custon Image** named *img-migrated*, that was created from the VM's Snapshot; 
+  - **Custon Image** named *img-migrated*, that was created from the VM's Snapshot;   
   For detailed instructions on how to do this, see here: [Create Image from Snapshot](https://docs.ventuscloud.eu/tutorials-advanced/image-from-snapshot/)
 
 {{% notice tip %}}
@@ -42,7 +42,7 @@ If you want to share an Image with another Project, you need to know the ID of t
 
 
 ## Workflow
-In this article, we will look at a scenario where we need to share a custom Image, uploaded to the Project-1 named *dev-1*, with the Project-2 named *dev-2*.
+In this article, we will look at a scenario where it is needed to share a custom Image, uploaded to the Project-1 named *dev-1*, with the Project-2 named *dev-2*.
 This workflow consists of the next steps:
 1. Share an Image with another Project
 2. Accept a shared Image
