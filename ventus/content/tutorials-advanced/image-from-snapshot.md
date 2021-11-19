@@ -20,13 +20,13 @@ In this article we will assume, that we have already created the following resou
   - **CLI User** named *dev1CLIuser* and which RC file has already been loaded;  
   - **Ubuntu Virtual Machine (IP: 88.218.53.162, Name: vm-1)**; it was created with an additional firewall, configured to allow connection to this VM remotely via SSH.    
   
-**To find more detailed instructions see the next articles:** 
+**To find more detailed instructions see the next articles:**   
     [CLI Users](https://docs.ventuscloud.eu/products/security/cli-users/);   
     [Virtual Machines](https://docs.ventuscloud.eu/products/compute/virtual-machines/);      
-    [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/);        
+    [Access Linux VM](https://docs.ventuscloud.eu/products/compute/connect-linux-vm/).       
 
 ## Workflow  
-The workflow for creating an image from a snapshot consists of three steps:
+The workflow for creating an Image from a Snapshot consists of three steps:
 1. Prepare the Snapshot;
 2. Create a Volume from the Snapshot;
 3. Create an Image of the Volume.
@@ -90,7 +90,7 @@ To find detailed instructions, how to connect to the Linux VM, see the article: 
 - install Openstack client on the current VM;
 
 {{% notice tip %}}
-To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)*
+To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)
 {{% /notice %}} 
 
 - place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:  
@@ -120,8 +120,7 @@ To find detailed instructions, how to load RC Files, see the article: [CLI Users
     +--------------------------------------+-------------+-----------+------+-------------------------------+
     ```
 - create an Image from the selected Volume:    
-
-    `openstack image create --disk-format qcow2 --volume 95ed1f4c-XXXX-XXXX-XXXX-XXXXXXXXXXXX img-migrated`    
+    `openstack image create --disk-format qcow2 --volume <volume_ID> <your_image_name>`   
 
     In our case the output will be next:    
     ```
