@@ -93,7 +93,7 @@ To find detailed instructions, how to connect to the Linux VM, see the article: 
 To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)
 {{% /notice %}} 
 
-- place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:  
+- use CLI User named *dev1CLIuser* - place RC File of the created CLI User to your Virtual Machine and execute it starting with dot:  
     `vi dev1-openrc`    
     `. dev1-openrc`  
 

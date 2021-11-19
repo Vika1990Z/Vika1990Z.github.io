@@ -65,7 +65,7 @@ To find detailed instructions, how to connect to the Linux VM, see the article: 
 To find detailed instructions, how to Install and configure OpenStack CLI, see the article: [Installation OpenStack CLI](https://docs.ventuscloud.eu/tutorials-advanced/installation-openstack-cli/)
 {{% /notice %}} 
 
-- place RC File of the created CLI User, named *dev1CLIuser*, to your Virtual Machine and execute it starting with dot:    
+- use CLI User named *dev1CLIuser* created in the Project-1 - place RC File of the created CLI User to your Virtual Machine and execute it starting with dot:    
     `vi dev1-openrc`    
     `. dev1-openrc` 
 
@@ -128,9 +128,9 @@ The status field should say pending until your collaborator accepts the Image.
 {{% /notice %}} 
 
 ### Accept shared Image
-To accept shared Image use RC File of the CLI User named *dev2CLIuser*, created in the Project, that you want to share Image with, and do the following:
+To accept shared Image do the following:
 
-* place RC File of the created CLI User, named *dev2CLIuser*, to your Virtual Machine and execute it starting with dot:    
+* use CLI User named *dev2CLIuser* created in the Project-2 - place RC File of the created CLI User to your Virtual Machine and execute it starting with dot:    
     `vi dev2-openrc`    
     `. dev2-openrc` 
 
