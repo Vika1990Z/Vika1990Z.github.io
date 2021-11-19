@@ -164,8 +164,8 @@ After these steps, the newly created Image will be added to the *Images page* o
 To unshare an Image use the command:    
     `openstack image remove project <image ID> <project ID>`   
     
-In our case the command will look like:    
-    ```
+In our case the command will look like:   
+    ```  
     ubuntu@vm-1:~$ openstack image remove project cc326302-XXXX-XXXX-XXXX-XXXXXXXXXXXX 8726fcdXXXXXXXXXXXXXXXXXXXXXXXXX
     ```
 
